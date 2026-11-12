@@ -325,8 +325,12 @@ def generate(root, readme, page_size=20):
     if not records:
         raise ValueError('no measured tokenizers')
     records.sort(key=lambda row: (-row[1]['bytes_per_token'], row[0]['model_id'], row[0]['revision']))
-    ranking = ['## ランキング', '', '[日本語カテゴリ別](#日本語カテゴリ別) · [英語カテゴリ別](#英語カテゴリ別) · [他言語tier別](#他言語のtier別) · [文字集合率](#日本語文字集合の単一token率)', '', '全コーパスの **Bytes/token（総UTF-8 bytes / 総tokens）降順**。同じ入力集合なら総token数の昇順と一致します。', '文字集合の単一token率は別指標です。', f"データ全体（文字集合を含む） {corpus['documents']:,}文書 / 目標 {corpus['target_documents']:,}文書 · **{'complete' if corpus['complete'] else 'PARTIAL'}**。", f"順位は文字集合を除く{records[0][1].get('documents', 'unknown')}文書で測定。共通sampleは最大350文書の閲覧用です。", '圧縮値は復元の忠実性を保証しません。正規化による非一致もあり、詳細の復元/UNK集計と併せて確認してください。']
+    ranking = ['## ランキング', '', '[日本語カテゴリ別](#日本語カテゴリ別) · [全体](#全体) · [英語カテゴリ別](#英語カテゴリ別) · [他言語tier別](#他言語のtier別) · [文字集合率](#日本語文字集合の単一token率)', '', '文字集合の単一token率は別指標です。', f"データ全体（文字集合を含む） {corpus['documents']:,}文書 / 目標 {corpus['target_documents']:,}文書 · **{'complete' if corpus['complete'] else 'PARTIAL'}**。", f"順位は文字集合を除く{records[0][1].get('documents', 'unknown')}文書で測定。共通sampleは最大350文書の閲覧用です。", '圧縮値は復元の忠実性を保証しません。正規化による非一致もあり、詳細の復元/UNK集計と併せて確認してください。']
     ranking.extend(['', VOCAB_NOTES])
+    breakdowns = score_breakdowns([(record[0], summaries[record[0]['slug']]) for record in records])
+    english_start = breakdowns.index('### 英語カテゴリ別')
+    ranking.extend(breakdowns[:english_start])
+    ranking.extend(['### 全体', '', '全コーパスの **Bytes/token（総UTF-8 bytes / 総tokens）降順**。同じ入力集合なら総token数の昇順と一致します。'])
     for eligible, heading in [(True, ''), (False, '### 参考値（公式順位の対象外）')]:
         selected = [record for record in records if record[0].get('ranking_eligible', True) is eligible]
         if not selected:
@@ -335,7 +339,7 @@ def generate(root, readme, page_size=20):
         for rank, (tokenizer, metrics) in enumerate(selected, 1):
             place = str(rank) if eligible else '参考'
             ranking.append(f"| {place} | [{escape(tokenizer.get('display_name', tokenizer['model_id']))}](results/pages/{tokenizer['slug']}/README.md) | {vocabulary_cell(tokenizer)} | {metrics['tokens']:,} | {metrics['chars_per_token']:.4f} | {metrics['bytes_per_token']:.4f} |")
-    ranking.extend(score_breakdowns([(record[0], summaries[record[0]['slug']]) for record in records]))
+    ranking.extend(['', *breakdowns[english_start:]])
     block = START + '\n' + '\n'.join(ranking) + '\n' + END
     previous = readme.read_text(encoding='utf-8')
     if START in previous or END in previous:

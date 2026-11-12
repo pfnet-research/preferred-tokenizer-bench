@@ -163,7 +163,8 @@ class ReportTests(unittest.TestCase):
         self.save()
         report.generate(self.root,self.readme)
         text = self.readme.read_text()
-        self.assertLess(text.index('### 参考値'),text.index('results/pages/approximate-case'))
+        overall = text[text.index('### 全体'):text.index('### 英語カテゴリ別')]
+        self.assertLess(overall.index('### 参考値'),overall.index('results/pages/approximate-case'))
         overview = (self.root/'pages/approximate-case/README.md').read_text()
         self.assertIn('公式順位の対象外',overview)
         self.assertIn('1検証不可',overview)

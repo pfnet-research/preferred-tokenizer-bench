@@ -12,33 +12,14 @@ LLM tokenizerの文字の扱いや文章の分割効率を比較するベンチ�
 <!-- tokenizer-ranking:start -->
 ## ランキング
 
-[日本語カテゴリ別](#日本語カテゴリ別) · [英語カテゴリ別](#英語カテゴリ別) · [他言語tier別](#他言語のtier別) · [文字集合率](#日本語文字集合の単一token率)
+[日本語カテゴリ別](#日本語カテゴリ別) · [全体](#全体) · [英語カテゴリ別](#英語カテゴリ別) · [他言語tier別](#他言語のtier別) · [文字集合率](#日本語文字集合の単一token率)
 
-全コーパスの **Bytes/token（総UTF-8 bytes / 総tokens）降順**。同じ入力集合なら総token数の昇順と一致します。
 文字集合の単一token率は別指標です。
 データ全体（文字集合を含む） 17,595文書 / 目標 17,595文書 · **complete**。
 順位は文字集合を除く7850文書で測定。共通sampleは最大350文書の閲覧用です。
 圧縮値は復元の忠実性を保証しません。正規化による非一致もあり、詳細の復元/UNK集計と併せて確認してください。
 
 語彙数は固定版tokenizerに登録された異なるIDの数です。追加・特殊トークンを含み、未割り当てIDは除きます。通常の符号化で特殊トークンを付加するという意味ではありません。未取得は `—` で示し、順位の計算には使いません。
-
-
-
-| 順位 | Tokenizer・詳細 | 語彙数 | Tokens ↓ | Chars/token ↑ | Bytes/token ↑ |
-| ---: | --- | ---: | ---: | ---: | ---: |
-| 1 | [google&#47;gemma&#45;4&#45;E4B&#45;it](results/pages/gemma4/README.md) | 262,144 | 2,053,725 | 2.7098 | 3.6676 |
-| 2 | [o200k&#95;harmony](results/pages/o200k_harmony/README.md) | 201,088 | 2,189,117 | 2.5422 | 3.4407 |
-| 3 | [Qwen&#47;Qwen3<span>&#46;</span>8&#45;27B](results/pages/qwen3_8/README.md) | 248,077 | 2,378,241 | 2.3400 | 3.1671 |
-| 4 | [CohereLabs&#47;command&#45;a&#45;plus&#45;05&#45;2026&#45;bf16](results/pages/cohere-command-a-plus/README.md) | 255,032 | 2,485,567 | 2.2390 | 3.0304 |
-| 5 | [deepseek&#45;ai&#47;DeepSeek&#45;V4&#45;Pro](results/pages/deepseek-v4/README.md) | 129,280 | 2,567,849 | 2.1672 | 2.9333 |
-| 6 | [mistralai&#47;Mistral&#45;Small&#45;4&#45;119B&#45;2603](results/pages/mistral-small4/README.md) | 131,072 | 2,634,008 | 2.1128 | 2.8596 |
-| 7 | [zai&#45;org&#47;GLM&#45;5<span>&#46;</span>1](results/pages/glm5_1/README.md) | 154,856 | 2,836,136 | 1.9622 | 2.6558 |
-| 8 | [xai&#45;org&#47;grok&#45;2](results/pages/grok2/README.md) | 131,072 | 2,919,106 | 1.9064 | 2.5803 |
-| 9 | [llm&#45;jp&#47;llm&#45;jp&#45;4&#45;8b&#45;instruct](results/pages/llm-jp4/README.md) | 196,608 | 3,013,270 | 1.8469 | 2.4997 |
-| 10 | [cl100k&#95;base](results/pages/cl100k_base/README.md) | 100,261 | 3,244,038 | 1.7155 | 2.3218 |
-| 11 | [pfnet&#47;plamo&#45;3&#45;610m&#45;fin&#45;instruct](results/pages/plamo3/README.md) | 107,520 | 3,344,648 | 1.6639 | 2.2520 |
-| 12 | [pfnet&#47;plamo&#45;2&#45;1b](results/pages/plamo2/README.md) | 100,000 | 3,566,524 | 1.5604 | 2.1119 |
-| 13 | [sbintuitions&#47;sarashina2<span>&#46;</span>2&#45;3b&#45;instruct&#45;v0<span>&#46;</span>1](results/pages/sarashina2_2/README.md) | 102,400 | 3,856,086 | 1.4432 | 1.9533 |
 
 文章の各カテゴリ・tier列は総UTF-8 bytes / 総tokensの **Bytes/token ↑**。各表の平均列は列の単純算術平均（高いほど良い）で、表ごとに個別に並べます。カテゴリ・tier・文字集合はそれぞれ同じ重みで、全体のmicro比率とは異なります。平均は丸め前の整数比から計算し、同率はslug順です。欠測は `—` として平均未定・末尾に置き、0とは扱いません。
 
@@ -63,6 +44,28 @@ LLM tokenizerの文字の扱いや文章の分割効率を比較するベンチ�
 | [o200k&#95;harmony](results/pages/o200k_harmony/README.md) | 201,088 | 3.5920 | 3.6818 | 3.5116 | 3.7466 | 3.5044 | 3.5156 |
 | [mistralai&#47;Mistral&#45;Small&#45;4&#45;119B&#45;2603](results/pages/mistral-small4/README.md) | 131,072 | 3.5707 | 3.8246 | 3.4576 | 3.8115 | 3.3603 | 3.3994 |
 | [cl100k&#95;base](results/pages/cl100k_base/README.md) | 100,261 | 2.7347 | 2.7100 | 2.5253 | 2.7532 | 3.1633 | 2.5218 |
+
+### 全体
+
+全コーパスの **Bytes/token（総UTF-8 bytes / 総tokens）降順**。同じ入力集合なら総token数の昇順と一致します。
+
+
+
+| 順位 | Tokenizer・詳細 | 語彙数 | Tokens ↓ | Chars/token ↑ | Bytes/token ↑ |
+| ---: | --- | ---: | ---: | ---: | ---: |
+| 1 | [google&#47;gemma&#45;4&#45;E4B&#45;it](results/pages/gemma4/README.md) | 262,144 | 2,053,725 | 2.7098 | 3.6676 |
+| 2 | [o200k&#95;harmony](results/pages/o200k_harmony/README.md) | 201,088 | 2,189,117 | 2.5422 | 3.4407 |
+| 3 | [Qwen&#47;Qwen3<span>&#46;</span>8&#45;27B](results/pages/qwen3_8/README.md) | 248,077 | 2,378,241 | 2.3400 | 3.1671 |
+| 4 | [CohereLabs&#47;command&#45;a&#45;plus&#45;05&#45;2026&#45;bf16](results/pages/cohere-command-a-plus/README.md) | 255,032 | 2,485,567 | 2.2390 | 3.0304 |
+| 5 | [deepseek&#45;ai&#47;DeepSeek&#45;V4&#45;Pro](results/pages/deepseek-v4/README.md) | 129,280 | 2,567,849 | 2.1672 | 2.9333 |
+| 6 | [mistralai&#47;Mistral&#45;Small&#45;4&#45;119B&#45;2603](results/pages/mistral-small4/README.md) | 131,072 | 2,634,008 | 2.1128 | 2.8596 |
+| 7 | [zai&#45;org&#47;GLM&#45;5<span>&#46;</span>1](results/pages/glm5_1/README.md) | 154,856 | 2,836,136 | 1.9622 | 2.6558 |
+| 8 | [xai&#45;org&#47;grok&#45;2](results/pages/grok2/README.md) | 131,072 | 2,919,106 | 1.9064 | 2.5803 |
+| 9 | [llm&#45;jp&#47;llm&#45;jp&#45;4&#45;8b&#45;instruct](results/pages/llm-jp4/README.md) | 196,608 | 3,013,270 | 1.8469 | 2.4997 |
+| 10 | [cl100k&#95;base](results/pages/cl100k_base/README.md) | 100,261 | 3,244,038 | 1.7155 | 2.3218 |
+| 11 | [pfnet&#47;plamo&#45;3&#45;610m&#45;fin&#45;instruct](results/pages/plamo3/README.md) | 107,520 | 3,344,648 | 1.6639 | 2.2520 |
+| 12 | [pfnet&#47;plamo&#45;2&#45;1b](results/pages/plamo2/README.md) | 100,000 | 3,566,524 | 1.5604 | 2.1119 |
+| 13 | [sbintuitions&#47;sarashina2<span>&#46;</span>2&#45;3b&#45;instruct&#45;v0<span>&#46;</span>1](results/pages/sarashina2_2/README.md) | 102,400 | 3,856,086 | 1.4432 | 1.9533 |
 
 ### 英語カテゴリ別
 
