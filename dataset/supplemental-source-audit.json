@@ -1,0 +1,71 @@
+{
+  "source_version": "v2.0.1",
+  "source_revision": "4c6643774aad7f5970955b43fa357008a92471d8",
+  "source_dataset": "HuggingFaceFW/fineweb-2",
+  "audit": [
+    {
+      "tag": "bug",
+      "config": "bug_Latn",
+      "revision": "4c6643774aad7f5970955b43fa357008a92471d8",
+      "source_version": "v2.0.1",
+      "parquet_bytes": 224285,
+      "source_documents": 145,
+      "eligible_length_documents": 78,
+      "eligible_ids_not_in_current_filtered_partition": 54
+    },
+    {
+      "tag": "nv",
+      "config": "nav_Latn",
+      "revision": "4c6643774aad7f5970955b43fa357008a92471d8",
+      "source_version": "v2.0.1",
+      "parquet_bytes": 40861,
+      "source_documents": 28,
+      "eligible_length_documents": 11,
+      "eligible_ids_not_in_current_filtered_partition": 0
+    },
+    {
+      "tag": "ik",
+      "config": "esi_Latn",
+      "revision": "4c6643774aad7f5970955b43fa357008a92471d8",
+      "source_version": "v2.0.1",
+      "parquet_bytes": 60894,
+      "source_documents": 29,
+      "eligible_length_documents": 14,
+      "eligible_ids_not_in_current_filtered_partition": 7
+    },
+    {
+      "tag": "chr",
+      "config": "chr_Cher",
+      "revision": "4c6643774aad7f5970955b43fa357008a92471d8",
+      "source_version": "v2.0.1",
+      "parquet_bytes": 359084,
+      "source_documents": 71,
+      "eligible_length_documents": 68,
+      "eligible_ids_not_in_current_filtered_partition": 61
+    },
+    {
+      "tag": "atj",
+      "config": "atj_Latn",
+      "revision": "4c6643774aad7f5970955b43fa357008a92471d8",
+      "source_version": "v2.0.1",
+      "parquet_bytes": 1058697,
+      "source_documents": 1130,
+      "eligible_length_documents": 333,
+      "eligible_ids_not_in_current_filtered_partition": 239,
+      "review_status": "Acquired as candidates only; the approved 50-document Atikamekw collection uses the current revision exclusively."
+    },
+    {
+      "tag": "mni",
+      "config": "mni_Mtei",
+      "revision": "4c6643774aad7f5970955b43fa357008a92471d8",
+      "source_version": "v2.0.1",
+      "parquet_bytes": 193043,
+      "source_documents": 166,
+      "eligible_length_documents": 106,
+      "eligible_ids_not_in_current_filtered_partition": 8,
+      "review_status": "All eight distinct older-revision candidates were actually read; two were approved. Across current train/test, these older candidates and five recorded deterministic rewindows, 127 windows were read and 48 distinct original documents approved. The bounded reviewed pool remains two short of the 50-document target; this is not a claim about all possible web sources."
+    }
+  ],
+  "scope": "Older filtered source files only; counts are length-qualified candidates, not confirmed-language or approved excerpts. Existing current-version IDs and proofs are preserved. All added candidates require actual reading.",
+  "input_total_parquet_bytes": 1936864
+}

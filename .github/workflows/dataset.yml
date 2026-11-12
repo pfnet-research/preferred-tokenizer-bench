@@ -1,0 +1,22 @@
+name: Dataset validation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Run construction-tool tests
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Validate saved dataset rows and report missing targets
+        run: python3 scripts/validate_dataset.py
+      - name: Validate published numerical results against the complete corpus
+        if: hashFiles('results/index.json') != ''
+        run: python3 scripts/validate_results.py

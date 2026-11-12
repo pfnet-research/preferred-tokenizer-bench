@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-06T16:24:00.796581+00:00",
+  "policy": "Official pinned tokenizer-only artifacts preferred; no model weights. Licensing evidence is not a legal certification.",
+  "tokenizers": [
+    {
+      "slug": "plamo3",
+      "label": "PLaMo 3",
+      "source_url": "https://huggingface.co/pfnet/plamo-3-610m-fin-instruct/tree/a000b59209f1688322c0804009dc9f3fd67e62c1",
+      "notes": [
+        "Official custom tokenizer audited; no model code or weights needed.",
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [
+        "tokenization_plamo.py"
+      ],
+      "backend": "huggingface",
+      "model_id": "pfnet/plamo-3-610m-fin-instruct",
+      "revision": "a000b59209f1688322c0804009dc9f3fd67e62c1",
+      "files": [
+        {
+          "path": "special_tokens_map.json",
+          "url": "https://huggingface.co/pfnet/plamo-3-610m-fin-instruct/resolve/a000b59209f1688322c0804009dc9f3fd67e62c1/special_tokens_map.json",
+          "size": 587,
+          "sha256": "31f381bcd13eb10038006b9e26c4eb9099201ae162500d95a50c9bec990abd4d"
+        },
+        {
+          "path": "tokenization_plamo.py",
+          "url": "https://huggingface.co/pfnet/plamo-3-610m-fin-instruct/resolve/a000b59209f1688322c0804009dc9f3fd67e62c1/tokenization_plamo.py",
+          "size": 25036,
+          "sha256": "7f7eed1d05b0e50792cfc21dfdf3c6ffcebbaaabdc9c21c65cc66968f110aac5"
+        },
+        {
+          "path": "tokenizer.jsonl",
+          "url": "https://huggingface.co/pfnet/plamo-3-610m-fin-instruct/resolve/a000b59209f1688322c0804009dc9f3fd67e62c1/tokenizer.jsonl",
+          "size": 3526723,
+          "sha256": "bdce9e430e65931b28c56de2054f52b4cf8ed59b322db125e016d724d06dbb0e"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/pfnet/plamo-3-610m-fin-instruct/resolve/a000b59209f1688322c0804009dc9f3fd67e62c1/tokenizer_config.json",
+          "size": 1372,
+          "sha256": "7549e7812d0e2705ad0a8a234a8cf8ae01f92fe4f5c66f76b5e149510e4d25f0"
+        }
+      ],
+      "license": {
+        "id": "plamo-community-license",
+        "source_url": "https://huggingface.co/pfnet/plamo-3-610m-fin-instruct/blob/a000b59209f1688322c0804009dc9f3fd67e62c1/README.md",
+        "terms_url": "https://plamo.preferredai.jp/info/plamo-community-license-en"
+      },
+      "audited_remote_code": true
+    },
+    {
+      "slug": "plamo2",
+      "label": "PLaMo 2",
+      "source_url": "https://huggingface.co/pfnet/plamo-2-1b/tree/92c75fd6eea9018bcb9c33ee8921589febe071fa",
+      "notes": [
+        "Official custom tokenizer audited; no model code or weights needed.",
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [
+        "tokenization_plamo.py"
+      ],
+      "backend": "huggingface",
+      "model_id": "pfnet/plamo-2-1b",
+      "revision": "92c75fd6eea9018bcb9c33ee8921589febe071fa",
+      "files": [
+        {
+          "path": "special_tokens_map.json",
+          "url": "https://huggingface.co/pfnet/plamo-2-1b/resolve/92c75fd6eea9018bcb9c33ee8921589febe071fa/special_tokens_map.json",
+          "size": 587,
+          "sha256": "31f381bcd13eb10038006b9e26c4eb9099201ae162500d95a50c9bec990abd4d"
+        },
+        {
+          "path": "tokenization_plamo.py",
+          "url": "https://huggingface.co/pfnet/plamo-2-1b/resolve/92c75fd6eea9018bcb9c33ee8921589febe071fa/tokenization_plamo.py",
+          "size": 16889,
+          "sha256": "ebddaf4cd8c4f7cde47d9e94a227a1cec7eccfbf303a70f520a3fda7c060abef"
+        },
+        {
+          "path": "tokenizer.jsonl",
+          "url": "https://huggingface.co/pfnet/plamo-2-1b/resolve/92c75fd6eea9018bcb9c33ee8921589febe071fa/tokenizer.jsonl",
+          "size": 3319118,
+          "sha256": "9fa8276a87dd2440bb9496f1d569c05ded6274fd2854de802e12dc6545804b95"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/pfnet/plamo-2-1b/resolve/92c75fd6eea9018bcb9c33ee8921589febe071fa/tokenizer_config.json",
+          "size": 1246,
+          "sha256": "3472dc70138f3d98161b0d54ca424519f031d865882e85efc75e30c349879050"
+        }
+      ],
+      "license": {
+        "id": "apache-2.0",
+        "source_url": "https://huggingface.co/pfnet/plamo-2-1b/blob/92c75fd6eea9018bcb9c33ee8921589febe071fa/LICENSE"
+      },
+      "audited_remote_code": true
+    },
+    {
+      "slug": "o200k_harmony",
+      "label": "o200k_harmony (OpenAI encoding)",
+      "source_url": "https://github.com/openai/gpt-oss/blob/5681a6b6552635e7b29cde94a61ca6a7aee90ebd/gpt_oss/tokenizer.py",
+      "notes": [
+        "Use encode_ordinary: raw content only, literal special spellings ordinary. Harmony shares o200k_base ranks but has distinct special-token registry. Labels are encoding names, not verified mapping of all proprietary models."
+      ],
+      "remote_code_files": [],
+      "backend": "tiktoken",
+      "encoding": "o200k_harmony",
+      "revision": "4e71bbe0c078468e00fefbf94b39849389f346e5",
+      "model_id": "openai/tiktoken",
+      "files": [
+        {
+          "path": "o200k_base.tiktoken",
+          "sha256": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+          "size": 3613922,
+          "url": "https://openaipublic.blob.core.windows.net/encodings/o200k_base.tiktoken"
+        }
+      ],
+      "license": {
+        "id": "MIT",
+        "source_url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/LICENSE"
+      },
+      "implementation_source_url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken_ext/openai_public.py"
+    },
+    {
+      "slug": "cl100k_base",
+      "label": "cl100k_base (OpenAI encoding)",
+      "source_url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken_ext/openai_public.py",
+      "notes": [
+        "Use encode_ordinary: raw content only, literal special spellings ordinary. Harmony shares o200k_base ranks but has distinct special-token registry. Labels are encoding names, not verified mapping of all proprietary models."
+      ],
+      "remote_code_files": [],
+      "backend": "tiktoken",
+      "encoding": "cl100k_base",
+      "revision": "4e71bbe0c078468e00fefbf94b39849389f346e5",
+      "model_id": "openai/tiktoken",
+      "files": [
+        {
+          "path": "cl100k_base.tiktoken",
+          "sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+          "size": 1681126,
+          "url": "https://openaipublic.blob.core.windows.net/encodings/cl100k_base.tiktoken"
+        }
+      ],
+      "license": {
+        "id": "MIT",
+        "source_url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/LICENSE"
+      },
+      "implementation_source_url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken_ext/openai_public.py"
+    },
+    {
+      "slug": "gemma4",
+      "label": "Gemma 4",
+      "source_url": "https://github.com/googleapis/python-genai/blob/4bdde3abfde6ec8da1c2c253cb0044991dd6064c/google/genai/_local_tokenizer_loader.py",
+      "notes": [
+        "Pinned official Google genai loader resolves gemma4 to google/gemma-4-E4B-it. Retrieved tokenizer/config without gate. This row names Gemma 4 only; no blanket equivalence to Gemini models. Raw encode without added specials; no chat template."
+      ],
+      "remote_code_files": [],
+      "backend": "huggingface",
+      "model_id": "google/gemma-4-E4B-it",
+      "revision": "4ecc2ba63bcac23ba4a767fc87025b1450f84c9c",
+      "files": [
+        {
+          "path": "tokenizer_config.json",
+          "size": 3082,
+          "sha256": "9f4fec4b1dc6ecddf8f4a92e9caea5971c0e67d81309f3f9066a2bee8c362633",
+          "url": "https://huggingface.co/google/gemma-4-E4B-it/resolve/4ecc2ba63bcac23ba4a767fc87025b1450f84c9c/tokenizer_config.json"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 32156428,
+          "sha256": "91d9cf86906f78e197021fda88214d448e5c120665d0243a8e776e046986c6bc",
+          "url": "https://huggingface.co/google/gemma-4-E4B-it/resolve/4ecc2ba63bcac23ba4a767fc87025b1450f84c9c/tokenizer.json"
+        }
+      ],
+      "license": {
+        "id": "apache-2.0",
+        "source_url": "https://huggingface.co/google/gemma-4-E4B-it/blob/4ecc2ba63bcac23ba4a767fc87025b1450f84c9c/README.md",
+        "terms_url": "https://ai.google.dev/gemma/docs/gemma_4_license"
+      }
+    },
+    {
+      "slug": "grok2",
+      "label": "Grok 2",
+      "source_url": "https://huggingface.co/xai-org/grok-2/tree/daf4395a80ad177386cfe39641b64fc12b1d70ed",
+      "notes": [
+        "Official model README links this pinned SGLang reference: regular_tokens bytes=>token ranks, word_split V1 PAT_STR_B (single-digit split), tiktoken.Encoding. Not an HF tokenizer.json. License is custom xAI Community, including distribution attribution conditions.",
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [],
+      "backend": "grok-tiktoken",
+      "model_id": "xai-org/grok-2",
+      "revision": "daf4395a80ad177386cfe39641b64fc12b1d70ed",
+      "files": [
+        {
+          "path": "tokenizer.tok.json",
+          "url": "https://huggingface.co/xai-org/grok-2/resolve/daf4395a80ad177386cfe39641b64fc12b1d70ed/tokenizer.tok.json",
+          "size": 7724637,
+          "sha256": "8132d5a6e15d09fdc06680173bb8b30b982f13128c14e14377fbbb77351dcc06"
+        }
+      ],
+      "license": {
+        "id": "xai-community",
+        "source_url": "https://huggingface.co/xai-org/grok-2/blob/daf4395a80ad177386cfe39641b64fc12b1d70ed/LICENSE"
+      },
+      "implementation_source_url": "https://github.com/sgl-project/sglang/blob/97a38ee85ba62e268bde6388f1bf8edfe2ca9d76/python/sglang/srt/tokenizer/tiktoken_tokenizer.py"
+    },
+    {
+      "slug": "cohere-command-a-plus",
+      "label": "Command A+",
+      "source_url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16/tree/5fb6fde5fd12ff89356aae552e11883bc49f069b",
+      "notes": [
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [],
+      "backend": "huggingface",
+      "model_id": "CohereLabs/command-a-plus-05-2026-bf16",
+      "revision": "5fb6fde5fd12ff89356aae552e11883bc49f069b",
+      "files": [
+        {
+          "path": "special_tokens_map.json",
+          "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16/resolve/5fb6fde5fd12ff89356aae552e11883bc49f069b/special_tokens_map.json",
+          "size": 830,
+          "sha256": "fe4912e0cea12d8de22659040447580d43faa1f9aebe7fceb02841f60ae8b491"
+        },
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16/resolve/5fb6fde5fd12ff89356aae552e11883bc49f069b/tokenizer.json",
+          "size": 28217141,
+          "sha256": "14bd1c49d7d11874921d324986713df4be21cd06060530c497dacef99919b7a5"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16/resolve/5fb6fde5fd12ff89356aae552e11883bc49f069b/tokenizer_config.json",
+          "size": 9322,
+          "sha256": "421cd7a194a1ffcffd2ba2056e2f379fde5069060567f45cd1df301b9bd407b9"
+        }
+      ],
+      "license": {
+        "id": "apache-2.0",
+        "source_url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16/blob/5fb6fde5fd12ff89356aae552e11883bc49f069b/README.md"
+      }
+    },
+    {
+      "slug": "mistral-small4",
+      "label": "Mistral 4",
+      "source_url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/tree/a11f36bebf709121056b1dbcc943d1c6afbe494d",
+      "notes": [
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [],
+      "backend": "huggingface",
+      "model_id": "mistralai/Mistral-Small-4-119B-2603",
+      "revision": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+      "files": [
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/resolve/a11f36bebf709121056b1dbcc943d1c6afbe494d/tokenizer.json",
+          "size": 17077420,
+          "sha256": "2ba5b3330fd84d5376fcca797cfb3b42eee6241ce23e3271e6fb2a115a8751bd"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/resolve/a11f36bebf709121056b1dbcc943d1c6afbe494d/tokenizer_config.json",
+          "size": 21140,
+          "sha256": "3652d4cf7e8bd9f8d4cd9fd8df4ae7f47647a9846dadc6e45b1c09d8a88fc7ec"
+        }
+      ],
+      "license": {
+        "id": "apache-2.0",
+        "source_url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/blob/a11f36bebf709121056b1dbcc943d1c6afbe494d/README.md"
+      }
+    },
+    {
+      "slug": "qwen3_8",
+      "label": "Qwen 3.8",
+      "source_url": "https://huggingface.co/Qwen/Qwen3.8-27B/tree/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "notes": [
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [],
+      "backend": "huggingface",
+      "model_id": "Qwen/Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "files": [
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/resolve/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/tokenizer.json",
+          "size": 12809320,
+          "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/resolve/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/tokenizer_config.json",
+          "size": 17928,
+          "sha256": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27"
+        }
+      ],
+      "license": {
+        "id": "apache-2.0",
+        "source_url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/LICENSE"
+      }
+    },
+    {
+      "slug": "deepseek-v4",
+      "label": "DeepSeek V3〜V4",
+      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/tree/b5968e9190ef611bbf34a7229255be88a0e937c1",
+      "notes": [
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [],
+      "backend": "huggingface",
+      "model_id": "deepseek-ai/DeepSeek-V4-Pro",
+      "revision": "b5968e9190ef611bbf34a7229255be88a0e937c1",
+      "files": [
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/b5968e9190ef611bbf34a7229255be88a0e937c1/tokenizer.json",
+          "size": 6367146,
+          "sha256": "8f9f37ca37fdc4f5fd36d5cf4d3b0e8392edb4e894fd10cc0d70b4957c8633cf"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/resolve/b5968e9190ef611bbf34a7229255be88a0e937c1/tokenizer_config.json",
+          "size": 801,
+          "sha256": "6ac8c8dc065ed118161d02dd532749ae3f52c243deac27872134fae2f50d8547"
+        }
+      ],
+      "license": {
+        "id": "mit",
+        "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/b5968e9190ef611bbf34a7229255be88a0e937c1/LICENSE"
+      }
+    },
+    {
+      "slug": "glm5_1",
+      "label": "GLM 5.1",
+      "source_url": "https://huggingface.co/zai-org/GLM-5.1/tree/26e1bd6e011feb778d25ae34b09b07074139d92d",
+      "notes": [
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [],
+      "backend": "huggingface",
+      "model_id": "zai-org/GLM-5.1",
+      "revision": "26e1bd6e011feb778d25ae34b09b07074139d92d",
+      "files": [
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/zai-org/GLM-5.1/resolve/26e1bd6e011feb778d25ae34b09b07074139d92d/tokenizer.json",
+          "size": 20217442,
+          "sha256": "19e773648cb4e65de8660ea6365e10acca112d42a854923df93db4a6f333a82d"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/zai-org/GLM-5.1/resolve/26e1bd6e011feb778d25ae34b09b07074139d92d/tokenizer_config.json",
+          "size": 760,
+          "sha256": "8b6c9684842d57fb45907d1670835fa6929a4686e4229d4c4684d56a9abf3eb1"
+        }
+      ],
+      "license": {
+        "id": "mit",
+        "source_url": "https://huggingface.co/zai-org/GLM-5.1/blob/26e1bd6e011feb778d25ae34b09b07074139d92d/LICENSE"
+      }
+    },
+    {
+      "slug": "llm-jp4",
+      "label": "LLM-jp 4",
+      "source_url": "https://huggingface.co/llm-jp/llm-jp-4-8b-instruct/tree/098f2b2cf33021eba19a6d3582aa3d071ccc0aff",
+      "notes": [
+        "Both custom files read in full: local tokenizer JSON loading, decode and Harmony parsing only; no network, subprocess or model imports.",
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [
+        "llmjp4_tokenizer.py",
+        "llmjp4_harmony.py"
+      ],
+      "backend": "huggingface",
+      "model_id": "llm-jp/llm-jp-4-8b-instruct",
+      "revision": "098f2b2cf33021eba19a6d3582aa3d071ccc0aff",
+      "files": [
+        {
+          "path": "llmjp4_tokenizer.py",
+          "url": "https://huggingface.co/llm-jp/llm-jp-4-8b-instruct/resolve/098f2b2cf33021eba19a6d3582aa3d071ccc0aff/llmjp4_tokenizer.py",
+          "size": 3876,
+          "sha256": "6bcbcf4e7088b4d2487cff4a47bda90e85d0440797a741667f016efbb13a34ed"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "url": "https://huggingface.co/llm-jp/llm-jp-4-8b-instruct/resolve/098f2b2cf33021eba19a6d3582aa3d071ccc0aff/special_tokens_map.json",
+          "size": 1002,
+          "sha256": "1b031761a2ba4d98b731b79d9c432bc37fe3f7704857147bc2b4388bc8c5ad20"
+        },
+        {
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/llm-jp/llm-jp-4-8b-instruct/resolve/098f2b2cf33021eba19a6d3582aa3d071ccc0aff/tokenizer.json",
+          "size": 12879473,
+          "sha256": "a35f390c6489427e4dcac7d957f34d9dacd7332972c990f4b4eb6b724c8873f4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/llm-jp/llm-jp-4-8b-instruct/resolve/098f2b2cf33021eba19a6d3582aa3d071ccc0aff/tokenizer_config.json",
+          "size": 63800,
+          "sha256": "55aa3a433cbbde451a88b449dd46e5cacda76ed79a09347f105f6b08f438e5b2"
+        },
+        {
+          "path": "llmjp4_harmony.py",
+          "url": "https://huggingface.co/llm-jp/llm-jp-4-8b-instruct/resolve/098f2b2cf33021eba19a6d3582aa3d071ccc0aff/llmjp4_harmony.py",
+          "size": 4177,
+          "sha256": "1a4e09c66b17d3a8d19bed6b43978b951ba01b5a62feef1a2893d1e4e40f7d2a"
+        }
+      ],
+      "license": {
+        "id": "apache-2.0",
+        "source_url": "https://huggingface.co/llm-jp/llm-jp-4-8b-instruct/blob/098f2b2cf33021eba19a6d3582aa3d071ccc0aff/README.md"
+      },
+      "audited_remote_code": true
+    },
+    {
+      "slug": "sarashina2_2",
+      "label": "Sarashina 2",
+      "source_url": "https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1/tree/4f3626fb1b64b3e97c908e67f27b2d627ba2a999",
+      "notes": [
+        "Official tokenizer_config uses LlamaTokenizer legacy=false/add_dummy_prefix_space=false; do not substitute bare SentencePiece defaults.",
+        "Raw text encode(add_special_tokens=False); no chat template, external normalization or automatic BOS/EOS."
+      ],
+      "remote_code_files": [],
+      "backend": "huggingface",
+      "model_id": "sbintuitions/sarashina2.2-3b-instruct-v0.1",
+      "revision": "4f3626fb1b64b3e97c908e67f27b2d627ba2a999",
+      "files": [
+        {
+          "path": "special_tokens_map.json",
+          "url": "https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1/resolve/4f3626fb1b64b3e97c908e67f27b2d627ba2a999/special_tokens_map.json",
+          "size": 968,
+          "sha256": "30bf8256f9a1eb3287af2a9b7940465e29a38aad4a459a3e773bb3a14bd34c0f"
+        },
+        {
+          "path": "tokenizer.model",
+          "url": "https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1/resolve/4f3626fb1b64b3e97c908e67f27b2d627ba2a999/tokenizer.model",
+          "size": 1831879,
+          "sha256": "008293028e1a9d9a1038d9b63d989a2319797dfeaa03f171093a57b33a3a8277"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1/resolve/4f3626fb1b64b3e97c908e67f27b2d627ba2a999/tokenizer_config.json",
+          "size": 6420,
+          "sha256": "ff413f71a6cb94015411448e948f908c70853222a070c04cd63cec2b2292dce2"
+        }
+      ],
+      "license": {
+        "id": "mit",
+        "source_url": "https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1/blob/4f3626fb1b64b3e97c908e67f27b2d627ba2a999/LICENSE"
+      }
+    }
+  ]
+}

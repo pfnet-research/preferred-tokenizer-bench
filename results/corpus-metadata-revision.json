@@ -1,0 +1,830 @@
+{
+  "schema_version": 1,
+  "scope": "Distributed metadata was revised without changing evaluation inputs. Character rows use collection-relative offsets. Excerpt source provenance, review findings and limitations are retained. Text, document IDs, order, language groups and measurement results are unchanged.",
+  "reviewer_value": "undisclosed denotes an omitted identity, not a different reviewer.",
+  "evaluated_corpus_sha256": "2b52bb31a23475687d902123ce40ce4bbd568b85302672ed5eb49901da0bc0d2",
+  "distributed_corpus_sha256": "e958b61284b06f841e05d75f718f70471460036df9a6794d6a77e102454ac6dd",
+  "corpus_sha256_method": "SHA-256 of each sorted dataset JSONL relative path, NUL, complete file bytes, NUL. This includes metadata.",
+  "unchanged_input_sha256": "f211cb18e502b1f12eb84861526e1a03b55fe972673afe1c1451e8b6b344d041",
+  "input_sha256_method": "In corpus order, hash each collection path, document ID and text as UTF-8, each preceded by its byte length as an unsigned 8-byte big-endian integer.",
+  "preserved_result_fields": "All metrics, token IDs, pieces, decodes, fidelity, selection, artifact hashes, package versions, runner source hashes and measurement timestamps are unchanged.",
+  "measurement_status": "Existing measurements retained; no tokenizer evaluation was performed for this metadata revision.",
+  "files": [
+    {
+      "path": "dataset/characters/common_kanji.jsonl",
+      "evaluated_jsonl_sha256": "18b851531f05e1cbdc0d2abd4b3566675788666124a9cf4fd5c4bb54fda813f7",
+      "distributed_jsonl_sha256": "87d5367922b54bb68fd55d71917e3f09743154177f142d94a680c6862fe52553",
+      "unchanged_input_sha256": "0a40c6b05c96e7d9ebc51667b1c6c97b8bdb68228df7153713b1f662a04561c3"
+    },
+    {
+      "path": "dataset/characters/educational_kanji.jsonl",
+      "evaluated_jsonl_sha256": "3454d2e57596ca7a9ca8a2cb307c3ae7d1ab6abfab0263230ae432d7b752e3ec",
+      "distributed_jsonl_sha256": "7c6715670b15904a57a1220b77c13405c14f1fa686fcae8274ce2a1c36368f56",
+      "unchanged_input_sha256": "29327003dd3c4c6a118c65c9df31a0c51e031efcf4bb41094f4695ebd78f340a"
+    },
+    {
+      "path": "dataset/characters/jis_l1.jsonl",
+      "evaluated_jsonl_sha256": "67ffd09d5ba9984c42d42ba6a8e2cb1445060aad95868c27f286c445f33206d5",
+      "distributed_jsonl_sha256": "bb3b9140e3e8b9f5c0241d46ede7512c5da69fe4f8b69fc4fd6f862af94bf819",
+      "unchanged_input_sha256": "f371f5cba371e05ae6ca25ed6b8c06b84f8d865c6bf153d4ab778f1acbba7256"
+    },
+    {
+      "path": "dataset/characters/jis_l2.jsonl",
+      "evaluated_jsonl_sha256": "fabccc92e04098dc73eb68a621f87849ef043bfcb36fb142c23c5b4ec5dc32b8",
+      "distributed_jsonl_sha256": "ab525ebf58bef8005771f14726b3ac3f41265c0e38a23e41aabcc8d8ec4fd172",
+      "unchanged_input_sha256": "2ebf2326623fe2ed3d075a74672882ad2b6d3d2ae01b36313428d40a5c23264c"
+    },
+    {
+      "path": "dataset/fineweb/ab.jsonl",
+      "evaluated_jsonl_sha256": "fd18fbbf2b7c84f2749c63d947a70eef5cca6b69746f10b0843ec9d9d482b117",
+      "distributed_jsonl_sha256": "dba1ccc0b629c8cb45eed7806e20119e02d801fafa5eed0080e37d292a803ac0",
+      "unchanged_input_sha256": "610942798a793d7560a9a362584f62284a8135a661638e8dba6fe7a2b7806f08"
+    },
+    {
+      "path": "dataset/fineweb/ace.jsonl",
+      "evaluated_jsonl_sha256": "43ef2f5bcf01c7d556ad662759ce831691bd408eb5a105291ef6615dbf0b678b",
+      "distributed_jsonl_sha256": "fb35c08c4a24c3cfab1861d5ecb948611e6a40864380ef2f7ccd226bba2aafa6",
+      "unchanged_input_sha256": "d5eeadaeeee35b28c2f5b90239f0b94d188c776b53137f04713dc4ca752c1481"
+    },
+    {
+      "path": "dataset/fineweb/af.jsonl",
+      "evaluated_jsonl_sha256": "ffc1edb0fde6862a7328ebea7558fbc8207cebd9025667a76f0ef23cb54ab03f",
+      "distributed_jsonl_sha256": "b718ccb87a7889c365ac46718f8eee311c26dc985e972c6fb2debcdf614123d0",
+      "unchanged_input_sha256": "c9adc1e603b5d78641f449f199087648a7758e35445f29f096d6f54def7db340"
+    },
+    {
+      "path": "dataset/fineweb/am.jsonl",
+      "evaluated_jsonl_sha256": "624c5281c9a078b3b3ff494f643d1c6f1d8c7732d013add42990072e50a12fcc",
+      "distributed_jsonl_sha256": "9ec7183d276838a29f4f023dc79daf6b55a0d11d1cb0d6fbf6099882931f88e9",
+      "unchanged_input_sha256": "40d991ac88539e8aaeb6d6f790024acb6acf433677ca9c002ecbd1bb7432dd05"
+    },
+    {
+      "path": "dataset/fineweb/as.jsonl",
+      "evaluated_jsonl_sha256": "451f88b2849be934e398f432083aad834b9a82b96b71e97698b3fefbd3e3297c",
+      "distributed_jsonl_sha256": "35b0ca9f8e16b939ce754bfd185474bd1b111ef2ef64ff85c70fbb1dfce48fa7",
+      "unchanged_input_sha256": "7dcf74052226ef7712196d31ba11f6cbe3f2479cfe7eec72f0abf6f5f1fdda2c"
+    },
+    {
+      "path": "dataset/fineweb/atj.jsonl",
+      "evaluated_jsonl_sha256": "c097af7fdb928935f0ff83548dfc88fa345f6f5ea938ffb95d8964f1f81590c7",
+      "distributed_jsonl_sha256": "c39ece3dea880b744b09099f404989ec28b982532e83d6fbb7d27ab900a34dd8",
+      "unchanged_input_sha256": "9dac35722005739d220b8e77200b9bdc2fc2c7098154da40a44ae3e171a3d2a0"
+    },
+    {
+      "path": "dataset/fineweb/av.jsonl",
+      "evaluated_jsonl_sha256": "f00b347665a0a985a4e84cecad6146271b91a9a580ba2a85b1af1f95b1fa8091",
+      "distributed_jsonl_sha256": "7cdd14c50521db75ed0fd8a52861a13fbf3c88a8b57c9f50704251cc892f24d4",
+      "unchanged_input_sha256": "fa640187ea8c13dae6738216a4c0dd96573da01a3a005aab646fe7c8d4c2770f"
+    },
+    {
+      "path": "dataset/fineweb/ay.jsonl",
+      "evaluated_jsonl_sha256": "8c0c78a3bfdbfde5afa34db58292fe863346eedcb6c4d36f02cd8c77776fb34a",
+      "distributed_jsonl_sha256": "e1adb894d1aa44780477e0e35c59ad7bc87aaeb2d7deadc66ea84ba94e0b5d94",
+      "unchanged_input_sha256": "9a66990e86df66534198bb23fbebe4266364b5f5344d492cea9e148a76a27ca3"
+    },
+    {
+      "path": "dataset/fineweb/az.jsonl",
+      "evaluated_jsonl_sha256": "f47a8d68fdb3b6ef62e042c7553dbd7b31e8a62c2b0fe890ddfbee7fa7b9122c",
+      "distributed_jsonl_sha256": "558830b1f9f9a1fd2e1306d49ba45c276449fe4c3cc8805bd9d079b4cc4639f6",
+      "unchanged_input_sha256": "94b6526ed3df08c929235f2c0ac3ca3452805d3543745c1997474fc85051e4ae"
+    },
+    {
+      "path": "dataset/fineweb/ba.jsonl",
+      "evaluated_jsonl_sha256": "ab7782c319e195aa678feb6400cef93e3c52b920e79f03c94496806394644f56",
+      "distributed_jsonl_sha256": "7c0f7bb8740b499b87f265facd35e0879971c5d9bd51c01d4befb72fb86535fc",
+      "unchanged_input_sha256": "120e991faa710ca1961f71c0d53ba22dc3c86c49908e492bce41975651ad797f"
+    },
+    {
+      "path": "dataset/fineweb/ban.jsonl",
+      "evaluated_jsonl_sha256": "293eb6ca1bc01e3b8ba9649855724903005b06a8b3240339094177a479bff8f4",
+      "distributed_jsonl_sha256": "eb70946b4223497e592f5907f217bbdabec5b3efd792f2e602dc23feb92e3281",
+      "unchanged_input_sha256": "d6bf002d9eba223ac769be5b889205a1014d3cdf010c3f2800b72b801b78cff1"
+    },
+    {
+      "path": "dataset/fineweb/bcl.jsonl",
+      "evaluated_jsonl_sha256": "0b8353443f2c67feab15b647c2e5f057911247cd5e31bbfff3c78130ffb6fab3",
+      "distributed_jsonl_sha256": "02ea210a04ca280cf4daab2190f3517dc95ae71fd2b4b6844480213afd4b026e",
+      "unchanged_input_sha256": "6a61b5f176c59927e9c9410f0ea6cd7f7699fdeba715d1fc7d6bb3b8534b234c"
+    },
+    {
+      "path": "dataset/fineweb/be.jsonl",
+      "evaluated_jsonl_sha256": "1d7cf48ee31eda299101161d3004d486f628e556d180e88f31081427a81d5799",
+      "distributed_jsonl_sha256": "f1d920b153fa04a8dc268834ccdc649b01c89c9e65fd6a56c79e0a8d74151ab3",
+      "unchanged_input_sha256": "75d45fdf94a0ac5c43b329760b39d4c4dc8d64dbe454a82ccae88d7d82e7c332"
+    },
+    {
+      "path": "dataset/fineweb/bg.jsonl",
+      "evaluated_jsonl_sha256": "12901d76c68e6502ad1060f97284a098c9d6136b411158bf002733b7f65c2fc5",
+      "distributed_jsonl_sha256": "de1eeaffad76c81fce728753523345c67271c22178a43f8c1e8fdbc65f03883d",
+      "unchanged_input_sha256": "38984f61e47850b0674b0fb5253584c086479940ed37b4e2ad23330b4c27dbf1"
+    },
+    {
+      "path": "dataset/fineweb/bho.jsonl",
+      "evaluated_jsonl_sha256": "31cf89079eeac8aa42c3ed28a98a1aa8ee73622986a3ce0f946e7fa3d19d9567",
+      "distributed_jsonl_sha256": "f3385b584377dcd9ffc50b18d18df7680b9384adbbadb8d359e8ad8ee6d15093",
+      "unchanged_input_sha256": "e770301b76371c2744c5cdf85fa05e8deeb65bcab5c9cd5928e6ec9f8939eab1"
+    },
+    {
+      "path": "dataset/fineweb/bi.jsonl",
+      "evaluated_jsonl_sha256": "ed5bd03c6a2294f1c5544bce18cce4c33118b365114d2efcbbe8479629c05ce7",
+      "distributed_jsonl_sha256": "058194fa8f1fca7a65008c9be970b158553b6a1afd94d5ca5c2661fb83c2a069",
+      "unchanged_input_sha256": "a5f5fef31e7f17e7edfe4d2303f0e362ca9232e26ff9414757afae716684652f"
+    },
+    {
+      "path": "dataset/fineweb/bm.jsonl",
+      "evaluated_jsonl_sha256": "86498332a921c90d2be96fd0827bb9cae2c7d666f3f0b1d01968d821e5eeabc8",
+      "distributed_jsonl_sha256": "6997e531db6f430f9240132d29fd156843f4c1d90184df58a803c1437cf6ed11",
+      "unchanged_input_sha256": "e5101eea9b2feff2a6cc76d1061787aa5328ed0a6dade6bcf706f38ee1816993"
+    },
+    {
+      "path": "dataset/fineweb/bn.jsonl",
+      "evaluated_jsonl_sha256": "a2022a9e28f0ccbc81497f83aae1a83ba919b84d154db4db1498f6cbb668a8e2",
+      "distributed_jsonl_sha256": "af226f3266e29ea97d8021739e481634cd7c6a4da4dcceee9f676ac6060c8683",
+      "unchanged_input_sha256": "bc7f388b66c191f7337b7748fadd453e7f7653869704c2169f961fcaeb8bbe4b"
+    },
+    {
+      "path": "dataset/fineweb/bo.jsonl",
+      "evaluated_jsonl_sha256": "cc33f36c5822d41704db68f49a41b498ae996ad64896063ad86df553d3e571fb",
+      "distributed_jsonl_sha256": "bc31e3aeab8555a31009f49b3d1653e26f3efe5aa194e142b9e28cea004400b8",
+      "unchanged_input_sha256": "272deabf2371ff602e353e3c501333c73dc44db7165964f0088961c91cabb5cc"
+    },
+    {
+      "path": "dataset/fineweb/ca.jsonl",
+      "evaluated_jsonl_sha256": "49f2c9e56eabdea577a038e90a66950419a20d6c15d28380f4e76cdbfa46e464",
+      "distributed_jsonl_sha256": "5321da35630afe99dedcaea7aa560faa7c0c734c4c93f3233d7c4d918ea2f55f",
+      "unchanged_input_sha256": "ea634e90412282a9d970d3f51c59878dd4828f9e7c5a9380b6e6e29f14f6fead"
+    },
+    {
+      "path": "dataset/fineweb/ceb.jsonl",
+      "evaluated_jsonl_sha256": "d5022e74a5f6176e0d62aafcdf9fc3055f9e6977d641c28efb7657e1d76322fc",
+      "distributed_jsonl_sha256": "e419167da70ac7b6052366dda910b5f9312096953fb73165a282fdf56859c825",
+      "unchanged_input_sha256": "bf8aad9065588124c3e0b7af79a9b1357e599921a71e0e079db46230217ee3a5"
+    },
+    {
+      "path": "dataset/fineweb/chr.jsonl",
+      "evaluated_jsonl_sha256": "39e104be3bff820bd0686ff8821e5d6ff0cee16819f6491e6d0146541f574b58",
+      "distributed_jsonl_sha256": "f5d884a600fed999b86ac611b0e26f6cf189c40bd5594421a066e4290aed4391",
+      "unchanged_input_sha256": "9f0bc258f7ecd675118b84b329b6f4a247ddd9daf91d4913b37e1794440842f9"
+    },
+    {
+      "path": "dataset/fineweb/cs.jsonl",
+      "evaluated_jsonl_sha256": "61b9149f0428027ab93d6e8cdb3d93355c765e9797d63063d1657e07d3260060",
+      "distributed_jsonl_sha256": "a451e2cd956da25520725fc0265568637d014fbe59657e61288be36dc6a3408a",
+      "unchanged_input_sha256": "0e0498aa175f5a205f72e2173e4414b97a1b9f56ed31ad838752dcfc82ac8b4c"
+    },
+    {
+      "path": "dataset/fineweb/cv.jsonl",
+      "evaluated_jsonl_sha256": "4524519c5867d32905c3023dafe280da444ec0adc147489ea3b77343fca71f9b",
+      "distributed_jsonl_sha256": "1a58133eef9477b2312949152aa1898733896e17459d9e7230b24c64a70859af",
+      "unchanged_input_sha256": "90b42b2fc0d1a57af5aae4b41541ea9295ed6581d7a4d171a98cfa69ce9c1f36"
+    },
+    {
+      "path": "dataset/fineweb/cy.jsonl",
+      "evaluated_jsonl_sha256": "c4bec963768ccf60694a0b879d2cfb63c5f00b0c3e50cba429ccfb4eeab1b035",
+      "distributed_jsonl_sha256": "6ba17340140331ec6f9f8c0453d14294f8374212011d9b9900823eab3c01897a",
+      "unchanged_input_sha256": "3d3d41cb36017c7f48a1af1a2c68f3dcd534a66e3c1915df866c8fcd933e7ef0"
+    },
+    {
+      "path": "dataset/fineweb/da.jsonl",
+      "evaluated_jsonl_sha256": "fa82f7f8533f1a5f2f240bd4ce8a2db8b83c0258f658e8c955dfd2ad7cdac676",
+      "distributed_jsonl_sha256": "4ad597f9da93317a0874605bc2420e4b77652ec8785973f559d8ebc022935482",
+      "unchanged_input_sha256": "68038ffe534e36f65802725bc99efff50ca5313107deea62c1b123b1863076e5"
+    },
+    {
+      "path": "dataset/fineweb/dv.jsonl",
+      "evaluated_jsonl_sha256": "a45d2c7024d07391a338a9f14d05df49915fbabaaeb540c8e5bbfd878e5e2deb",
+      "distributed_jsonl_sha256": "b4c75ef32e4656905a61c63624188eb5f64a6c644859fc2f92933607dd1dcc7e",
+      "unchanged_input_sha256": "80ca1ecc30dcf5093dec2cc648f6114961da22f8a9ffc98c8c449b7fe3c0a7bf"
+    },
+    {
+      "path": "dataset/fineweb/dz.jsonl",
+      "evaluated_jsonl_sha256": "94dc188ef726b39ccb927503d68a14c605b63e1d73ac44fa7338bb52e2baa418",
+      "distributed_jsonl_sha256": "292f79d2118e357cf94e2515ac718cf012861c809c1a9695a4807857b631db11",
+      "unchanged_input_sha256": "b7ecb4c178dd91fe84e0651ff049d731fcc75c9902f4004354713083a6a6a3ef"
+    },
+    {
+      "path": "dataset/fineweb/el.jsonl",
+      "evaluated_jsonl_sha256": "d5489300a0079bb3a9e1ca001ccf7303b4fb22d06527ee22ab4ed8e213491175",
+      "distributed_jsonl_sha256": "075fbb7d4ebd978836392a64df69989b0dc5c7275e06d1b75729ee819ebc0fa8",
+      "unchanged_input_sha256": "c2a84f7065172479b83300c67e80c4ff1da7b689d08ff6fbba2a4297e8207601"
+    },
+    {
+      "path": "dataset/fineweb/eo.jsonl",
+      "evaluated_jsonl_sha256": "8d8535ffc74554a4ea7d719363e0dd2a1ee02fb2027dbffe32cd13ae193e9578",
+      "distributed_jsonl_sha256": "f02f76d377a3039275504b7ff82cfcba4e2bb50d8319e7cc838f7bc408472bbb",
+      "unchanged_input_sha256": "8eaec714ed7ee635b71df1e2df89d2e517803a7a07db8f37b67e32e3f071a3c7"
+    },
+    {
+      "path": "dataset/fineweb/et.jsonl",
+      "evaluated_jsonl_sha256": "86e62f718d7fd7e91001f23db8212e58c382f39c33c35df2243dba2e296e4151",
+      "distributed_jsonl_sha256": "43efd3f445a72d6f2808310028d53360c8697ec77804b554a967b602ed8f412a",
+      "unchanged_input_sha256": "d24481016434af230d36c6375eb34d67d8020e13d0e23ae353451014346f0faf"
+    },
+    {
+      "path": "dataset/fineweb/eu.jsonl",
+      "evaluated_jsonl_sha256": "c17958c2c8dd4f76d48b6677242cde9741dfcfde2dd8fdabb064c90fdde493f1",
+      "distributed_jsonl_sha256": "2bfe8d41b49c324814278def037df36f7ef256e2826ce7d1859585aaefcc84c1",
+      "unchanged_input_sha256": "ca2f552c2c7b5566b1979af6a5e228828589e09e633aa30f45b362e7e817cf29"
+    },
+    {
+      "path": "dataset/fineweb/fa.jsonl",
+      "evaluated_jsonl_sha256": "e819995137e52477ccc6a36151f4ceba95780fddae5fa79584ce9558c7dc952f",
+      "distributed_jsonl_sha256": "83307ba22039988036ece610775cc5c5ce8b0db1b74a50c4e6a26106bd4c6716",
+      "unchanged_input_sha256": "350bfaf4285d31348e6e3054a74d53ee5f70a356c6644f3f7a00a59d73615c5f"
+    },
+    {
+      "path": "dataset/fineweb/ff.jsonl",
+      "evaluated_jsonl_sha256": "5c2ad7bc29d506a2475122273901eeb0d8daada17c23b33eb0183530559e5dc7",
+      "distributed_jsonl_sha256": "44ec622d79e59bca03d2b8c94f31d4a57d7f1e40148eb9a90a32326c31f991d9",
+      "unchanged_input_sha256": "b710e77e68bd08fd1184b63d91f77235779f32766f9d481b689799dde50f36b3"
+    },
+    {
+      "path": "dataset/fineweb/fi.jsonl",
+      "evaluated_jsonl_sha256": "3c7d7a769332b769e88c1823ade881a7fdae7ee6449ddbcb781a3fb0871097ed",
+      "distributed_jsonl_sha256": "e311f6d0523d4d91d8d14f1e8c69489c5d9f71e48319006b5502f2ad0be7aaa0",
+      "unchanged_input_sha256": "828d58e8a8eb9d9040ce6de69c6264244d1e39dc77400c5a55ba7378aed1f54c"
+    },
+    {
+      "path": "dataset/fineweb/fj.jsonl",
+      "evaluated_jsonl_sha256": "8dddf7ae4872d3290dde1f145f75c4797aecec28f56b32da82ae00eec79365a9",
+      "distributed_jsonl_sha256": "b203a9a8dfc42e67fd73068bc889d8644f07c23a5a00c6f7c32a051c04fcc3d0",
+      "unchanged_input_sha256": "18f682a2006eba2cc60afbb751599a9dfedbacfa45fb4cb61b6cf4ee6c2d0524"
+    },
+    {
+      "path": "dataset/fineweb/fy.jsonl",
+      "evaluated_jsonl_sha256": "893f102b110cdfc4ccb4f27ae0e28e070689417fcd80559b9113ab24b32016bf",
+      "distributed_jsonl_sha256": "ceacee1dbd1b5c76475812d4bf71745543fc726ba5f710bbde47ecb839ec2261",
+      "unchanged_input_sha256": "e04c4f8f9618ccc2d97d798eb385a4672f00e272ae9c5c543608291c80176047"
+    },
+    {
+      "path": "dataset/fineweb/ga.jsonl",
+      "evaluated_jsonl_sha256": "0d23fb19c6b51a666f7a8c5c85f7f70d22b574ff143e9c0ddf962b487ffb2277",
+      "distributed_jsonl_sha256": "efe58acbf25b7973dc9468127b0b1775c530152bb9fd7bcb5d2db0dd8914202a",
+      "unchanged_input_sha256": "80a30692c2667199f7f65db4738be0863ae3c3c50b731614a13aed52790fc172"
+    },
+    {
+      "path": "dataset/fineweb/gl.jsonl",
+      "evaluated_jsonl_sha256": "2877200862ba24c945291f086499ec2fd2e259c7cd4920720452afaf2d523920",
+      "distributed_jsonl_sha256": "3048d30c1ba1bd1c023a62e89d74a3cbe98699c52cfee9569de689e99694f746",
+      "unchanged_input_sha256": "ea4b730c92511be6af45e55322f71f6de789d06ebc91975f786f15c8c6311f3b"
+    },
+    {
+      "path": "dataset/fineweb/gn.jsonl",
+      "evaluated_jsonl_sha256": "6629c96c91f09f305bce5174b4844df235616beab51aa90405ffbd4a814f8ccb",
+      "distributed_jsonl_sha256": "28e6b842d5a6e67d36fd7fb4f2f2903593be3aefc5ce8bad085cf3fb3feff00f",
+      "unchanged_input_sha256": "44c591f6d62ffed024df9988aab4bf455f32976432467fba17cac17cdaf9c7fa"
+    },
+    {
+      "path": "dataset/fineweb/gom.jsonl",
+      "evaluated_jsonl_sha256": "bf7a2588737c9cf5249e89469c4e91f54d797953689e8f2f0f70005ea16e78df",
+      "distributed_jsonl_sha256": "463d92a77231d349bc56174f928e677e8c516828522a471d1150709d6ef9bf2b",
+      "unchanged_input_sha256": "6a7ea0c57f83526dda91d23265a986615eca2d6ee0bdc450224a803382ac694d"
+    },
+    {
+      "path": "dataset/fineweb/gu.jsonl",
+      "evaluated_jsonl_sha256": "65b415cb61ef542726feba4bf0d304e6691ba841be33bfc4075e191eb0d044d1",
+      "distributed_jsonl_sha256": "fcbff3fd7d2054a78154db491f836976dcaa149056fb83e6613f7c626457b518",
+      "unchanged_input_sha256": "406b8f810e4455d37667c6d86c5badc8ebb41676cd0caa32fd0338a85930b91f"
+    },
+    {
+      "path": "dataset/fineweb/guc.jsonl",
+      "evaluated_jsonl_sha256": "ec8facc9d8393870b99b1a484019912b7c8771105cffd1db90d539b912be5973",
+      "distributed_jsonl_sha256": "621dd4a086a1de007108787f18adadd82b063da97ba363cdce9a0a2d1e78b8ed",
+      "unchanged_input_sha256": "5bd14d07c74afdc0c6e9e7c4fc6ea75351049719945830de3d6244a5215c1efb"
+    },
+    {
+      "path": "dataset/fineweb/ha.jsonl",
+      "evaluated_jsonl_sha256": "cbdc775a02d074227f177482d850343d1d7e3b59ee6a8f288217227f92c6b1b1",
+      "distributed_jsonl_sha256": "5bb6dc3c326e49dca8d3b9fd99d810b5032f5bdf9e0e5d91774b3e9dbf8d3dc1",
+      "unchanged_input_sha256": "33c7304cfcdca5a74ab840e0c831df08ce21e951549faf043285f193ac3dba5c"
+    },
+    {
+      "path": "dataset/fineweb/haw.jsonl",
+      "evaluated_jsonl_sha256": "589ecf8d543c57a3c5bddc0851cb794c3970e7ed6ae4ce81acca90fdd8ed09af",
+      "distributed_jsonl_sha256": "fc26742cf49f07a20a5d2628c2e6af0817da3db9eae9edaf9eb5ee4f866c0df8",
+      "unchanged_input_sha256": "a197439738a4cdaf7236ee2a22ba645e2e2d6938563183f27fd49623d1db6b76"
+    },
+    {
+      "path": "dataset/fineweb/he.jsonl",
+      "evaluated_jsonl_sha256": "15e2dd43ed861a37a8a8505d13afb959531c32fbd82a62c09497b54ef43cc177",
+      "distributed_jsonl_sha256": "8f6d0116d0cfeb7ea8aa3bff498433fc4c164503c45a9ea4d3b7ae9a3ae91491",
+      "unchanged_input_sha256": "d87a3cdad7df0dd1bdf879108452112946ad1d65b6e17897001ae9d61b21dcb7"
+    },
+    {
+      "path": "dataset/fineweb/hi.jsonl",
+      "evaluated_jsonl_sha256": "cd4e3e2e60abb0755541253bf9b281f1ee4a8bd28746fb4c6f2654770b8dd590",
+      "distributed_jsonl_sha256": "e0e87302b6d10df098704971b884ef1570831995ab6879c0b7a84b18d89ca3d7",
+      "unchanged_input_sha256": "61bcd0795e880fe81590e3cdce8a90e98cfcf8911ad8358e5e454cca918ed139"
+    },
+    {
+      "path": "dataset/fineweb/hr.jsonl",
+      "evaluated_jsonl_sha256": "2ffc870ff6fd9498769dd5da3b543b188888f05fe886c67b56b3b7746617e579",
+      "distributed_jsonl_sha256": "3023f481ece65b1fe5f4567739c4cb21a0502d55c6b42b980d452560a72d9dcd",
+      "unchanged_input_sha256": "c8b56b85751d63b63a7dcbce731e0011abfc0afa5d4b0ceb0dbf60656db863b4"
+    },
+    {
+      "path": "dataset/fineweb/ht.jsonl",
+      "evaluated_jsonl_sha256": "0b5f782d32441def3272e305d74f793ba31cb726792d65bbab1b319f4334e55e",
+      "distributed_jsonl_sha256": "aa3d1ae8dd551737acd7c63419c19af238057d8e5634fa99aaeb8c07077fcd54",
+      "unchanged_input_sha256": "c7f866b4377d533f3dfe5579063b312760729a622d2aacb8f39c13d4732583e0"
+    },
+    {
+      "path": "dataset/fineweb/hy.jsonl",
+      "evaluated_jsonl_sha256": "7ed6c73f0b86b5b70383869fb3e9aa9b9b20264a0e34ba86bd00ff0fe958143c",
+      "distributed_jsonl_sha256": "5ecb4b07d0c8bdfb01832ca9143953c5a7468cb5ee27c675fd7ebfb3bd21459e",
+      "unchanged_input_sha256": "9526997ad68699142195fd37f20ae0987b834554c0f55575bc20700d77f10626"
+    },
+    {
+      "path": "dataset/fineweb/ig.jsonl",
+      "evaluated_jsonl_sha256": "7e922a40faca3e7cc70b24d4e9f32e72925e5cb2f292b523338fa3057f366cda",
+      "distributed_jsonl_sha256": "58d0690dfcb2ab559c542b6b3e916e1d56e9dd610351528264fe5c6aaf2faa75",
+      "unchanged_input_sha256": "3ed1696e1410b82aa3c76c4c458bb01545283554f32fb610679fb8eaff328eb9"
+    },
+    {
+      "path": "dataset/fineweb/ilo.jsonl",
+      "evaluated_jsonl_sha256": "9526a3fd3b8aceb62642c1424d084d67906a6491ddd86688ab031092d5475c1f",
+      "distributed_jsonl_sha256": "688a65023fdb8f4978f9c5fd272c4244ec0abc5acc2fab990497b3656f50308c",
+      "unchanged_input_sha256": "6ba4639d788c19dcf133d0fd010d7d3fa7057f9fe8c330342da4885ef45de8dd"
+    },
+    {
+      "path": "dataset/fineweb/is.jsonl",
+      "evaluated_jsonl_sha256": "93885fff6800ff155ea7495e85affe360770f51dfaa0482faeefaed918e91f09",
+      "distributed_jsonl_sha256": "3213329bb943a65677f58e0724771f6a5fbb2bc894addb1574135b06ee54d2bb",
+      "unchanged_input_sha256": "204539fda2f291d37bf2b40462ccecf5d2ebbdc764860ee455b4d7f23fa5a610"
+    },
+    {
+      "path": "dataset/fineweb/iu.jsonl",
+      "evaluated_jsonl_sha256": "a0c0c7f24ae6b7e266f7240140f6af6e2b046b689cc5823400f366f1d52bf8c6",
+      "distributed_jsonl_sha256": "b08e8c09d7aeb5b57cda3cf372ba037a7bc1c3471c9ec44b3bdf2d6606857857",
+      "unchanged_input_sha256": "22adb0834784bcf57c82f0a4e80367b236ce2263119393ca7b779324de79d978"
+    },
+    {
+      "path": "dataset/fineweb/jv.jsonl",
+      "evaluated_jsonl_sha256": "c25facfbaa68d3f88a020fad422fe1a08dd35fc9b26bab5abc12b60fe171fb5a",
+      "distributed_jsonl_sha256": "b11b977c71db5a2db9a216c5f801b010f34f06776d4bdef8f826a70507c7fb5b",
+      "unchanged_input_sha256": "5e73cd307b35b779b7b469a7e5db94b44fac98eeb0b2ca5b522a45de7297bccf"
+    },
+    {
+      "path": "dataset/fineweb/ka.jsonl",
+      "evaluated_jsonl_sha256": "2367a6c7fdde245a65af3cb031b61275bc0d2bfce9d3821dedb3b188a3a7ef64",
+      "distributed_jsonl_sha256": "256ed322e712e3b810147aa5d3af297ae7401752bf9fc7e164de4d54f87a8ea0",
+      "unchanged_input_sha256": "b726a82b067c97d1d0cc03b51bddf3c774e5e469df22acf98f74d5584f76ccca"
+    },
+    {
+      "path": "dataset/fineweb/kab.jsonl",
+      "evaluated_jsonl_sha256": "fae44b932b3e836ace53f7cc3fbb4275682fdd2f1ea443057ed3ee7cb56c06a9",
+      "distributed_jsonl_sha256": "99b480a8b5d5a6d1d6c242b8fb856d0fefc8fb13fcf2a82a5fc37fb6f6d942d0",
+      "unchanged_input_sha256": "22498f5b6012e7d0bf4f485e9b86308bb65e6817782269e2f3f22c0ee4232184"
+    },
+    {
+      "path": "dataset/fineweb/kk.jsonl",
+      "evaluated_jsonl_sha256": "d7b0c09754d5fac1cc6046ca1930845ff8e927d828f4619a8e8f696b652e949c",
+      "distributed_jsonl_sha256": "e44e08d7317249e2c70c713beb91987926ebfe3eae52035d13e14229e29f3911",
+      "unchanged_input_sha256": "7da0c1ea3741ca3d6d41f0f6df1b3ae800a9572801b25dc6e4a9546a1d2b0373"
+    },
+    {
+      "path": "dataset/fineweb/km.jsonl",
+      "evaluated_jsonl_sha256": "a1ed2120bfaa875f8880fcf433f8fbf8dddb182af286fb520315055eee7ed9e1",
+      "distributed_jsonl_sha256": "f18924be619fc62a52a0e833a7918a1ca04f91c15c61a296c8786bd8e096378e",
+      "unchanged_input_sha256": "438e61fcb51779d331e8d3f32dda74180768b6eb9be2dd3c332ef66250f9d8f9"
+    },
+    {
+      "path": "dataset/fineweb/ku.jsonl",
+      "evaluated_jsonl_sha256": "46f02907f3032ffc266328e2e9740e69f37a1814e23551794309ecf6aa885305",
+      "distributed_jsonl_sha256": "14342139422e377b1e901a649ffc04fe713e6ff02540d3b2205286e407f95428",
+      "unchanged_input_sha256": "d81b330ea69d210542392ec179fcd9fc0b10532a582d2fbca49bcf6c880f0f2d"
+    },
+    {
+      "path": "dataset/fineweb/ky.jsonl",
+      "evaluated_jsonl_sha256": "8d7f4120858be04ab5160e52404748c7c627d19e84c704c6723a9dc1a825aeb8",
+      "distributed_jsonl_sha256": "f35e2c4d8206aacf77c55c04bf918bfc74bd814b840f6aacc255c7fd93643a4d",
+      "unchanged_input_sha256": "2bc34b1ea99cb6dbde1e2bf757809b24e7b5472a5536f0f8b16f97b96b5145fd"
+    },
+    {
+      "path": "dataset/fineweb/la.jsonl",
+      "evaluated_jsonl_sha256": "805c4723d9dd203bb33a6145cbd282db2f193b9576725787bb981be726601e55",
+      "distributed_jsonl_sha256": "fe2aed27997a4b8ceaacac84a53e33f756392b3aad3af5d59639933faf33ef96",
+      "unchanged_input_sha256": "e76e28b8bef56e968a0c9c0421cf6ec685b3d4ac419aef590fb33987d8976f2d"
+    },
+    {
+      "path": "dataset/fineweb/lg.jsonl",
+      "evaluated_jsonl_sha256": "71912a0328b1074bd2f21b1d0a335ed446f5739ec497a16995acbc3a7ce29e0e",
+      "distributed_jsonl_sha256": "1b4df84d046bc031e948b06e70dbd060d84dcaa944202b2211f75c43eca46270",
+      "unchanged_input_sha256": "6980ed88dca5aa4edb9c3c3fb81aac8f556c858cb52cd3928c1975aeefb5891e"
+    },
+    {
+      "path": "dataset/fineweb/lo.jsonl",
+      "evaluated_jsonl_sha256": "01ca6641a4a71f09de3470746b09740a23e0838b4137f6e6f16c19520f3e8b4b",
+      "distributed_jsonl_sha256": "a9974d0159f678cdaf91b24bd660268e933d6d7ba554c1c6150c92f211216427",
+      "unchanged_input_sha256": "5648731bf24a9deb1d4ee8791741910847805009f5c03fd22ecca3d00cf58715"
+    },
+    {
+      "path": "dataset/fineweb/lt.jsonl",
+      "evaluated_jsonl_sha256": "60b2bc26aeee74af623bdc6f079cc2b6276af4269f35ac8701aad19d526ca156",
+      "distributed_jsonl_sha256": "13922d5ed9626a17acf6e2370affa66dd0b4e1b771fff127612091e6dd7e8914",
+      "unchanged_input_sha256": "4f6e496988b26476d7c711961652d21ae1f062159a4a0b8a2698c611a289d5f4"
+    },
+    {
+      "path": "dataset/fineweb/lv.jsonl",
+      "evaluated_jsonl_sha256": "4ee6353ff4bd3d6ee824469fcabc29f2e3e5270d5cddf3a18ae76ccf1913b2e1",
+      "distributed_jsonl_sha256": "2e173f3657f3cef3bce139bf86bb9f55f17c5e5f4d819ccadd019bd113cd14da",
+      "unchanged_input_sha256": "39c2af7f9cdb6b611f17d4431eb0f7180bbd79f28efcd62e08633167c8d8d659"
+    },
+    {
+      "path": "dataset/fineweb/mai.jsonl",
+      "evaluated_jsonl_sha256": "42f433ff0add0375887db2e0166f802251ebeeb4a0d3654ba0f2414f4ff812d7",
+      "distributed_jsonl_sha256": "282a8626249da2f4fc2f52d0a0bae68c5e79cbae11885ab9d8ac1c5cdc8b6d83",
+      "unchanged_input_sha256": "2620995d8cc874a49ce62ed8b2b47ce1bb94387855966df9268677b233258cc4"
+    },
+    {
+      "path": "dataset/fineweb/mg.jsonl",
+      "evaluated_jsonl_sha256": "348251b6cf3098394530dee16d58b241e22d1bccb89585ff69a6b59399e3ea31",
+      "distributed_jsonl_sha256": "d9874f9227d83f10f690310123a9073f725ab9811aa13b79663e50230867163f",
+      "unchanged_input_sha256": "86d47ed5bd035509237c0b6fda2ef8dc88c7e6a951b3d5a52d343dc9d526d6c4"
+    },
+    {
+      "path": "dataset/fineweb/mi.jsonl",
+      "evaluated_jsonl_sha256": "055a3c76d895d51c97be3bf0e0e95849e712763764db0b4a2149c9ac3d571990",
+      "distributed_jsonl_sha256": "2e5d36aba83c8261d72b782db6b48d0ebc97b2a3d4d4db779a097543c4c7188d",
+      "unchanged_input_sha256": "34772a8a25f71aa3c82ed8fc131b38ba097ba067821a9dcda4fdb9fe7d3f9ea2"
+    },
+    {
+      "path": "dataset/fineweb/min.jsonl",
+      "evaluated_jsonl_sha256": "8953066853d7da00ad15fbf685a69571b1c65bd0be040ebc3e0df8bd6b0bbebb",
+      "distributed_jsonl_sha256": "d8deb2200436d8a2d9a8c4ef7767434b9ca625a6051764e11669bfd0087bc0ce",
+      "unchanged_input_sha256": "a7d962bb3dcc807ffca1b100721fd108cdd5dc9a9d1c37d74b6b6a05ec97e241"
+    },
+    {
+      "path": "dataset/fineweb/mk.jsonl",
+      "evaluated_jsonl_sha256": "5a9d3b22a8d3f12852f9dbb0ed745d6e1156110a2e8767d1c36310dd5c184d5f",
+      "distributed_jsonl_sha256": "97abd9744de9251038c478ad19e204c39becbd8c0640628b805c2248291bff9f",
+      "unchanged_input_sha256": "0bf179187f77af8af1979b4f203474c0ac0589acac8420a9633808c386062a27"
+    },
+    {
+      "path": "dataset/fineweb/ml.jsonl",
+      "evaluated_jsonl_sha256": "b29c3e5e740d312de2f42bf84316ec757150eec28a83f0a9c290d169f1e09c5e",
+      "distributed_jsonl_sha256": "ac2353ee393df267d3883119e41d42b4842df1ad8c2dd88157ad7e407466d3b5",
+      "unchanged_input_sha256": "a547b7c56804060a8776b6699c0fe390f47d620d5b95b6a93077dc9700009c95"
+    },
+    {
+      "path": "dataset/fineweb/mn.jsonl",
+      "evaluated_jsonl_sha256": "0d34925782696192f6b90cea06410797c51d2f5f9e43006d5ac0fd3b1d1d874c",
+      "distributed_jsonl_sha256": "f92ca39ece18e16377ca271dcd780282aee14a88734b7927db90b48bbcb9a60a",
+      "unchanged_input_sha256": "32ffa2fe1050dce4790bd0c026641244ec886c7c53e00c42d30153f2707fa65f"
+    },
+    {
+      "path": "dataset/fineweb/mr.jsonl",
+      "evaluated_jsonl_sha256": "445fc4e3a58db1d5d39f66b927f02e79be4809eb102f92876e494f34cbb0ac71",
+      "distributed_jsonl_sha256": "757c9c32495d528d34705a20ba75a14c89ddc416b2ca0c0a535bac85cef3394e",
+      "unchanged_input_sha256": "e038af4a39be34f2f9697dde24a6cd39778b023d165dd813c94bd5ea94678b2f"
+    },
+    {
+      "path": "dataset/fineweb/ms.jsonl",
+      "evaluated_jsonl_sha256": "1c7511305994ef5a03ac9de773fc79529be270f0d772e31de0d3c77f5cdf0208",
+      "distributed_jsonl_sha256": "fff141643d05f07799f9585cdfe5408368841bb0cb25f3054db911b30eeb3444",
+      "unchanged_input_sha256": "eff632f5759395bac23f365d9e46a02d981e9d9edc5e66f6d9643be37fb94548"
+    },
+    {
+      "path": "dataset/fineweb/mt.jsonl",
+      "evaluated_jsonl_sha256": "99f87544b7befbed60e614cdef0c081d465d63ffed45bf4cdc58a4b60554e8eb",
+      "distributed_jsonl_sha256": "d61c444da2326c8650d21c8d53be87ae0024674831a115e2158d27bf12332aff",
+      "unchanged_input_sha256": "0e83bda7318d6976c523fa3275c68879fd15c756902fff0f926fd537d673011c"
+    },
+    {
+      "path": "dataset/fineweb/my.jsonl",
+      "evaluated_jsonl_sha256": "0e52ee1cc2508e87baadb58b5290ce5251db0a8dbb46cdc7de1bb8721d90d879",
+      "distributed_jsonl_sha256": "9644f0282eeb367d4bb2c547eeed7e40d84fa34024cf997b0e48ba037d8a547f",
+      "unchanged_input_sha256": "df98a56baa9243f9463e2812b339ec2784192104f2282dc22fb5f544dfe42e86"
+    },
+    {
+      "path": "dataset/fineweb/nan.jsonl",
+      "evaluated_jsonl_sha256": "afd82ec0add8eb35e19fea8e754362cdb27c465a5b24dff55ed36cff5581f467",
+      "distributed_jsonl_sha256": "63826f83644b216e4a3b98336f1e6fabc6983d2872942149ff4eee62c6bf83b5",
+      "unchanged_input_sha256": "faea242df2c05459eb4889a81a29a9cfe2e9980eaf5a6f82f4520deb93123d89"
+    },
+    {
+      "path": "dataset/fineweb/nb.jsonl",
+      "evaluated_jsonl_sha256": "565a0d56257f4aaeafe785bcb1f0ddad1431cbf5a31b36f6b4cc1ff53bbfac5a",
+      "distributed_jsonl_sha256": "22218769edd13941a970bf3f773fb3d020a3c750d1a867c799fd7d26b7c778b0",
+      "unchanged_input_sha256": "a47fcca734ddc0057e1ffee251b71c77cfb1a04e664ec7a2f9941d1c1d319bd7"
+    },
+    {
+      "path": "dataset/fineweb/ne.jsonl",
+      "evaluated_jsonl_sha256": "0f78f765b975659f2eff74b65a3c2c0d21cc32b65585ff309d831402710b8fff",
+      "distributed_jsonl_sha256": "8ef03817ae972cfefbeeb09cd047a8d59831feef8cb1b0a9b51af260580309b6",
+      "unchanged_input_sha256": "39ff9e4cccdcb88729a00ef293e27a616336d3e8467fe863504931949edfc5b2"
+    },
+    {
+      "path": "dataset/fineweb/ny.jsonl",
+      "evaluated_jsonl_sha256": "2bd09b67b58ce5b05884f2aa102f5e6e876920f6f7fdb1c28d43ae077d88e671",
+      "distributed_jsonl_sha256": "49d36e8247b1f4cb54d90fda94fbdf521b4b19c4fcceb8a43fd86228c93538e6",
+      "unchanged_input_sha256": "2d4ceb763ea338c8032fb1553a95100b137cbecb160613a9e9f08959b0280d20"
+    },
+    {
+      "path": "dataset/fineweb/oc.jsonl",
+      "evaluated_jsonl_sha256": "59ce5cad56fe70686316f27c42ec95c7fb31b5847c479ea16af5a45e314e1029",
+      "distributed_jsonl_sha256": "a039dabda074f54f060f91662c2f1cc5be57996ff1831e1810d2892459f20dbf",
+      "unchanged_input_sha256": "f0cd4ba86b82b3e672153265ffda2d0e5621c45e58ea3e8432703b7afc30c2bd"
+    },
+    {
+      "path": "dataset/fineweb/om.jsonl",
+      "evaluated_jsonl_sha256": "9185b677e628a1ba8f64b88af6e55e5a8ce08cc3b9cc5eccf80a7442ba0b6ec6",
+      "distributed_jsonl_sha256": "7065ca74902d533054e53ccea26fabec1feb1163c4ce9b83f08ae0927ff2a2e2",
+      "unchanged_input_sha256": "47cf3c91fccb8ac3a20fb387dd02daf439ec4d01185662b881755fefb24ffa4e"
+    },
+    {
+      "path": "dataset/fineweb/or.jsonl",
+      "evaluated_jsonl_sha256": "34a467b2e4058e236adfc182d637d294be4b0c9fb9b1c4a69f1686aaafaca406",
+      "distributed_jsonl_sha256": "37dcff4db9b6be94c9f558f04c9821f5f8b874dab10b82f538a97e5649fe6fb1",
+      "unchanged_input_sha256": "e19eca76970d0184e6cc0a5753d3b784e3db84e9a1ac82f1aab7eebc27290940"
+    },
+    {
+      "path": "dataset/fineweb/os.jsonl",
+      "evaluated_jsonl_sha256": "6a330ba26d62a87ea3824843c321a14c025e08e908af728c7b1e84b7495373fe",
+      "distributed_jsonl_sha256": "6ad6be08cad08f56aa475e460536bc35d37353726c48d2d5786aed70f1f581b0",
+      "unchanged_input_sha256": "6a0f929d567b418199e489cfb6ab44599149d6ac85de99a45a97add0ead620e4"
+    },
+    {
+      "path": "dataset/fineweb/pa.jsonl",
+      "evaluated_jsonl_sha256": "b7cdb279eafbe6d6a5d96740a7ea3da2a7fdf85641cd3f5115c8a7ca1da86542",
+      "distributed_jsonl_sha256": "23aebfe7b63537b6df1f528f3c8666166d1a132a3e6293e30077caf25e4374f9",
+      "unchanged_input_sha256": "abe10aaaac4832d25ac25926143ffe32241706ef3e75f36e50c72d8eec7da161"
+    },
+    {
+      "path": "dataset/fineweb/pam.jsonl",
+      "evaluated_jsonl_sha256": "c5ed2cc407c60ed16b2cc93d481ff1027d4583e11be5486f3f8206a700704953",
+      "distributed_jsonl_sha256": "eae08600553165f0d07344283d236bf62d440877fda334f342926b1f8c5a9659",
+      "unchanged_input_sha256": "c927698684c591df00b7647e9883f75a03a896e56172a2916d994f2595518bb7"
+    },
+    {
+      "path": "dataset/fineweb/pap.jsonl",
+      "evaluated_jsonl_sha256": "d53fa55a17d343538b10513f2473699ca2747f18d8210b113b150ffcb674f6e8",
+      "distributed_jsonl_sha256": "88027c65d399bc11d1889379795976c2c3574f94b40a123f9b6ee6c361fa2bb8",
+      "unchanged_input_sha256": "343f64cf262ff471e15db537f94725917a8d70a0b575e455249a57ebfff0ae81"
+    },
+    {
+      "path": "dataset/fineweb/ps.jsonl",
+      "evaluated_jsonl_sha256": "82c23871de04c5c483f7c92040efc7f39f84a49f4990d8e7c7b425fc03babab8",
+      "distributed_jsonl_sha256": "4458a67378a9a7a945d901da03f64cc9613db6f008a2e0be926c692de7e52523",
+      "unchanged_input_sha256": "f03fafcc2db480d3f4c26229b908b84507c66caab634fdea1a753b72f9b2400f"
+    },
+    {
+      "path": "dataset/fineweb/pt.jsonl",
+      "evaluated_jsonl_sha256": "e03109011cfdc1b6f1d76252ea087961cb6df322d258873dc6829afffac873da",
+      "distributed_jsonl_sha256": "1928b6e6e7dab0890b60f19a5e9afbd585ccacdcc71f36dda53765edca2382ff",
+      "unchanged_input_sha256": "5557c7ef0e32b8bbc607b33a56190fa73c85a8292fed55f2e00f4f0c698e5a86"
+    },
+    {
+      "path": "dataset/fineweb/qu.jsonl",
+      "evaluated_jsonl_sha256": "45e2b2823895784f092cbb62407dc7729a764e61c48d9b3a57de17b7ae7f4543",
+      "distributed_jsonl_sha256": "a8e7436e744725e81874a8038dd26cec0f4ba59a4db6b1a4b724cad379f96a71",
+      "unchanged_input_sha256": "897e26110cde77ddffa8ca66704e87c707e2671ae38f1576742855d9cceaebeb"
+    },
+    {
+      "path": "dataset/fineweb/ro.jsonl",
+      "evaluated_jsonl_sha256": "09f5822fc7ed57061f0c4eef9e76d3fd0d06e9a6e0c246768b00910c8fca5d7c",
+      "distributed_jsonl_sha256": "5f49e09025e407a862efd50e3baa9e077f19f257903139b792492489b4d6ee15",
+      "unchanged_input_sha256": "5236d3ee2cf90b1e44a67edeb7ccdb52f64bd0de25fcfeedaac1e5d0b5bcd6b1"
+    },
+    {
+      "path": "dataset/fineweb/rw.jsonl",
+      "evaluated_jsonl_sha256": "721a09514b4068020b630dc520a1d9b858b546d7cab887d8fd83faf50301c5ff",
+      "distributed_jsonl_sha256": "5dc6115c9a640e66bfa5118ecdd566d14f6902c857fb687b1a9303e66e0b06eb",
+      "unchanged_input_sha256": "6b3a9b40e5934b4c3ee7c60c3290ed57e9547bcd5956f81f34c5d99983944105"
+    },
+    {
+      "path": "dataset/fineweb/sa.jsonl",
+      "evaluated_jsonl_sha256": "89e473071e49bc7e2942fcd90586d22fb0346637fc77ce73d667683ac9edd9ff",
+      "distributed_jsonl_sha256": "779689ba215e4eb67747f7aaeaaad5e99ee59730c42f39163828ab9e808ef3c8",
+      "unchanged_input_sha256": "6f414bf176f3d565259a1947919c36129b9a18eb2581f3ee5b007988c327d6df"
+    },
+    {
+      "path": "dataset/fineweb/sat.jsonl",
+      "evaluated_jsonl_sha256": "0d09096558f209ad93764af53dd9e6efd12032f8dd4c5e8edf7a8498a8740746",
+      "distributed_jsonl_sha256": "7357bbd1db72ac41640c41849213cc99c3b3fdef3e74d121be32ddae230f0f1c",
+      "unchanged_input_sha256": "63793f8eb666348550ea199724408e8bcb99657b7658cdf4704d567ebabfe77a"
+    },
+    {
+      "path": "dataset/fineweb/sd.jsonl",
+      "evaluated_jsonl_sha256": "ef7315331be6d329da0593b9c9978cea7eb6dc3f0c5fc0104921c3fae0f2b07c",
+      "distributed_jsonl_sha256": "1092ffa638587aee189e13c0cb34a99398c06bc14bcaaa57cfed2b2dde31a7d6",
+      "unchanged_input_sha256": "cb5b3c45ffc43337095451fd22d9705f22e123d7b48dc3ab80d754b7f203205f"
+    },
+    {
+      "path": "dataset/fineweb/se.jsonl",
+      "evaluated_jsonl_sha256": "18a51724a0210755e1a245e8fc9545046b90f7486f0b6e035a921e3752c844f7",
+      "distributed_jsonl_sha256": "150a0f49f0946d51929fee99ac6cb234a77a47d4364f9290d1bfa35d310d605a",
+      "unchanged_input_sha256": "0ea57200bce64c22aa94581844a71431629626cebf741eef45375ad184cf0fca"
+    },
+    {
+      "path": "dataset/fineweb/si.jsonl",
+      "evaluated_jsonl_sha256": "a599f90729e2e57ab329d194c589b04a5f19d5f9fba4eb7c706a41cf2a43d490",
+      "distributed_jsonl_sha256": "8b76bf4cba42a12d607be68dd78b545dc88aa68c7346c7076c04aef698ff8887",
+      "unchanged_input_sha256": "6c3d095b8e14868b3c2345ce8d94ba63aedcebf6e9a823310117eeef5097e3cc"
+    },
+    {
+      "path": "dataset/fineweb/sk.jsonl",
+      "evaluated_jsonl_sha256": "e589ff07f5e396a24bd202a50f18ed7f27a67e4457d99a80438b9aee636b0938",
+      "distributed_jsonl_sha256": "027e817d0b73a79e623eaa95f07d4cc4f36516c9b76e5698c8db8c7b85a9e731",
+      "unchanged_input_sha256": "360e0e93907385d94485dc6cd612902caba71f1af0c2c7c1e358bb71da350c46"
+    },
+    {
+      "path": "dataset/fineweb/sl.jsonl",
+      "evaluated_jsonl_sha256": "9c85e67fa2ee363ce429efa69d8bf66ffb3e4ffed0eb67b44a34fc16a4e0b3a5",
+      "distributed_jsonl_sha256": "4ce590566cf26f4e6980ebd4deb9d6b0d5b3513eee45808de29fbad7ec6696dc",
+      "unchanged_input_sha256": "098ff5a16c48162d936b04cd31a7c0ab791877205c9eb24b272d02264faf2994"
+    },
+    {
+      "path": "dataset/fineweb/sm.jsonl",
+      "evaluated_jsonl_sha256": "367c099ef500726566b5c5ce6ad3523a357553a8e0488e0f0e845f49cf98c68a",
+      "distributed_jsonl_sha256": "3ecb919feefe4680cf2633ece787e03c1240cd867897d000e61125afc19f272e",
+      "unchanged_input_sha256": "78c6937c6e614026d7d02ce83052347ee0a00cc94bac9ab97ad5f503f8a1f393"
+    },
+    {
+      "path": "dataset/fineweb/sn.jsonl",
+      "evaluated_jsonl_sha256": "afde63b566c8e98545c49f892cdc1a31ed1ea906d84ac11477df1928d9f03d62",
+      "distributed_jsonl_sha256": "ae14e08045b68f437cb9ba2362f3fa2c8402d85d3768dac0951e0fec9a53fd85",
+      "unchanged_input_sha256": "7460eeef8753fd10291888511337f07fd01deb049700b783613111f78e92d013"
+    },
+    {
+      "path": "dataset/fineweb/so.jsonl",
+      "evaluated_jsonl_sha256": "7e7c65e68cfc68c6eb1f5a16d90c9c9f0fd4b5208cddd81c8fd3a3575a22cceb",
+      "distributed_jsonl_sha256": "dd586e194a4734b1ac41780cbe2af0887c53290a42c751648c14030bbead345f",
+      "unchanged_input_sha256": "6ed2e9d94b529fc7e5d4794fb28f6c33c478dec75c1f84a6ebfa569c3f86b2d5"
+    },
+    {
+      "path": "dataset/fineweb/sq.jsonl",
+      "evaluated_jsonl_sha256": "69545230b2c88a1ebb4633e79b13b7215150750c33e924fea1e2d20d9b784bcd",
+      "distributed_jsonl_sha256": "5ea5baaf3871ca695bcc26fdc2cbdd8b7f73e7967bdd01e59b00ec78210c895e",
+      "unchanged_input_sha256": "c2b49a87c73ce5f06a2719f09a2548cc243634d05ebe4337cf69c6b4efa2820b"
+    },
+    {
+      "path": "dataset/fineweb/sr.jsonl",
+      "evaluated_jsonl_sha256": "6a67f7e53b3cbe035558b253785f80acd6c420fca71bb5e3cc013d1403137f17",
+      "distributed_jsonl_sha256": "9769c9c89b3a9c25fa15b8dcd4a4efca179cbb4a3e12e413d23921f277759434",
+      "unchanged_input_sha256": "faf632d4e1430b3871d23fbb7fc472fd5668b85068f55bed2d069f7035b48ecc"
+    },
+    {
+      "path": "dataset/fineweb/st.jsonl",
+      "evaluated_jsonl_sha256": "1eded8c0b588c2af4d417cfe98bde3e4733c24e75eb0e96a12f9f98de64e2bf0",
+      "distributed_jsonl_sha256": "244a0f9ffe4e6fb018c72fe8a241f18c9903be95332dea81a154a6be61327e0e",
+      "unchanged_input_sha256": "b03ca5434067792a358bfe67e65c706ecfed37423327f2e9d861add141fd91b6"
+    },
+    {
+      "path": "dataset/fineweb/su.jsonl",
+      "evaluated_jsonl_sha256": "1d07ce73732ac1fa3d7ab3b5e0d2767807c08215882784e8271d6d37fcdbe02d",
+      "distributed_jsonl_sha256": "69229f14bfdf6de56ce35e69a879dbc6b122a5eab5884378b3ac5ad15eed4a9c",
+      "unchanged_input_sha256": "398ebd7990043a0b49d092c88ce000c79c6b8ccbdb8bce8cfebfd6d41fa72893"
+    },
+    {
+      "path": "dataset/fineweb/sv.jsonl",
+      "evaluated_jsonl_sha256": "773b9d5e96edf6614a82e2e7d8a2f98096b2ae72959a46897857ad568b1de8fa",
+      "distributed_jsonl_sha256": "22f8a8df1721568870aa9a3c312cc7f21f054b57aa29a1e8a1436d52b2c13380",
+      "unchanged_input_sha256": "88d90a79646e5a861bf1c9b24847c87e76031cb138eeda96778fb18f94d6c272"
+    },
+    {
+      "path": "dataset/fineweb/sw.jsonl",
+      "evaluated_jsonl_sha256": "06e0dd24967356c8e52ad40ca0c95166bb21d80efedcb4183458cb246a430fea",
+      "distributed_jsonl_sha256": "ad65cb328e6606c2afe72e60b92e7d6f6f1b7e7fa652ec93ebbeb6e8ca7d34fb",
+      "unchanged_input_sha256": "81d7134af9226166043d8998232f544333f26a6bcc0a4a1454ee2ba0ba26ada2"
+    },
+    {
+      "path": "dataset/fineweb/ta.jsonl",
+      "evaluated_jsonl_sha256": "e317b362fc5917936ef4aaebae765319ed64fc5a1c6536a0e5bfc8d448e0789b",
+      "distributed_jsonl_sha256": "b87c23f690569e89c00e89adb6fa67dd35be4c0235264897772a91d21db48e25",
+      "unchanged_input_sha256": "789bd15cd21d329c6eb0534e99ca17604120c32c308712c006391a5da6106d99"
+    },
+    {
+      "path": "dataset/fineweb/te.jsonl",
+      "evaluated_jsonl_sha256": "44c1479000d32a2185f615cedac12e97a2fe27086d38bd158311d67010327b73",
+      "distributed_jsonl_sha256": "0147e13d4e30d25d184036c11372ff4c902b63f2627c8b6704066ae3a8b5fba6",
+      "unchanged_input_sha256": "8692e0dda0437b88eea8cbd5af97f4c163a6dbf263c1f89275bf75fa2d09c2b1"
+    },
+    {
+      "path": "dataset/fineweb/tg.jsonl",
+      "evaluated_jsonl_sha256": "eba58eb9906272d7dbd8a118cf05abd5b7c5d51c5c1edd142eebb79da563773b",
+      "distributed_jsonl_sha256": "b7d3429b8fcda7928fd37b1384a8941355bad046c6a6d6e18f2472fc8070093b",
+      "unchanged_input_sha256": "afad6ed763975821cfdf904ced2564736c97295e46a22d56d07c893238d999c3"
+    },
+    {
+      "path": "dataset/fineweb/ti.jsonl",
+      "evaluated_jsonl_sha256": "d1d3c888254fe7eb825f471ed9c74f7c037e171866d79b0e1064740fcecf6ea3",
+      "distributed_jsonl_sha256": "73ce06e0c0211faa1f23fda84a7d6a3049570c3e208f9fc373f4c8c0b1899013",
+      "unchanged_input_sha256": "7f64180f13050aa710d98b6bcd4dc6e8294003f17488348a750e1bf60fd7c6ec"
+    },
+    {
+      "path": "dataset/fineweb/tk.jsonl",
+      "evaluated_jsonl_sha256": "b5eff50bd66f53a19359aa8037fa20285133194d92d783d8371898b294831caa",
+      "distributed_jsonl_sha256": "8242afa63b090ae1dc1d57f26b669c5ca471a65b217f2dbd0fbed2678c892346",
+      "unchanged_input_sha256": "5d5f6acb63b272aa0ebc9b85ebd73404e06ded27456a8b61aea56b4f35d66c83"
+    },
+    {
+      "path": "dataset/fineweb/tl.jsonl",
+      "evaluated_jsonl_sha256": "9f3d7e8d0eb9b7e6c6aeaa2d15bfa9d020605a329eb2e40857954184847c8c4f",
+      "distributed_jsonl_sha256": "fa70ee1ae838eeb570b8c76cc174b2593d59ac9e863c6f91f62edef1fb29edee",
+      "unchanged_input_sha256": "93febec06327de40c43a6e8d9e82469cd6a505718d218438d861a4228bbdab5a"
+    },
+    {
+      "path": "dataset/fineweb/to.jsonl",
+      "evaluated_jsonl_sha256": "f9738f47f272bd5261a0b1e29eb267a74722dd8aebd18e0e7a8132b586a5bc03",
+      "distributed_jsonl_sha256": "7460ea53c00b5f905fe23a61075195d649d45636c7dea2047387a60ecad9e675",
+      "unchanged_input_sha256": "e567b6553a2563719071d497ba0aa791e4acc3969f285e7eedeb11d50a9bf843"
+    },
+    {
+      "path": "dataset/fineweb/tpi.jsonl",
+      "evaluated_jsonl_sha256": "d9fe1880bae0d93c07fa054078682486070d9c03a96ba2cad6fe02a640d9d920",
+      "distributed_jsonl_sha256": "5fac1b97154577692408267445d21628f9a163a1210568521808f0fe54b3ef26",
+      "unchanged_input_sha256": "dda0b2a9d9c6e16ea206c813111ca322c7e3a575a38908cb618a207a0abede8b"
+    },
+    {
+      "path": "dataset/fineweb/tr.jsonl",
+      "evaluated_jsonl_sha256": "f0730b8f01a7a0ed8845bcd94a26c614e48d41c610d992dabc9b41ba729952aa",
+      "distributed_jsonl_sha256": "6c7c2c383e3006a8f613c5901719aa824e812159ec8eb730b9aa349be113e0e3",
+      "unchanged_input_sha256": "cd82a0f7db909a71d4103bad354faa94d24cba184b44b761c0eb3fb2759bea96"
+    },
+    {
+      "path": "dataset/fineweb/tt.jsonl",
+      "evaluated_jsonl_sha256": "e4ae938eb1fe359b9a6890ee63442599a52195f357706a88a825cb4a7caaa5fd",
+      "distributed_jsonl_sha256": "086ca1da263ad0bc17a2ed61b0775a2717b22cb6baf726017ef2fddc3fb63439",
+      "unchanged_input_sha256": "5a270adc69fbdf401ff681a76b2e3da868c04ff6645b5d023c8382b3e03e7abb"
+    },
+    {
+      "path": "dataset/fineweb/ty.jsonl",
+      "evaluated_jsonl_sha256": "18bc14ae89414fa4616e915c9412ace328422e65abd29b33068d47afc2d003f6",
+      "distributed_jsonl_sha256": "1ff9fcb868b25a13f615b07622eda28d3926280f1dc60e339694403927122b56",
+      "unchanged_input_sha256": "c50f51c8a963f967a8eed6279d7de31bd5c50aba0e6d06148a4a3b01a0d75df9"
+    },
+    {
+      "path": "dataset/fineweb/ug.jsonl",
+      "evaluated_jsonl_sha256": "00da1f3688946b6d4380fb13ad35999fe8d796bf76d472b27e715b1fb53109c4",
+      "distributed_jsonl_sha256": "abab3a3bb591ad900d20f9b748d06d2e1ab9d89cc7d73abf2579fd1ae58de66d",
+      "unchanged_input_sha256": "3a678c5da8e90357850614df1a6a3cadce18d4840b88584f0f0adf6a72d8e1ee"
+    },
+    {
+      "path": "dataset/fineweb/uk.jsonl",
+      "evaluated_jsonl_sha256": "7862170e7d5c6a929d63ff396b8730c81d0947002cebd82316eb507a3c2cbd76",
+      "distributed_jsonl_sha256": "0690a2425d3d1e433571398c55a9c67ddf4e2208411c070da602db6c53c42315",
+      "unchanged_input_sha256": "65a527f3a2a0c4bb05452b76bfd1125814b13630a21ded7a35465263d4c99549"
+    },
+    {
+      "path": "dataset/fineweb/ur.jsonl",
+      "evaluated_jsonl_sha256": "94a5fbb5dd289b456894e3e71f5967b2a48697eb664ccb64e5e62ca800e705e0",
+      "distributed_jsonl_sha256": "948ed8552a59e32d5f4b90db96da595a03d105d521a3b3c18f2566cfe7c676f8",
+      "unchanged_input_sha256": "57a88a827d20eeb212d5dad735ec5b09a54bcfe2284a4f38906235a17db75817"
+    },
+    {
+      "path": "dataset/fineweb/uz.jsonl",
+      "evaluated_jsonl_sha256": "7ec0f645a1750e7498c4b01aa7cd401edded2ef9ae4a99ea453e2723cabbbf42",
+      "distributed_jsonl_sha256": "f78567f8e92050b955f9a6962b3591a3349e22b6687d340a64090740ac9072a0",
+      "unchanged_input_sha256": "1877c39b1bedfb534147a146cf1d19254f7ba3d4a7e7de2aa2122983b88b3add"
+    },
+    {
+      "path": "dataset/fineweb/war.jsonl",
+      "evaluated_jsonl_sha256": "eaa891d68cb6fe538bcfbe6b5198d2199bebc8779c5a6aaa2c61f287ad3799fa",
+      "distributed_jsonl_sha256": "efb2f21a3c3a525c8e15b7738235fc71bbddc6ed8284edd5722c4e04131787f1",
+      "unchanged_input_sha256": "57b15f096cb18320d0313ed42a066c1b1672af7abf09d3ab65af8e86acb4751e"
+    },
+    {
+      "path": "dataset/fineweb/wo.jsonl",
+      "evaluated_jsonl_sha256": "606ec1840e7cac7d79d391c8354a94d4cc31667c6e710a230a7ce35309c60617",
+      "distributed_jsonl_sha256": "c586ea60a63ae5ae4b3bfb83f0e9c57553c403a13ccb6b0392c3517c63b1716f",
+      "unchanged_input_sha256": "858bd6fbc3996b87fa029b82709674ed8d73ef536832e250a904eaf0c3d4deb4"
+    },
+    {
+      "path": "dataset/fineweb/wuu.jsonl",
+      "evaluated_jsonl_sha256": "87ca8e785604e4a50bd928573e32b97b3a022f0ab3ae065117e9de1297000f41",
+      "distributed_jsonl_sha256": "381524d65281e42fbf5b0546d9165ef55d7c468a10f0a353edd0eca6595f9da1",
+      "unchanged_input_sha256": "06bfa07399fa3a37d16ddd1f92bb2bbc16a94e922ec507a9a76c7d387f339980"
+    },
+    {
+      "path": "dataset/fineweb/xh.jsonl",
+      "evaluated_jsonl_sha256": "03bf40cecd8b4821fabc4ab8933e017f8b3699f58506f42be29ffb32a9ad6190",
+      "distributed_jsonl_sha256": "53ac30711b58a434a6d6f4b5eb9feed22ce9db50d260f83fc5fe56a49a0f453b",
+      "unchanged_input_sha256": "7299508bc57f01034897b40ea643419694b103444c9af98b61c472537f7c8adc"
+    },
+    {
+      "path": "dataset/fineweb/yo.jsonl",
+      "evaluated_jsonl_sha256": "39df91d5a76d4357bc453d0bef2d266c4ba5d0c05143373b777592657175ed4d",
+      "distributed_jsonl_sha256": "065f9db2d9efb8ef35e525b80bc62b63cb216945ccc498a233c06fb2bb8ef7fb",
+      "unchanged_input_sha256": "d86326b8dff35a7b07018a3a5919c2eda41c7374149e1c88a5c01e9d8b1b72db"
+    },
+    {
+      "path": "dataset/fineweb/yue.jsonl",
+      "evaluated_jsonl_sha256": "31b09398dc7a71fed743e532ecdce47bc2af0aef57292803bcc4434db7c86b15",
+      "distributed_jsonl_sha256": "3b80f0ec4c175c7436404133f330ff06e331084cf0cf6527d69e266f10026cdf",
+      "unchanged_input_sha256": "c19044782cd53ccf14c05ebe47cc7f8ced6e4bc2f15518deefa8b5e55e389000"
+    },
+    {
+      "path": "dataset/fineweb/zgh.jsonl",
+      "evaluated_jsonl_sha256": "32d75e49ccc8af434b4bcbbb6ef3a2130a2eccbac8ebf8daf34bc3bd9ee3c3b1",
+      "distributed_jsonl_sha256": "b35c00b449afcdb0e371c5f9785aaff302dd791e703de9af7fb416be3a7cf559",
+      "unchanged_input_sha256": "e8572e02a1065ee11166e16830458c4b12c34536846bac074aa75060ccc908d2"
+    },
+    {
+      "path": "dataset/fineweb/zu.jsonl",
+      "evaluated_jsonl_sha256": "508e6c76c8bd197ce015bdabfdad4b4c8f7ebd208e5d43f07ee2e50a2d06264a",
+      "distributed_jsonl_sha256": "265b8dbb3dff8d8d66f0edf485dc407f984f0164cc2bdc09ae04551727b5890c",
+      "unchanged_input_sha256": "5a4c4781d321d4e224a83abd4e6130d5722c632472b8fc167e3f8eb63f534696"
+    }
+  ]
+}

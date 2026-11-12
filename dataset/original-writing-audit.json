@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "collections": [
+    {
+      "file": "fineweb/en.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 48565,
+      "source": "original",
+      "writing_method": "50 independently authored pieces; no common text slots or name-substitution generation.",
+      "reference_review": "Inspected the leading approximately 400 characters of each of 50 bounded FineWeb English references for broad style, format and topic; source passages were not translated or paraphrased.",
+      "reference_dataset": "HuggingFaceFW/fineweb",
+      "reference_config": "sample-10BT",
+      "reference_revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+      "topics_and_forms": [
+        "community discussion",
+        "event notice",
+        "education reflection",
+        "programme summary",
+        "personal diary",
+        "ethical reflection",
+        "design explanation",
+        "short fiction",
+        "lexical essay",
+        "fictional reporting",
+        "reviews",
+        "activity log",
+        "service notice",
+        "recipe",
+        "hobby notebook",
+        "class newsletter",
+        "travel narrative",
+        "original fable",
+        "resource review",
+        "FAQ",
+        "concert programme",
+        "business discussion"
+      ],
+      "minimum_document_bytes": 877,
+      "maximum_document_bytes": 1079,
+      "sha256_jsonl": "48bea8c3c0e54463251c25c70fa7bd21a667c48f71920d4cb7cf1bce8ee6e5c8",
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/ja.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 48699,
+      "source": "original",
+      "writing_method": "50 independently authored Japanese pieces with distinct content; not translations of the English collection and no shared paragraph slots.",
+      "reference_review": "Inspected leading 170 characters of each of 50 Japanese reference candidates for broad style, format and themes. English-only spam, explicit listings and damaged extraction were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "jpn_Jpan",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "topics_and_forms": [
+        "recruitment notice",
+        "game review",
+        "service FAQ",
+        "material diary",
+        "meeting agenda",
+        "design critique",
+        "travel-book sharing",
+        "repair guidance",
+        "exhibition diary",
+        "walking narrative",
+        "snow observation",
+        "original fiction blurb",
+        "new short poem",
+        "publishing essay",
+        "imaginary episode review",
+        "invented musician profile",
+        "food diary",
+        "material comparison",
+        "web-design note",
+        "forum question",
+        "distribution-work introduction",
+        "stationery list",
+        "recipe narrative",
+        "editing memo",
+        "gift-exchange dialogue",
+        "handover diary",
+        "interface feedback",
+        "sensory-writing workshop",
+        "recordkeeping explanation",
+        "clothing diary",
+        "local-history exercise",
+        "cafe vignette",
+        "game description",
+        "measurement-chart critique",
+        "newsletter roundup",
+        "reader letter",
+        "shared-workspace reflection",
+        "photography-service notice",
+        "invented civic report",
+        "birdwatching diary"
+      ],
+      "minimum_document_bytes": 884,
+      "maximum_document_bytes": 1044,
+      "sha256_jsonl": "38548dacfbb8e14a921cdc123d22c6207cafacf21ceb4398bae0dc64dfdc5caf",
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/zh-hans.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 45592,
+      "source": "original",
+      "writing_method": "50 independently composed Simplified Chinese documents; not conversions or translations of other language collections.",
+      "reference_review": "Inspected leading 120 characters of all 50 Mandarin references for broad topics, formats and styles. Traditional-script references and corrupted SEO collages were not copied or converted.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "cmn_Hani",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 752,
+      "maximum_document_bytes": 979,
+      "sha256_jsonl": "812c84d5bbcad52d153de85b80e1598e8fe159646ea02838036ee4b3c42ef286",
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/zh-hant.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 45192,
+      "source": "original",
+      "writing_method": "50 directly composed Traditional Chinese documents with independent content; no automatic conversion of the Simplified Chinese collection.",
+      "reference_review": "Inspected leading 110 characters of each of 50 mixed-script cmn_Hani reference candidates for broad topics and formats; corrupted, unsafe or irrelevant passages were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "cmn_Hani",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 829,
+      "maximum_document_bytes": 1012,
+      "sha256_jsonl": "feac5963978a55fefb0511df0decdb3d9e47870e32dd92765fbacb6f30951e42",
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/ko.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 50311,
+      "source": "original",
+      "writing_method": "50 independently authored Korean documents with separate themes and coherent prose; no paragraph-slot generator or translation of the other collections.",
+      "reference_review": "Inspected short leading portions of 50 Korean references for broad topics and forms, including the leading 90 characters of references 31–50. Corrupted SEO and unsafe passages were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "kor_Hang",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 846,
+      "maximum_document_bytes": 1144,
+      "sha256_jsonl": "78e5cec857879d7e467cef426a950e3334391b727b7806d3ea3538ab90d8eff0",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/ar.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 56794,
+      "source": "original",
+      "writing_method": "50 independently authored coherent Modern Standard Arabic pieces with distinct scenarios, original short fiction, notices, diary entries and explanations. No paragraph-slot generator, translation or named-entity substitution.",
+      "reference_review": "Inspected the leading 100 characters of each of 50 Arabic references for broad forms and themes. Foreign-language material, broken SEO, harmful claims and unsafe product advice were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "arb_Arab",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 1025,
+      "maximum_document_bytes": 1268,
+      "sha256_jsonl": "480a5424787eff43b31013a57daf9879a86f6d40365bf6c30e906c5cc07c335c",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/de.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 47271,
+      "source": "original",
+      "writing_method": "50 independently authored German pieces with distinct situations, notices, reviews, short fiction and explanations; no paragraph-slot generator or translations of other collections.",
+      "reference_review": "Inspected leading 100 characters of 50 German references for broad forms and themes. Damaged SEO and explicit spam were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "deu_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 859,
+      "maximum_document_bytes": 1037,
+      "sha256_jsonl": "ac83cf0803d0e938962204ade061db1976672ac03c2267292469d3b3065d40ad",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/es.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 45680,
+      "source": "original",
+      "writing_method": "50 independently authored Spanish pieces with distinct scenes, fiction, notices, explanatory notes and reviews. No text-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 90 characters of each of 50 Spanish references for broad topics and forms; unsafe claims, explicit spam and damaged extraction were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "spa_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 823,
+      "maximum_document_bytes": 994,
+      "sha256_jsonl": "12314f883c422de9021e7d9586b03a8aba0dba561b4c5237f2aa4c3861b7009d",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/fr.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 48349,
+      "source": "original",
+      "writing_method": "50 independently authored French pieces with distinct scenes, fiction, notices, reviews and explanatory notes. No paragraph-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 90 characters of each of 50 French references for broad forms and themes; damaged SEO, explicit spam, and unsafe health or financial advice were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "fra_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 857,
+      "maximum_document_bytes": 1070,
+      "sha256_jsonl": "dd1ace3e9f1c97b6d87f3886c478266f1545d9eaaddd9405de3f61f3ede7c5c2",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/hu.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 45502,
+      "source": "original",
+      "writing_method": "50 independently authored Hungarian pieces with separate fictional situations, reviews, notices, explanatory notes and short fiction; no text-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 90 characters of 50 Hungarian references for broad forms/themes. Unsafe medical claims, damaged SEO and unsupported assertions were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "hun_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 809,
+      "maximum_document_bytes": 1032,
+      "sha256_jsonl": "8f53da59959a8cdd9c3fe4bba0d01067140adaaf3b399f588ae6e4f59a267419",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/nl.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 47327,
+      "source": "original",
+      "writing_method": "50 independently authored Dutch pieces with distinct fictional situations, notices, reviews, technical and explanatory notes; no paragraph-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 90 characters of each of 50 Dutch references for broad forms and themes; explicit spam, damaged extraction and unsupported high-stakes claims were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "nld_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 857,
+      "maximum_document_bytes": 1074,
+      "sha256_jsonl": "81b2323d9657f3087eca4f90d31bea2e267677db47da1fee2c6df799eeb86d41",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/pl.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 47440,
+      "source": "original",
+      "writing_method": "50 independently authored Polish pieces with distinct fictional situations, notices, reviews, literary plans and explanatory notes. No paragraph-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 90 characters of each of 50 Polish references for broad forms and themes; explicit spam, damaged extraction and unsupported high-stakes claims were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "pol_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 869,
+      "maximum_document_bytes": 1036,
+      "sha256_jsonl": "d246016d870be40412780a8c6983c626babf8114240a6d8b792308a00c8c16d7",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/ru.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 58078,
+      "source": "original",
+      "writing_method": "50 independently authored Russian pieces with distinct fictional situations, notices, reviews, literary plans and explanatory notes. No paragraph-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 80 characters of each of 50 Russian references for broad forms and themes; damaged SEO and unsupported high-stakes claims were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "rus_Cyrl",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 897,
+      "maximum_document_bytes": 1449,
+      "sha256_jsonl": "738d8ee7b91c873747eabc4e6787e353e30e681f4561477a4bd7fecd9786111d",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/id.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 47273,
+      "source": "original",
+      "writing_method": "50 independently written Indonesian fictional documents with separate themes; no filler slots, name substitution or translation of source or other collections.",
+      "reference_review": "Writer inspected leading 220 characters of each of 50 Indonesian candidates (up to 11000 characters) for broad web forms; risky source themes were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "ind_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 885,
+      "maximum_document_bytes": 993,
+      "sha256_jsonl": "81c7566b74a1036f1a69923c03afe2c161105f067c72382bf11ba5bd3f79e975",
+      "initial_authorship_overlap_check": {
+        "maximum_exact_contiguous_characters_shared_between_documents": 29,
+        "maximum_exact_contiguous_characters_shared_with_reference_windows": 28,
+        "method": "Writer checked all pairs with difflib longest contiguous match.",
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/th.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 57436,
+      "source": "original",
+      "writing_method": "50 independently authored Thai pieces with distinct fictional situations, notices, narrative plans and explanatory notes. No paragraph-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 70 characters of each of 50 Thai references for broad forms/themes; gambling promotion, damaged extraction and unsafe medical claims were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "tha_Thai",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 920,
+      "maximum_document_bytes": 1287,
+      "sha256_jsonl": "680c6a00f08b3830a2f667955eb26805c3653e77b79b8851453e9fc7d1e90625",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/it.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 47587,
+      "source": "original",
+      "writing_method": "50 independently authored Italian fictional documents, directly composed with separate topics and no common filler slots, translation or name substitution.",
+      "reference_review": "Writer inspected leading 220 characters of each of 50 Italian candidates: 11000 characters/11168 UTF8 bytes, for broad web forms.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "ita_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 889,
+      "maximum_document_bytes": 1013,
+      "sha256_jsonl": "099d6ec5d7dfbc84d2cf320ea2c8d272a1138ecf2698e9a224fb66469c0caddd",
+      "initial_authorship_overlap_check": {
+        "maximum_exact_contiguous_characters_shared_between_documents": 29,
+        "maximum_exact_contiguous_characters_shared_with_reference_windows": 21,
+        "shared_lowercase_word_8grams": 0,
+        "method": "Writer checked all pairs with difflib longest contiguous match and lowercased word 8grams.",
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    },
+    {
+      "file": "fineweb/vi.jsonl",
+      "documents": 50,
+      "text_utf8_bytes": 48502,
+      "source": "original",
+      "writing_method": "50 independently authored Vietnamese pieces with distinct fictional situations, notices, literary plans, reports and explanatory notes. No paragraph-slot generator or translations of other language collections.",
+      "reference_review": "Inspected leading 90 characters of each of 50 Vietnamese references for broad forms and themes; gambling promotion, damaged extraction and unsupported high-stakes claims were not imitated.",
+      "reference_dataset": "HuggingFaceFW/fineweb-2",
+      "reference_config": "vie_Latn",
+      "reference_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "minimum_document_bytes": 883,
+      "maximum_document_bytes": 1069,
+      "sha256_jsonl": "ea90b7aa54e0c68f0f91d79fbc05ffa01a850c09e54f9d2a1f12c1f698671ada",
+      "initial_authorship_overlap_check": {
+        "normalized_100_character_shingles_shared_between_documents": 0,
+        "normalized_100_character_shingles_shared_with_reference_windows": 0,
+        "limitation": "Exact overlap does not establish semantic originality or native stylistic quality."
+      },
+      "automated_overlap_check": {
+        "reviewed_at": "2026-11-07",
+        "documents_checked": 50,
+        "reference_documents_checked": 50,
+        "comparison": "Exact 100-character shingles after whitespace collapse against the first 50 cached full reference documents.",
+        "matches": [],
+        "limitations": "Exact matching is not a semantic-similarity audit or a legal conclusion."
+      }
+    }
+  ]
+}

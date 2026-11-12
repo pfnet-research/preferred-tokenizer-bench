@@ -1,0 +1,1625 @@
+{
+  "schema_version": 1,
+  "tokenizer": {
+    "slug": "o200k_harmony",
+    "label": "o200k_harmony (OpenAI encoding)",
+    "source_url": "https://github.com/openai/gpt-oss/blob/5681a6b6552635e7b29cde94a61ca6a7aee90ebd/gpt_oss/tokenizer.py",
+    "notes": [
+      "Use encode_ordinary: raw content only, literal special spellings ordinary. Harmony shares o200k_base ranks but has distinct special-token registry. Labels are encoding names, not verified mapping of all proprietary models."
+    ],
+    "remote_code_files": [],
+    "backend": "tiktoken",
+    "encoding": "o200k_harmony",
+    "revision": "4e71bbe0c078468e00fefbf94b39849389f346e5",
+    "model_id": "openai/tiktoken",
+    "files": [
+      {
+        "path": "o200k_base.tiktoken",
+        "sha256": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+        "size": 3613922,
+        "url": "https://openaipublic.blob.core.windows.net/encodings/o200k_base.tiktoken"
+      }
+    ],
+    "license": {
+      "id": "MIT",
+      "source_url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/LICENSE"
+    },
+    "implementation_source_url": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken_ext/openai_public.py"
+  },
+  "corpus": {
+    "sha256": "e958b61284b06f841e05d75f718f70471460036df9a6794d6a77e102454ac6dd",
+    "documents": 17595,
+    "complete": true,
+    "target_documents": 17595,
+    "incomplete_targets": [],
+    "language_frames": 149,
+    "excluded_languages": [
+      "bug",
+      "nv",
+      "ik",
+      "mni"
+    ],
+    "ranking_scope": "All saved non-character documents; singleton characters excluded.",
+    "files": {
+      "dataset/academic/en.jsonl": 50,
+      "dataset/academic/ja.jsonl": 50,
+      "dataset/characters/common_kanji.jsonl": 2136,
+      "dataset/characters/educational_kanji.jsonl": 1026,
+      "dataset/characters/jis_l1.jsonl": 2965,
+      "dataset/characters/jis_l2.jsonl": 3618,
+      "dataset/code/en.jsonl": 50,
+      "dataset/code/ja.jsonl": 50,
+      "dataset/fineweb/ab.jsonl": 50,
+      "dataset/fineweb/ace.jsonl": 50,
+      "dataset/fineweb/af.jsonl": 50,
+      "dataset/fineweb/am.jsonl": 50,
+      "dataset/fineweb/ar.jsonl": 50,
+      "dataset/fineweb/as.jsonl": 50,
+      "dataset/fineweb/atj.jsonl": 50,
+      "dataset/fineweb/av.jsonl": 50,
+      "dataset/fineweb/ay.jsonl": 50,
+      "dataset/fineweb/az.jsonl": 50,
+      "dataset/fineweb/ba.jsonl": 50,
+      "dataset/fineweb/ban.jsonl": 50,
+      "dataset/fineweb/bcl.jsonl": 50,
+      "dataset/fineweb/be.jsonl": 50,
+      "dataset/fineweb/bg.jsonl": 50,
+      "dataset/fineweb/bho.jsonl": 50,
+      "dataset/fineweb/bi.jsonl": 50,
+      "dataset/fineweb/bm.jsonl": 50,
+      "dataset/fineweb/bn.jsonl": 50,
+      "dataset/fineweb/bo.jsonl": 50,
+      "dataset/fineweb/ca.jsonl": 50,
+      "dataset/fineweb/ceb.jsonl": 50,
+      "dataset/fineweb/chr.jsonl": 50,
+      "dataset/fineweb/cs.jsonl": 50,
+      "dataset/fineweb/cv.jsonl": 50,
+      "dataset/fineweb/cy.jsonl": 50,
+      "dataset/fineweb/da.jsonl": 50,
+      "dataset/fineweb/de.jsonl": 50,
+      "dataset/fineweb/dv.jsonl": 50,
+      "dataset/fineweb/dz.jsonl": 50,
+      "dataset/fineweb/el.jsonl": 50,
+      "dataset/fineweb/en.jsonl": 50,
+      "dataset/fineweb/eo.jsonl": 50,
+      "dataset/fineweb/es.jsonl": 50,
+      "dataset/fineweb/et.jsonl": 50,
+      "dataset/fineweb/eu.jsonl": 50,
+      "dataset/fineweb/fa.jsonl": 50,
+      "dataset/fineweb/ff.jsonl": 50,
+      "dataset/fineweb/fi.jsonl": 50,
+      "dataset/fineweb/fj.jsonl": 50,
+      "dataset/fineweb/fr.jsonl": 50,
+      "dataset/fineweb/fy.jsonl": 50,
+      "dataset/fineweb/ga.jsonl": 50,
+      "dataset/fineweb/gl.jsonl": 50,
+      "dataset/fineweb/gn.jsonl": 50,
+      "dataset/fineweb/gom.jsonl": 50,
+      "dataset/fineweb/gu.jsonl": 50,
+      "dataset/fineweb/guc.jsonl": 50,
+      "dataset/fineweb/ha.jsonl": 50,
+      "dataset/fineweb/haw.jsonl": 50,
+      "dataset/fineweb/he.jsonl": 50,
+      "dataset/fineweb/hi.jsonl": 50,
+      "dataset/fineweb/hr.jsonl": 50,
+      "dataset/fineweb/ht.jsonl": 50,
+      "dataset/fineweb/hu.jsonl": 50,
+      "dataset/fineweb/hy.jsonl": 50,
+      "dataset/fineweb/id.jsonl": 50,
+      "dataset/fineweb/ig.jsonl": 50,
+      "dataset/fineweb/ilo.jsonl": 50,
+      "dataset/fineweb/is.jsonl": 50,
+      "dataset/fineweb/it.jsonl": 50,
+      "dataset/fineweb/iu.jsonl": 50,
+      "dataset/fineweb/ja.jsonl": 50,
+      "dataset/fineweb/jv.jsonl": 50,
+      "dataset/fineweb/ka.jsonl": 50,
+      "dataset/fineweb/kab.jsonl": 50,
+      "dataset/fineweb/kk.jsonl": 50,
+      "dataset/fineweb/km.jsonl": 50,
+      "dataset/fineweb/ko.jsonl": 50,
+      "dataset/fineweb/ku.jsonl": 50,
+      "dataset/fineweb/ky.jsonl": 50,
+      "dataset/fineweb/la.jsonl": 50,
+      "dataset/fineweb/lg.jsonl": 50,
+      "dataset/fineweb/lo.jsonl": 50,
+      "dataset/fineweb/lt.jsonl": 50,
+      "dataset/fineweb/lv.jsonl": 50,
+      "dataset/fineweb/mai.jsonl": 50,
+      "dataset/fineweb/mg.jsonl": 50,
+      "dataset/fineweb/mi.jsonl": 50,
+      "dataset/fineweb/min.jsonl": 50,
+      "dataset/fineweb/mk.jsonl": 50,
+      "dataset/fineweb/ml.jsonl": 50,
+      "dataset/fineweb/mn.jsonl": 50,
+      "dataset/fineweb/mr.jsonl": 50,
+      "dataset/fineweb/ms.jsonl": 50,
+      "dataset/fineweb/mt.jsonl": 50,
+      "dataset/fineweb/my.jsonl": 50,
+      "dataset/fineweb/nan.jsonl": 50,
+      "dataset/fineweb/nb.jsonl": 50,
+      "dataset/fineweb/ne.jsonl": 50,
+      "dataset/fineweb/nl.jsonl": 50,
+      "dataset/fineweb/ny.jsonl": 50,
+      "dataset/fineweb/oc.jsonl": 50,
+      "dataset/fineweb/om.jsonl": 50,
+      "dataset/fineweb/or.jsonl": 50,
+      "dataset/fineweb/os.jsonl": 50,
+      "dataset/fineweb/pa.jsonl": 50,
+      "dataset/fineweb/pam.jsonl": 50,
+      "dataset/fineweb/pap.jsonl": 50,
+      "dataset/fineweb/pl.jsonl": 50,
+      "dataset/fineweb/ps.jsonl": 50,
+      "dataset/fineweb/pt.jsonl": 50,
+      "dataset/fineweb/qu.jsonl": 50,
+      "dataset/fineweb/ro.jsonl": 50,
+      "dataset/fineweb/ru.jsonl": 50,
+      "dataset/fineweb/rw.jsonl": 50,
+      "dataset/fineweb/sa.jsonl": 50,
+      "dataset/fineweb/sat.jsonl": 50,
+      "dataset/fineweb/sd.jsonl": 50,
+      "dataset/fineweb/se.jsonl": 50,
+      "dataset/fineweb/si.jsonl": 50,
+      "dataset/fineweb/sk.jsonl": 50,
+      "dataset/fineweb/sl.jsonl": 50,
+      "dataset/fineweb/sm.jsonl": 50,
+      "dataset/fineweb/sn.jsonl": 50,
+      "dataset/fineweb/so.jsonl": 50,
+      "dataset/fineweb/sq.jsonl": 50,
+      "dataset/fineweb/sr.jsonl": 50,
+      "dataset/fineweb/st.jsonl": 50,
+      "dataset/fineweb/su.jsonl": 50,
+      "dataset/fineweb/sv.jsonl": 50,
+      "dataset/fineweb/sw.jsonl": 50,
+      "dataset/fineweb/ta.jsonl": 50,
+      "dataset/fineweb/te.jsonl": 50,
+      "dataset/fineweb/tg.jsonl": 50,
+      "dataset/fineweb/th.jsonl": 50,
+      "dataset/fineweb/ti.jsonl": 50,
+      "dataset/fineweb/tk.jsonl": 50,
+      "dataset/fineweb/tl.jsonl": 50,
+      "dataset/fineweb/to.jsonl": 50,
+      "dataset/fineweb/tpi.jsonl": 50,
+      "dataset/fineweb/tr.jsonl": 50,
+      "dataset/fineweb/tt.jsonl": 50,
+      "dataset/fineweb/ty.jsonl": 50,
+      "dataset/fineweb/ug.jsonl": 50,
+      "dataset/fineweb/uk.jsonl": 50,
+      "dataset/fineweb/ur.jsonl": 50,
+      "dataset/fineweb/uz.jsonl": 50,
+      "dataset/fineweb/vi.jsonl": 50,
+      "dataset/fineweb/war.jsonl": 50,
+      "dataset/fineweb/wo.jsonl": 50,
+      "dataset/fineweb/wuu.jsonl": 50,
+      "dataset/fineweb/xh.jsonl": 50,
+      "dataset/fineweb/yo.jsonl": 50,
+      "dataset/fineweb/yue.jsonl": 50,
+      "dataset/fineweb/zgh.jsonl": 50,
+      "dataset/fineweb/zh-hans.jsonl": 50,
+      "dataset/fineweb/zh-hant.jsonl": 50,
+      "dataset/fineweb/zu.jsonl": 50,
+      "dataset/news/en.jsonl": 50,
+      "dataset/news/ja.jsonl": 50,
+      "dataset/sns/en.jsonl": 50,
+      "dataset/sns/ja.jsonl": 50
+    }
+  },
+  "metrics": {
+    "documents": 7850,
+    "characters": 5565122,
+    "utf8_bytes": 7532167,
+    "tokens": 2189117,
+    "chars_per_token": 2.5421765944899244,
+    "bytes_per_token": 3.4407329530582422
+  },
+  "collections": {
+    "dataset/academic/en.jsonl": {
+      "documents": 50,
+      "characters": 44097,
+      "utf8_bytes": 44097,
+      "tokens": 7386,
+      "chars_per_token": 5.970349309504468,
+      "bytes_per_token": 5.970349309504468
+    },
+    "dataset/academic/ja.jsonl": {
+      "documents": 50,
+      "characters": 14778,
+      "utf8_bytes": 44233,
+      "tokens": 12582,
+      "chars_per_token": 1.1745350500715308,
+      "bytes_per_token": 3.515577809569226
+    },
+    "dataset/code/en.jsonl": {
+      "documents": 50,
+      "characters": 53808,
+      "utf8_bytes": 53814,
+      "tokens": 13726,
+      "chars_per_token": 3.9201515372286173,
+      "bytes_per_token": 3.9205886638496286
+    },
+    "dataset/code/ja.jsonl": {
+      "documents": 50,
+      "characters": 43630,
+      "utf8_bytes": 54090,
+      "tokens": 15435,
+      "chars_per_token": 2.8266925817946227,
+      "bytes_per_token": 3.5043731778425657
+    },
+    "dataset/fineweb/ab.jsonl": {
+      "documents": 50,
+      "characters": 26333,
+      "utf8_bytes": 48293,
+      "tokens": 9444,
+      "chars_per_token": 2.788331215586616,
+      "bytes_per_token": 5.113617111393477
+    },
+    "dataset/fineweb/ace.jsonl": {
+      "documents": 50,
+      "characters": 46494,
+      "utf8_bytes": 47662,
+      "tokens": 16902,
+      "chars_per_token": 2.7507987220447285,
+      "bytes_per_token": 2.8199029700627145
+    },
+    "dataset/fineweb/af.jsonl": {
+      "documents": 50,
+      "characters": 46641,
+      "utf8_bytes": 47261,
+      "tokens": 12860,
+      "chars_per_token": 3.6268273716951787,
+      "bytes_per_token": 3.6750388802488336
+    },
+    "dataset/fineweb/am.jsonl": {
+      "documents": 50,
+      "characters": 17627,
+      "utf8_bytes": 45238,
+      "tokens": 31166,
+      "chars_per_token": 0.5655842905730604,
+      "bytes_per_token": 1.4515176795225566
+    },
+    "dataset/fineweb/ar.jsonl": {
+      "documents": 50,
+      "characters": 31411,
+      "utf8_bytes": 56794,
+      "tokens": 9719,
+      "chars_per_token": 3.231916863874884,
+      "bytes_per_token": 5.843605309188188
+    },
+    "dataset/fineweb/as.jsonl": {
+      "documents": 50,
+      "characters": 20677,
+      "utf8_bytes": 55102,
+      "tokens": 8746,
+      "chars_per_token": 2.3641664761033616,
+      "bytes_per_token": 6.300251543562772
+    },
+    "dataset/fineweb/atj.jsonl": {
+      "documents": 50,
+      "characters": 47732,
+      "utf8_bytes": 47837,
+      "tokens": 18014,
+      "chars_per_token": 2.6497168868657712,
+      "bytes_per_token": 2.6555456866881313
+    },
+    "dataset/fineweb/av.jsonl": {
+      "documents": 50,
+      "characters": 25974,
+      "utf8_bytes": 47454,
+      "tokens": 12342,
+      "chars_per_token": 2.104521147301896,
+      "bytes_per_token": 3.8449197860962565
+    },
+    "dataset/fineweb/ay.jsonl": {
+      "documents": 50,
+      "characters": 45075,
+      "utf8_bytes": 46869,
+      "tokens": 16770,
+      "chars_per_token": 2.6878354203935597,
+      "bytes_per_token": 2.7948121645796062
+    },
+    "dataset/fineweb/az.jsonl": {
+      "documents": 50,
+      "characters": 44252,
+      "utf8_bytes": 51413,
+      "tokens": 14239,
+      "chars_per_token": 3.1078025142215044,
+      "bytes_per_token": 3.6107170447362877
+    },
+    "dataset/fineweb/ba.jsonl": {
+      "documents": 50,
+      "characters": 26233,
+      "utf8_bytes": 48101,
+      "tokens": 9344,
+      "chars_per_token": 2.8074700342465753,
+      "bytes_per_token": 5.147795376712328
+    },
+    "dataset/fineweb/ban.jsonl": {
+      "documents": 50,
+      "characters": 45368,
+      "utf8_bytes": 45716,
+      "tokens": 13843,
+      "chars_per_token": 3.2773242794192012,
+      "bytes_per_token": 3.302463338871632
+    },
+    "dataset/fineweb/bcl.jsonl": {
+      "documents": 50,
+      "characters": 47884,
+      "utf8_bytes": 48025,
+      "tokens": 14030,
+      "chars_per_token": 3.4129722024233784,
+      "bytes_per_token": 3.4230220955096224
+    },
+    "dataset/fineweb/be.jsonl": {
+      "documents": 50,
+      "characters": 28122,
+      "utf8_bytes": 51148,
+      "tokens": 10286,
+      "chars_per_token": 2.7340073886836476,
+      "bytes_per_token": 4.972584094886253
+    },
+    "dataset/fineweb/bg.jsonl": {
+      "documents": 50,
+      "characters": 27405,
+      "utf8_bytes": 49577,
+      "tokens": 9032,
+      "chars_per_token": 3.034211691762622,
+      "bytes_per_token": 5.4890389725420725
+    },
+    "dataset/fineweb/bho.jsonl": {
+      "documents": 50,
+      "characters": 19703,
+      "utf8_bytes": 50131,
+      "tokens": 6997,
+      "chars_per_token": 2.815921109046734,
+      "bytes_per_token": 7.164641989424039
+    },
+    "dataset/fineweb/bi.jsonl": {
+      "documents": 50,
+      "characters": 47622,
+      "utf8_bytes": 48020,
+      "tokens": 13651,
+      "chars_per_token": 3.4885356384147683,
+      "bytes_per_token": 3.517691011647498
+    },
+    "dataset/fineweb/bm.jsonl": {
+      "documents": 50,
+      "characters": 43995,
+      "utf8_bytes": 48130,
+      "tokens": 19111,
+      "chars_per_token": 2.30207733765894,
+      "bytes_per_token": 2.518444874679504
+    },
+    "dataset/fineweb/bn.jsonl": {
+      "documents": 50,
+      "characters": 19866,
+      "utf8_bytes": 53308,
+      "tokens": 7069,
+      "chars_per_token": 2.810298486348847,
+      "bytes_per_token": 7.541094921488188
+    },
+    "dataset/fineweb/bo.jsonl": {
+      "documents": 50,
+      "characters": 16743,
+      "utf8_bytes": 49503,
+      "tokens": 24634,
+      "chars_per_token": 0.6796703742794512,
+      "bytes_per_token": 2.0095396606316474
+    },
+    "dataset/fineweb/ca.jsonl": {
+      "documents": 50,
+      "characters": 47196,
+      "utf8_bytes": 48487,
+      "tokens": 12711,
+      "chars_per_token": 3.713004484304933,
+      "bytes_per_token": 3.814570057430572
+    },
+    "dataset/fineweb/ceb.jsonl": {
+      "documents": 50,
+      "characters": 39630,
+      "utf8_bytes": 39708,
+      "tokens": 11104,
+      "chars_per_token": 3.5689841498559076,
+      "bytes_per_token": 3.576008645533141
+    },
+    "dataset/fineweb/chr.jsonl": {
+      "documents": 50,
+      "characters": 18033,
+      "utf8_bytes": 45567,
+      "tokens": 45408,
+      "chars_per_token": 0.3971326638477801,
+      "bytes_per_token": 1.0035015856236786
+    },
+    "dataset/fineweb/cs.jsonl": {
+      "documents": 50,
+      "characters": 40035,
+      "utf8_bytes": 44513,
+      "tokens": 13579,
+      "chars_per_token": 2.9483025259592015,
+      "bytes_per_token": 3.27807644156418
+    },
+    "dataset/fineweb/cv.jsonl": {
+      "documents": 50,
+      "characters": 26010,
+      "utf8_bytes": 47605,
+      "tokens": 14224,
+      "chars_per_token": 1.8285995500562429,
+      "bytes_per_token": 3.346808211473566
+    },
+    "dataset/fineweb/cy.jsonl": {
+      "documents": 50,
+      "characters": 39637,
+      "utf8_bytes": 40110,
+      "tokens": 12747,
+      "chars_per_token": 3.1095159645406762,
+      "bytes_per_token": 3.14662273476112
+    },
+    "dataset/fineweb/da.jsonl": {
+      "documents": 50,
+      "characters": 41620,
+      "utf8_bytes": 42748,
+      "tokens": 11511,
+      "chars_per_token": 3.615671965945617,
+      "bytes_per_token": 3.7136651898184345
+    },
+    "dataset/fineweb/de.jsonl": {
+      "documents": 50,
+      "characters": 46561,
+      "utf8_bytes": 47271,
+      "tokens": 9406,
+      "chars_per_token": 4.950138209653413,
+      "bytes_per_token": 5.025621943440357
+    },
+    "dataset/fineweb/dv.jsonl": {
+      "documents": 50,
+      "characters": 25687,
+      "utf8_bytes": 48310,
+      "tokens": 48038,
+      "chars_per_token": 0.5347225113451851,
+      "bytes_per_token": 1.0056621841042508
+    },
+    "dataset/fineweb/dz.jsonl": {
+      "documents": 50,
+      "characters": 16864,
+      "utf8_bytes": 48900,
+      "tokens": 25184,
+      "chars_per_token": 0.6696315120711563,
+      "bytes_per_token": 1.9417090216010164
+    },
+    "dataset/fineweb/el.jsonl": {
+      "documents": 50,
+      "characters": 29542,
+      "utf8_bytes": 53406,
+      "tokens": 10526,
+      "chars_per_token": 2.806574197225917,
+      "bytes_per_token": 5.07372221166635
+    },
+    "dataset/fineweb/en.jsonl": {
+      "documents": 50,
+      "characters": 48562,
+      "utf8_bytes": 48565,
+      "tokens": 8955,
+      "chars_per_token": 5.422892238972641,
+      "bytes_per_token": 5.42322724734785
+    },
+    "dataset/fineweb/eo.jsonl": {
+      "documents": 50,
+      "characters": 46100,
+      "utf8_bytes": 46804,
+      "tokens": 14198,
+      "chars_per_token": 3.2469361881955203,
+      "bytes_per_token": 3.2965206367093955
+    },
+    "dataset/fineweb/es.jsonl": {
+      "documents": 50,
+      "characters": 44669,
+      "utf8_bytes": 45680,
+      "tokens": 8951,
+      "chars_per_token": 4.990392134956988,
+      "bytes_per_token": 5.103340408892861
+    },
+    "dataset/fineweb/et.jsonl": {
+      "documents": 50,
+      "characters": 41042,
+      "utf8_bytes": 42392,
+      "tokens": 12851,
+      "chars_per_token": 3.1936814255699946,
+      "bytes_per_token": 3.298731616216637
+    },
+    "dataset/fineweb/eu.jsonl": {
+      "documents": 50,
+      "characters": 42644,
+      "utf8_bytes": 42777,
+      "tokens": 13042,
+      "chars_per_token": 3.269743904309155,
+      "bytes_per_token": 3.2799417267290294
+    },
+    "dataset/fineweb/fa.jsonl": {
+      "documents": 50,
+      "characters": 25805,
+      "utf8_bytes": 46015,
+      "tokens": 8112,
+      "chars_per_token": 3.1810897435897436,
+      "bytes_per_token": 5.6724605522682445
+    },
+    "dataset/fineweb/ff.jsonl": {
+      "documents": 50,
+      "characters": 46302,
+      "utf8_bytes": 48322,
+      "tokens": 18424,
+      "chars_per_token": 2.5131350412505427,
+      "bytes_per_token": 2.6227746417716022
+    },
+    "dataset/fineweb/fi.jsonl": {
+      "documents": 50,
+      "characters": 49012,
+      "utf8_bytes": 51209,
+      "tokens": 14573,
+      "chars_per_token": 3.363205928772387,
+      "bytes_per_token": 3.5139641803334936
+    },
+    "dataset/fineweb/fj.jsonl": {
+      "documents": 50,
+      "characters": 46681,
+      "utf8_bytes": 46881,
+      "tokens": 15448,
+      "chars_per_token": 3.0218151216986016,
+      "bytes_per_token": 3.034761781460383
+    },
+    "dataset/fineweb/fr.jsonl": {
+      "documents": 50,
+      "characters": 46072,
+      "utf8_bytes": 48349,
+      "tokens": 9593,
+      "chars_per_token": 4.80266861252997,
+      "bytes_per_token": 5.040029187949546
+    },
+    "dataset/fineweb/fy.jsonl": {
+      "documents": 50,
+      "characters": 47502,
+      "utf8_bytes": 48243,
+      "tokens": 14683,
+      "chars_per_token": 3.23516992440237,
+      "bytes_per_token": 3.2856364503166926
+    },
+    "dataset/fineweb/ga.jsonl": {
+      "documents": 50,
+      "characters": 35469,
+      "utf8_bytes": 37857,
+      "tokens": 11311,
+      "chars_per_token": 3.135797011758465,
+      "bytes_per_token": 3.346918928476704
+    },
+    "dataset/fineweb/gl.jsonl": {
+      "documents": 50,
+      "characters": 47168,
+      "utf8_bytes": 48376,
+      "tokens": 11437,
+      "chars_per_token": 4.124158433155547,
+      "bytes_per_token": 4.22978053685407
+    },
+    "dataset/fineweb/gn.jsonl": {
+      "documents": 50,
+      "characters": 40656,
+      "utf8_bytes": 45667,
+      "tokens": 15918,
+      "chars_per_token": 2.554089709762533,
+      "bytes_per_token": 2.868890564141224
+    },
+    "dataset/fineweb/gom.jsonl": {
+      "documents": 50,
+      "characters": 20637,
+      "utf8_bytes": 54797,
+      "tokens": 8720,
+      "chars_per_token": 2.3666284403669726,
+      "bytes_per_token": 6.284059633027523
+    },
+    "dataset/fineweb/gu.jsonl": {
+      "documents": 50,
+      "characters": 19301,
+      "utf8_bytes": 50447,
+      "tokens": 6929,
+      "chars_per_token": 2.785539038822341,
+      "bytes_per_token": 7.280559965362968
+    },
+    "dataset/fineweb/guc.jsonl": {
+      "documents": 50,
+      "characters": 43607,
+      "utf8_bytes": 46791,
+      "tokens": 17155,
+      "chars_per_token": 2.5419411250364323,
+      "bytes_per_token": 2.7275429903818127
+    },
+    "dataset/fineweb/ha.jsonl": {
+      "documents": 50,
+      "characters": 44893,
+      "utf8_bytes": 45268,
+      "tokens": 12973,
+      "chars_per_token": 3.4604948739690125,
+      "bytes_per_token": 3.489401063747784
+    },
+    "dataset/fineweb/haw.jsonl": {
+      "documents": 50,
+      "characters": 42150,
+      "utf8_bytes": 45914,
+      "tokens": 13129,
+      "chars_per_token": 3.2104501485261636,
+      "bytes_per_token": 3.4971437276258666
+    },
+    "dataset/fineweb/he.jsonl": {
+      "documents": 50,
+      "characters": 27274,
+      "utf8_bytes": 48716,
+      "tokens": 10350,
+      "chars_per_token": 2.635169082125604,
+      "bytes_per_token": 4.706859903381643
+    },
+    "dataset/fineweb/hi.jsonl": {
+      "documents": 50,
+      "characters": 19189,
+      "utf8_bytes": 48703,
+      "tokens": 5884,
+      "chars_per_token": 3.261216859279402,
+      "bytes_per_token": 8.277192386131883
+    },
+    "dataset/fineweb/hr.jsonl": {
+      "documents": 50,
+      "characters": 44283,
+      "utf8_bytes": 45616,
+      "tokens": 14036,
+      "chars_per_token": 3.1549586776859506,
+      "bytes_per_token": 3.249928754630949
+    },
+    "dataset/fineweb/ht.jsonl": {
+      "documents": 50,
+      "characters": 45719,
+      "utf8_bytes": 46909,
+      "tokens": 14143,
+      "chars_per_token": 3.232623912889769,
+      "bytes_per_token": 3.3167644771264935
+    },
+    "dataset/fineweb/hu.jsonl": {
+      "documents": 50,
+      "characters": 41473,
+      "utf8_bytes": 45502,
+      "tokens": 13807,
+      "chars_per_token": 3.0037662055479104,
+      "bytes_per_token": 3.295574708481205
+    },
+    "dataset/fineweb/hy.jsonl": {
+      "documents": 50,
+      "characters": 29025,
+      "utf8_bytes": 53480,
+      "tokens": 9457,
+      "chars_per_token": 3.069155123189172,
+      "bytes_per_token": 5.655070318282753
+    },
+    "dataset/fineweb/id.jsonl": {
+      "documents": 50,
+      "characters": 47273,
+      "utf8_bytes": 47273,
+      "tokens": 10617,
+      "chars_per_token": 4.452576057266648,
+      "bytes_per_token": 4.452576057266648
+    },
+    "dataset/fineweb/ig.jsonl": {
+      "documents": 50,
+      "characters": 40882,
+      "utf8_bytes": 48590,
+      "tokens": 12753,
+      "chars_per_token": 3.2056770955853526,
+      "bytes_per_token": 3.810083901827021
+    },
+    "dataset/fineweb/ilo.jsonl": {
+      "documents": 50,
+      "characters": 48668,
+      "utf8_bytes": 48814,
+      "tokens": 15123,
+      "chars_per_token": 3.21814454803941,
+      "bytes_per_token": 3.2277987171857436
+    },
+    "dataset/fineweb/is.jsonl": {
+      "documents": 50,
+      "characters": 35407,
+      "utf8_bytes": 39209,
+      "tokens": 11707,
+      "chars_per_token": 3.02442982830785,
+      "bytes_per_token": 3.34919279063808
+    },
+    "dataset/fineweb/it.jsonl": {
+      "documents": 50,
+      "characters": 47322,
+      "utf8_bytes": 47587,
+      "tokens": 11721,
+      "chars_per_token": 4.037368825185564,
+      "bytes_per_token": 4.0599778175923555
+    },
+    "dataset/fineweb/iu.jsonl": {
+      "documents": 50,
+      "characters": 17191,
+      "utf8_bytes": 46717,
+      "tokens": 45751,
+      "chars_per_token": 0.37575134969727436,
+      "bytes_per_token": 1.0211142925837686
+    },
+    "dataset/fineweb/ja.jsonl": {
+      "documents": 50,
+      "characters": 16315,
+      "utf8_bytes": 48699,
+      "tokens": 13227,
+      "chars_per_token": 1.233461858320103,
+      "bytes_per_token": 3.68178725334543
+    },
+    "dataset/fineweb/jv.jsonl": {
+      "documents": 50,
+      "characters": 38231,
+      "utf8_bytes": 38428,
+      "tokens": 10138,
+      "chars_per_token": 3.7710593805484316,
+      "bytes_per_token": 3.7904912211481556
+    },
+    "dataset/fineweb/ka.jsonl": {
+      "documents": 50,
+      "characters": 19511,
+      "utf8_bytes": 52369,
+      "tokens": 6285,
+      "chars_per_token": 3.104375497215593,
+      "bytes_per_token": 8.332378679395386
+    },
+    "dataset/fineweb/kab.jsonl": {
+      "documents": 50,
+      "characters": 45812,
+      "utf8_bytes": 48339,
+      "tokens": 19891,
+      "chars_per_token": 2.3031521793776077,
+      "bytes_per_token": 2.430194560353929
+    },
+    "dataset/fineweb/kk.jsonl": {
+      "documents": 50,
+      "characters": 26811,
+      "utf8_bytes": 49229,
+      "tokens": 8307,
+      "chars_per_token": 3.227518959913326,
+      "bytes_per_token": 5.926206813530757
+    },
+    "dataset/fineweb/km.jsonl": {
+      "documents": 50,
+      "characters": 17291,
+      "utf8_bytes": 48804,
+      "tokens": 10358,
+      "chars_per_token": 1.669337709982622,
+      "bytes_per_token": 4.711720409345434
+    },
+    "dataset/fineweb/ko.jsonl": {
+      "documents": 50,
+      "characters": 20697,
+      "utf8_bytes": 50311,
+      "tokens": 11586,
+      "chars_per_token": 1.786380113930606,
+      "bytes_per_token": 4.34239599516658
+    },
+    "dataset/fineweb/ku.jsonl": {
+      "documents": 50,
+      "characters": 44246,
+      "utf8_bytes": 49037,
+      "tokens": 17987,
+      "chars_per_token": 2.459887696669817,
+      "bytes_per_token": 2.7262467337521543
+    },
+    "dataset/fineweb/ky.jsonl": {
+      "documents": 50,
+      "characters": 26195,
+      "utf8_bytes": 48095,
+      "tokens": 8589,
+      "chars_per_token": 3.0498311794155315,
+      "bytes_per_token": 5.599604144836419
+    },
+    "dataset/fineweb/la.jsonl": {
+      "documents": 50,
+      "characters": 45852,
+      "utf8_bytes": 46021,
+      "tokens": 13404,
+      "chars_per_token": 3.4207699194270367,
+      "bytes_per_token": 3.433378096090719
+    },
+    "dataset/fineweb/lg.jsonl": {
+      "documents": 50,
+      "characters": 46781,
+      "utf8_bytes": 47684,
+      "tokens": 15530,
+      "chars_per_token": 3.0122987765614937,
+      "bytes_per_token": 3.0704443013522216
+    },
+    "dataset/fineweb/lo.jsonl": {
+      "documents": 50,
+      "characters": 16202,
+      "utf8_bytes": 45400,
+      "tokens": 27953,
+      "chars_per_token": 0.579615783636819,
+      "bytes_per_token": 1.6241548313240082
+    },
+    "dataset/fineweb/lt.jsonl": {
+      "documents": 50,
+      "characters": 42431,
+      "utf8_bytes": 45235,
+      "tokens": 14462,
+      "chars_per_token": 2.9339648734614854,
+      "bytes_per_token": 3.1278523025860876
+    },
+    "dataset/fineweb/lv.jsonl": {
+      "documents": 50,
+      "characters": 38237,
+      "utf8_bytes": 41999,
+      "tokens": 13750,
+      "chars_per_token": 2.7808727272727274,
+      "bytes_per_token": 3.0544727272727275
+    },
+    "dataset/fineweb/mai.jsonl": {
+      "documents": 50,
+      "characters": 19071,
+      "utf8_bytes": 49563,
+      "tokens": 7236,
+      "chars_per_token": 2.6355721393034828,
+      "bytes_per_token": 6.849502487562189
+    },
+    "dataset/fineweb/mg.jsonl": {
+      "documents": 50,
+      "characters": 47793,
+      "utf8_bytes": 48791,
+      "tokens": 14635,
+      "chars_per_token": 3.2656645029039972,
+      "bytes_per_token": 3.3338571916638196
+    },
+    "dataset/fineweb/mi.jsonl": {
+      "documents": 50,
+      "characters": 45584,
+      "utf8_bytes": 45788,
+      "tokens": 13883,
+      "chars_per_token": 3.2834401786357414,
+      "bytes_per_token": 3.2981344089894113
+    },
+    "dataset/fineweb/min.jsonl": {
+      "documents": 50,
+      "characters": 46033,
+      "utf8_bytes": 46164,
+      "tokens": 14151,
+      "chars_per_token": 3.2529856547240477,
+      "bytes_per_token": 3.262242951028196
+    },
+    "dataset/fineweb/mk.jsonl": {
+      "documents": 50,
+      "characters": 26569,
+      "utf8_bytes": 48251,
+      "tokens": 9083,
+      "chars_per_token": 2.925134867334581,
+      "bytes_per_token": 5.31223164152813
+    },
+    "dataset/fineweb/ml.jsonl": {
+      "documents": 50,
+      "characters": 19081,
+      "utf8_bytes": 52917,
+      "tokens": 6434,
+      "chars_per_token": 2.965651227852036,
+      "bytes_per_token": 8.22458812558284
+    },
+    "dataset/fineweb/mn.jsonl": {
+      "documents": 50,
+      "characters": 26097,
+      "utf8_bytes": 47761,
+      "tokens": 9679,
+      "chars_per_token": 2.6962496125632813,
+      "bytes_per_token": 4.934497365430313
+    },
+    "dataset/fineweb/mr.jsonl": {
+      "documents": 50,
+      "characters": 19065,
+      "utf8_bytes": 50815,
+      "tokens": 6895,
+      "chars_per_token": 2.7650471356055113,
+      "bytes_per_token": 7.369833212472806
+    },
+    "dataset/fineweb/ms.jsonl": {
+      "documents": 50,
+      "characters": 47360,
+      "utf8_bytes": 47524,
+      "tokens": 11776,
+      "chars_per_token": 4.021739130434782,
+      "bytes_per_token": 4.035665760869565
+    },
+    "dataset/fineweb/mt.jsonl": {
+      "documents": 50,
+      "characters": 43258,
+      "utf8_bytes": 45664,
+      "tokens": 14951,
+      "chars_per_token": 2.8933181726974784,
+      "bytes_per_token": 3.054243863286737
+    },
+    "dataset/fineweb/my.jsonl": {
+      "documents": 50,
+      "characters": 19059,
+      "utf8_bytes": 52837,
+      "tokens": 9655,
+      "chars_per_token": 1.9740031071983428,
+      "bytes_per_token": 5.472501294665976
+    },
+    "dataset/fineweb/nan.jsonl": {
+      "documents": 50,
+      "characters": 33994,
+      "utf8_bytes": 50285,
+      "tokens": 21001,
+      "chars_per_token": 1.6186848245321652,
+      "bytes_per_token": 2.3944097900099997
+    },
+    "dataset/fineweb/nb.jsonl": {
+      "documents": 50,
+      "characters": 41736,
+      "utf8_bytes": 42722,
+      "tokens": 11365,
+      "chars_per_token": 3.6723273207215135,
+      "bytes_per_token": 3.7590849098108228
+    },
+    "dataset/fineweb/ne.jsonl": {
+      "documents": 50,
+      "characters": 19850,
+      "utf8_bytes": 53012,
+      "tokens": 6580,
+      "chars_per_token": 3.0167173252279635,
+      "bytes_per_token": 8.056534954407296
+    },
+    "dataset/fineweb/nl.jsonl": {
+      "documents": 50,
+      "characters": 47283,
+      "utf8_bytes": 47327,
+      "tokens": 9655,
+      "chars_per_token": 4.897255308130502,
+      "bytes_per_token": 4.901812532366649
+    },
+    "dataset/fineweb/ny.jsonl": {
+      "documents": 50,
+      "characters": 47007,
+      "utf8_bytes": 47093,
+      "tokens": 13555,
+      "chars_per_token": 3.467871634083364,
+      "bytes_per_token": 3.4742161563998524
+    },
+    "dataset/fineweb/oc.jsonl": {
+      "documents": 50,
+      "characters": 45283,
+      "utf8_bytes": 47332,
+      "tokens": 13290,
+      "chars_per_token": 3.4072987208427388,
+      "bytes_per_token": 3.561474793077502
+    },
+    "dataset/fineweb/om.jsonl": {
+      "documents": 50,
+      "characters": 46969,
+      "utf8_bytes": 47151,
+      "tokens": 14781,
+      "chars_per_token": 3.177660510114336,
+      "bytes_per_token": 3.1899736147757256
+    },
+    "dataset/fineweb/or.jsonl": {
+      "documents": 50,
+      "characters": 20765,
+      "utf8_bytes": 55892,
+      "tokens": 20720,
+      "chars_per_token": 1.0021718146718146,
+      "bytes_per_token": 2.6974903474903473
+    },
+    "dataset/fineweb/os.jsonl": {
+      "documents": 50,
+      "characters": 27468,
+      "utf8_bytes": 49521,
+      "tokens": 17785,
+      "chars_per_token": 1.5444475681754288,
+      "bytes_per_token": 2.784425077312342
+    },
+    "dataset/fineweb/pa.jsonl": {
+      "documents": 50,
+      "characters": 19819,
+      "utf8_bytes": 50833,
+      "tokens": 10103,
+      "chars_per_token": 1.9616945461744038,
+      "bytes_per_token": 5.031475799267544
+    },
+    "dataset/fineweb/pam.jsonl": {
+      "documents": 50,
+      "characters": 47116,
+      "utf8_bytes": 47402,
+      "tokens": 14350,
+      "chars_per_token": 3.2833449477351917,
+      "bytes_per_token": 3.3032752613240417
+    },
+    "dataset/fineweb/pap.jsonl": {
+      "documents": 50,
+      "characters": 45681,
+      "utf8_bytes": 46147,
+      "tokens": 12661,
+      "chars_per_token": 3.608008846062712,
+      "bytes_per_token": 3.644814785561962
+    },
+    "dataset/fineweb/pl.jsonl": {
+      "documents": 50,
+      "characters": 44670,
+      "utf8_bytes": 47440,
+      "tokens": 13245,
+      "chars_per_token": 3.372593431483579,
+      "bytes_per_token": 3.581728954322386
+    },
+    "dataset/fineweb/ps.jsonl": {
+      "documents": 50,
+      "characters": 27480,
+      "utf8_bytes": 48671,
+      "tokens": 9831,
+      "chars_per_token": 2.7952395483674093,
+      "bytes_per_token": 4.950767978842437
+    },
+    "dataset/fineweb/pt.jsonl": {
+      "documents": 50,
+      "characters": 43105,
+      "utf8_bytes": 44535,
+      "tokens": 9915,
+      "chars_per_token": 4.347453353504791,
+      "bytes_per_token": 4.491679273827534
+    },
+    "dataset/fineweb/qu.jsonl": {
+      "documents": 50,
+      "characters": 46069,
+      "utf8_bytes": 46786,
+      "tokens": 16564,
+      "chars_per_token": 2.781272639459068,
+      "bytes_per_token": 2.824559285196812
+    },
+    "dataset/fineweb/ro.jsonl": {
+      "documents": 50,
+      "characters": 44426,
+      "utf8_bytes": 45970,
+      "tokens": 12904,
+      "chars_per_token": 3.4428084314941105,
+      "bytes_per_token": 3.5624612523248604
+    },
+    "dataset/fineweb/ru.jsonl": {
+      "documents": 50,
+      "characters": 31709,
+      "utf8_bytes": 58078,
+      "tokens": 7754,
+      "chars_per_token": 4.089373226721692,
+      "bytes_per_token": 7.490069641475367
+    },
+    "dataset/fineweb/rw.jsonl": {
+      "documents": 50,
+      "characters": 48862,
+      "utf8_bytes": 49870,
+      "tokens": 15048,
+      "chars_per_token": 3.247076023391813,
+      "bytes_per_token": 3.3140616693248273
+    },
+    "dataset/fineweb/sa.jsonl": {
+      "documents": 50,
+      "characters": 20284,
+      "utf8_bytes": 55442,
+      "tokens": 9439,
+      "chars_per_token": 2.1489564572518276,
+      "bytes_per_token": 5.873715435957199
+    },
+    "dataset/fineweb/sat.jsonl": {
+      "documents": 50,
+      "characters": 19418,
+      "utf8_bytes": 50126,
+      "tokens": 49878,
+      "chars_per_token": 0.3893099161955171,
+      "bytes_per_token": 1.004972132002085
+    },
+    "dataset/fineweb/sd.jsonl": {
+      "documents": 50,
+      "characters": 29292,
+      "utf8_bytes": 52110,
+      "tokens": 10835,
+      "chars_per_token": 2.703461005999077,
+      "bytes_per_token": 4.8094139363174895
+    },
+    "dataset/fineweb/se.jsonl": {
+      "documents": 50,
+      "characters": 45051,
+      "utf8_bytes": 48090,
+      "tokens": 17819,
+      "chars_per_token": 2.5282563555755093,
+      "bytes_per_token": 2.6988046467254057
+    },
+    "dataset/fineweb/si.jsonl": {
+      "documents": 50,
+      "characters": 19443,
+      "utf8_bytes": 50937,
+      "tokens": 10640,
+      "chars_per_token": 1.8273496240601503,
+      "bytes_per_token": 4.787312030075188
+    },
+    "dataset/fineweb/sk.jsonl": {
+      "documents": 50,
+      "characters": 44384,
+      "utf8_bytes": 48211,
+      "tokens": 15360,
+      "chars_per_token": 2.8895833333333334,
+      "bytes_per_token": 3.1387369791666666
+    },
+    "dataset/fineweb/sl.jsonl": {
+      "documents": 50,
+      "characters": 48376,
+      "utf8_bytes": 49594,
+      "tokens": 14908,
+      "chars_per_token": 3.2449691440837136,
+      "bytes_per_token": 3.326670244164207
+    },
+    "dataset/fineweb/sm.jsonl": {
+      "documents": 50,
+      "characters": 45467,
+      "utf8_bytes": 46562,
+      "tokens": 14310,
+      "chars_per_token": 3.177288609364081,
+      "bytes_per_token": 3.253808525506639
+    },
+    "dataset/fineweb/sn.jsonl": {
+      "documents": 50,
+      "characters": 47671,
+      "utf8_bytes": 47704,
+      "tokens": 14592,
+      "chars_per_token": 3.2669270833333335,
+      "bytes_per_token": 3.269188596491228
+    },
+    "dataset/fineweb/so.jsonl": {
+      "documents": 50,
+      "characters": 45202,
+      "utf8_bytes": 45366,
+      "tokens": 13490,
+      "chars_per_token": 3.3507783543365455,
+      "bytes_per_token": 3.3629355077835434
+    },
+    "dataset/fineweb/sq.jsonl": {
+      "documents": 50,
+      "characters": 39316,
+      "utf8_bytes": 42508,
+      "tokens": 12952,
+      "chars_per_token": 3.035515750463249,
+      "bytes_per_token": 3.281964175416924
+    },
+    "dataset/fineweb/sr.jsonl": {
+      "documents": 50,
+      "characters": 25676,
+      "utf8_bytes": 46683,
+      "tokens": 9396,
+      "chars_per_token": 2.7326521924223073,
+      "bytes_per_token": 4.968390804597701
+    },
+    "dataset/fineweb/st.jsonl": {
+      "documents": 50,
+      "characters": 45366,
+      "utf8_bytes": 45548,
+      "tokens": 13882,
+      "chars_per_token": 3.2679729145656244,
+      "bytes_per_token": 3.281083417375018
+    },
+    "dataset/fineweb/su.jsonl": {
+      "documents": 50,
+      "characters": 48511,
+      "utf8_bytes": 49079,
+      "tokens": 13109,
+      "chars_per_token": 3.7005873827141658,
+      "bytes_per_token": 3.743916393317568
+    },
+    "dataset/fineweb/sv.jsonl": {
+      "documents": 50,
+      "characters": 43847,
+      "utf8_bytes": 45918,
+      "tokens": 11840,
+      "chars_per_token": 3.703293918918919,
+      "bytes_per_token": 3.8782094594594594
+    },
+    "dataset/fineweb/sw.jsonl": {
+      "documents": 50,
+      "characters": 38175,
+      "utf8_bytes": 38249,
+      "tokens": 10634,
+      "chars_per_token": 3.589900319729171,
+      "bytes_per_token": 3.59685913108896
+    },
+    "dataset/fineweb/ta.jsonl": {
+      "documents": 50,
+      "characters": 20268,
+      "utf8_bytes": 55396,
+      "tokens": 6942,
+      "chars_per_token": 2.91961970613656,
+      "bytes_per_token": 7.979832901181216
+    },
+    "dataset/fineweb/te.jsonl": {
+      "documents": 50,
+      "characters": 19040,
+      "utf8_bytes": 50556,
+      "tokens": 7090,
+      "chars_per_token": 2.6854724964739067,
+      "bytes_per_token": 7.130606488011283
+    },
+    "dataset/fineweb/tg.jsonl": {
+      "documents": 50,
+      "characters": 26819,
+      "utf8_bytes": 48875,
+      "tokens": 9400,
+      "chars_per_token": 2.8530851063829785,
+      "bytes_per_token": 5.199468085106383
+    },
+    "dataset/fineweb/th.jsonl": {
+      "documents": 50,
+      "characters": 19442,
+      "utf8_bytes": 57436,
+      "tokens": 7727,
+      "chars_per_token": 2.5161123333764723,
+      "bytes_per_token": 7.4331564643458
+    },
+    "dataset/fineweb/ti.jsonl": {
+      "documents": 50,
+      "characters": 17427,
+      "utf8_bytes": 44625,
+      "tokens": 30800,
+      "chars_per_token": 0.5658116883116883,
+      "bytes_per_token": 1.4488636363636365
+    },
+    "dataset/fineweb/tk.jsonl": {
+      "documents": 50,
+      "characters": 43669,
+      "utf8_bytes": 48356,
+      "tokens": 13204,
+      "chars_per_token": 3.307255377158437,
+      "bytes_per_token": 3.662223568615571
+    },
+    "dataset/fineweb/tl.jsonl": {
+      "documents": 50,
+      "characters": 41336,
+      "utf8_bytes": 41407,
+      "tokens": 10766,
+      "chars_per_token": 3.8394947055545234,
+      "bytes_per_token": 3.846089541148059
+    },
+    "dataset/fineweb/to.jsonl": {
+      "documents": 50,
+      "characters": 42881,
+      "utf8_bytes": 47007,
+      "tokens": 16250,
+      "chars_per_token": 2.6388307692307693,
+      "bytes_per_token": 2.8927384615384617
+    },
+    "dataset/fineweb/tpi.jsonl": {
+      "documents": 50,
+      "characters": 46559,
+      "utf8_bytes": 46803,
+      "tokens": 13984,
+      "chars_per_token": 3.3294479405034325,
+      "bytes_per_token": 3.346896453089245
+    },
+    "dataset/fineweb/tr.jsonl": {
+      "documents": 50,
+      "characters": 41500,
+      "utf8_bytes": 45779,
+      "tokens": 12090,
+      "chars_per_token": 3.4325889164598844,
+      "bytes_per_token": 3.786517783291977
+    },
+    "dataset/fineweb/tt.jsonl": {
+      "documents": 50,
+      "characters": 26160,
+      "utf8_bytes": 47767,
+      "tokens": 9466,
+      "chars_per_token": 2.76357489964082,
+      "bytes_per_token": 5.046165222903022
+    },
+    "dataset/fineweb/ty.jsonl": {
+      "documents": 50,
+      "characters": 45757,
+      "utf8_bytes": 47547,
+      "tokens": 16842,
+      "chars_per_token": 2.716838855242845,
+      "bytes_per_token": 2.8231207695048095
+    },
+    "dataset/fineweb/ug.jsonl": {
+      "documents": 50,
+      "characters": 25061,
+      "utf8_bytes": 46304,
+      "tokens": 11879,
+      "chars_per_token": 2.1096893677919017,
+      "bytes_per_token": 3.897971209697786
+    },
+    "dataset/fineweb/uk.jsonl": {
+      "documents": 50,
+      "characters": 29108,
+      "utf8_bytes": 53073,
+      "tokens": 10153,
+      "chars_per_token": 2.866935881020388,
+      "bytes_per_token": 5.227321973800847
+    },
+    "dataset/fineweb/ur.jsonl": {
+      "documents": 50,
+      "characters": 29553,
+      "utf8_bytes": 52670,
+      "tokens": 9517,
+      "chars_per_token": 3.105285278974467,
+      "bytes_per_token": 5.534307029526111
+    },
+    "dataset/fineweb/uz.jsonl": {
+      "documents": 50,
+      "characters": 51251,
+      "utf8_bytes": 52714,
+      "tokens": 16845,
+      "chars_per_token": 3.042505194419709,
+      "bytes_per_token": 3.1293558919560702
+    },
+    "dataset/fineweb/vi.jsonl": {
+      "documents": 50,
+      "characters": 35738,
+      "utf8_bytes": 48502,
+      "tokens": 9599,
+      "chars_per_token": 3.723096155849568,
+      "bytes_per_token": 5.052818001875195
+    },
+    "dataset/fineweb/war.jsonl": {
+      "documents": 50,
+      "characters": 47637,
+      "utf8_bytes": 47707,
+      "tokens": 13246,
+      "chars_per_token": 3.596330967839348,
+      "bytes_per_token": 3.6016155820625095
+    },
+    "dataset/fineweb/wo.jsonl": {
+      "documents": 50,
+      "characters": 46009,
+      "utf8_bytes": 48000,
+      "tokens": 17883,
+      "chars_per_token": 2.5727786165632165,
+      "bytes_per_token": 2.68411340379131
+    },
+    "dataset/fineweb/wuu.jsonl": {
+      "documents": 50,
+      "characters": 16352,
+      "utf8_bytes": 46884,
+      "tokens": 14772,
+      "chars_per_token": 1.1069591118331978,
+      "bytes_per_token": 3.173842404549147
+    },
+    "dataset/fineweb/xh.jsonl": {
+      "documents": 50,
+      "characters": 46155,
+      "utf8_bytes": 46201,
+      "tokens": 14245,
+      "chars_per_token": 3.24008424008424,
+      "bytes_per_token": 3.2433134433134434
+    },
+    "dataset/fineweb/yo.jsonl": {
+      "documents": 50,
+      "characters": 37978,
+      "utf8_bytes": 47928,
+      "tokens": 14391,
+      "chars_per_token": 2.6390104926690294,
+      "bytes_per_token": 3.3304148426099647
+    },
+    "dataset/fineweb/yue.jsonl": {
+      "documents": 50,
+      "characters": 17043,
+      "utf8_bytes": 46975,
+      "tokens": 16416,
+      "chars_per_token": 1.0381944444444444,
+      "bytes_per_token": 2.861537524366472
+    },
+    "dataset/fineweb/zgh.jsonl": {
+      "documents": 50,
+      "characters": 18473,
+      "utf8_bytes": 47333,
+      "tokens": 42448,
+      "chars_per_token": 0.43519129287598945,
+      "bytes_per_token": 1.1150819826611382
+    },
+    "dataset/fineweb/zh-hans.jsonl": {
+      "documents": 50,
+      "characters": 15272,
+      "utf8_bytes": 45592,
+      "tokens": 11673,
+      "chars_per_token": 1.3083183414717725,
+      "bytes_per_token": 3.9057654416174077
+    },
+    "dataset/fineweb/zh-hant.jsonl": {
+      "documents": 50,
+      "characters": 15142,
+      "utf8_bytes": 45192,
+      "tokens": 13576,
+      "chars_per_token": 1.115350618738951,
+      "bytes_per_token": 3.328815556865056
+    },
+    "dataset/fineweb/zu.jsonl": {
+      "documents": 50,
+      "characters": 48199,
+      "utf8_bytes": 48280,
+      "tokens": 14925,
+      "chars_per_token": 3.2294137353433836,
+      "bytes_per_token": 3.2348408710217758
+    },
+    "dataset/news/en.jsonl": {
+      "documents": 50,
+      "characters": 51957,
+      "utf8_bytes": 51991,
+      "tokens": 9308,
+      "chars_per_token": 5.581972496776966,
+      "bytes_per_token": 5.5856252685861625
+    },
+    "dataset/news/ja.jsonl": {
+      "documents": 50,
+      "characters": 16820,
+      "utf8_bytes": 49644,
+      "tokens": 14137,
+      "chars_per_token": 1.1897856688123365,
+      "bytes_per_token": 3.5116361321355307
+    },
+    "dataset/sns/en.jsonl": {
+      "documents": 50,
+      "characters": 47680,
+      "utf8_bytes": 48001,
+      "tokens": 9234,
+      "chars_per_token": 5.163526099198614,
+      "bytes_per_token": 5.198288932207061
+    },
+    "dataset/sns/ja.jsonl": {
+      "documents": 50,
+      "characters": 16220,
+      "utf8_bytes": 47792,
+      "tokens": 12756,
+      "chars_per_token": 1.2715584822828472,
+      "bytes_per_token": 3.746629037315773
+    }
+  },
+  "groups": {
+    "T2": {
+      "documents": 150,
+      "characters": 51111,
+      "utf8_bytes": 141095,
+      "tokens": 36835,
+      "chars_per_token": 1.3875661734763134,
+      "bytes_per_token": 3.8304601601737476
+    },
+    "T3": {
+      "documents": 600,
+      "characters": 483623,
+      "utf8_bytes": 597239,
+      "tokens": 121794,
+      "chars_per_token": 3.9708277911884,
+      "bytes_per_token": 4.903681626352694
+    },
+    "T4": {
+      "documents": 1800,
+      "characters": 1119282,
+      "utf8_bytes": 1742206,
+      "tokens": 371943,
+      "chars_per_token": 3.0092836805639576,
+      "bytes_per_token": 4.6840671823370785
+    },
+    "T5": {
+      "documents": 4800,
+      "characters": 3557239,
+      "utf8_bytes": 4560701,
+      "tokens": 1541799,
+      "chars_per_token": 2.307200225191481,
+      "bytes_per_token": 2.958038628900395
+    },
+    "academic": {
+      "documents": 100,
+      "characters": 58875,
+      "utf8_bytes": 88330,
+      "tokens": 19968,
+      "chars_per_token": 2.948467548076923,
+      "bytes_per_token": 4.4235777243589745
+    },
+    "code": {
+      "documents": 100,
+      "characters": 97438,
+      "utf8_bytes": 107904,
+      "tokens": 29161,
+      "chars_per_token": 3.3413806110901545,
+      "bytes_per_token": 3.7002846267274783
+    },
+    "en": {
+      "documents": 50,
+      "characters": 48562,
+      "utf8_bytes": 48565,
+      "tokens": 8955,
+      "chars_per_token": 5.422892238972641,
+      "bytes_per_token": 5.42322724734785
+    },
+    "ja": {
+      "documents": 50,
+      "characters": 16315,
+      "utf8_bytes": 48699,
+      "tokens": 13227,
+      "chars_per_token": 1.233461858320103,
+      "bytes_per_token": 3.68178725334543
+    },
+    "news": {
+      "documents": 100,
+      "characters": 68777,
+      "utf8_bytes": 101635,
+      "tokens": 23445,
+      "chars_per_token": 2.9335465984218385,
+      "bytes_per_token": 4.3350394540413735
+    },
+    "sns": {
+      "documents": 100,
+      "characters": 63900,
+      "utf8_bytes": 95793,
+      "tokens": 21990,
+      "chars_per_token": 2.9058663028649385,
+      "bytes_per_token": 4.356207366984993
+    }
+  },
+  "character_coverage": {
+    "dataset/characters/common_kanji.jsonl": {
+      "total": 2136,
+      "one_token": 1420,
+      "prefix_not_stable": 0,
+      "ratio": 0.6647940074906367
+    },
+    "dataset/characters/educational_kanji.jsonl": {
+      "total": 1026,
+      "one_token": 918,
+      "prefix_not_stable": 0,
+      "ratio": 0.8947368421052632
+    },
+    "dataset/characters/jis_l1.jsonl": {
+      "total": 2965,
+      "one_token": 1587,
+      "prefix_not_stable": 0,
+      "ratio": 0.5352445193929174
+    },
+    "dataset/characters/jis_l2.jsonl": {
+      "total": 3618,
+      "one_token": 393,
+      "prefix_not_stable": 0,
+      "ratio": 0.10862354892205639
+    }
+  },
+  "vocab_size": 201088,
+  "encoding_policy": "encode_ordinary; literal special-token spellings are ordinary text; no automatic BOS/EOS",
+  "fidelity": {
+    "documents": 7850,
+    "roundtrip_exact_documents": 7850,
+    "roundtrip_nonexact_documents": 0
+  },
+  "ranking_eligible": true,
+  "ranking_note": "Pinned executable tokenizer; fidelity indicators reported separately.",
+  "fidelity_note": "Full non-character document decode equality is a fidelity indicator, not model quality. Native normalization may explain nonexact outputs; no external input normalization was applied.",
+  "artifacts": [
+    {
+      "path": "o200k_base.tiktoken",
+      "sha256": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+      "bytes": 3613922,
+      "url": "https://openaipublic.blob.core.windows.net/encodings/o200k_base.tiktoken"
+    }
+  ],
+  "package_versions": {
+    "python": "3.14.2",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "tiktoken": "0.14.0",
+    "sentencepiece": "0.2.2",
+    "numba": "0.68.1",
+    "protobuf": "7.36.2",
+    "numpy": "2.5.4",
+    "regex": "2026.9.29"
+  },
+  "external_normalization": "none; original Unicode text and whitespace passed unchanged",
+  "backend_normalizer": "Native pinned slow/custom tokenizer implementation; artifact hashes retained",
+  "created_at": "2026-11-06T17:47:27.099103+00:00",
+  "character_metric": "Legacy SOH-prefix token-count stripping; prefix mismatches reported explicitly.",
+  "selection_sha256": "dba6bd0684df7e8640530c5fbc1a1d329325ab4fb8db3275db3f4aaf6ccda0a2",
+  "runner_source_sha256": "836119fbbc476f56764ba2686ff4d0150ad0550cd78eb39fdd4eced12ae0a563",
+  "corpus_metadata_revision": {
+    "evaluated_corpus_sha256": "2b52bb31a23475687d902123ce40ce4bbd568b85302672ed5eb49901da0bc0d2",
+    "record": "corpus-metadata-revision.json"
+  },
+  "vocab_size_metadata": {
+    "definition": "distinct registered token IDs, including added/special tokens; unassigned ID gaps excluded",
+    "method": "union of mergeable-rank and special-token IDs",
+    "id_capacity": 201088
+  }
+}

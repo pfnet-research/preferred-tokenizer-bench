@@ -1,0 +1,2184 @@
+{
+  "snapshot_at": "2026-11-06T17:46:53.508560+00:00",
+  "scope": "Saved rows in the dataset snapshot; pending candidate pools and reading decisions are not counted.",
+  "target_documents_including_characters": 17595,
+  "saved_documents_total": 17595,
+  "character_documents": 9745,
+  "genre_original_documents": 400,
+  "fineweb_reference_style_original_documents": 850,
+  "fineweb_reviewed_excerpt_documents": 6600,
+  "all_requested_targets_met": true,
+  "frames": [
+    {
+      "language": "en",
+      "tier": "T1",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ja",
+      "tier": "T1",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "zh-hans",
+      "tier": "T2",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "zh-hant",
+      "tier": "T2",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ko",
+      "tier": "T2",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ar",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "de",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "es",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "fr",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "hu",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "id",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "it",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "nl",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "pl",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ru",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "th",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "vi",
+      "tier": "T3",
+      "output_kind": "original",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "hi",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "fa",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "bn",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "tl",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "he",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ta",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "my",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ur",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ms",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ne",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ca",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ml",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "bg",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sr",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "hr",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sk",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sl",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "si",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "az",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ka",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "hy",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "uz",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "lt",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "km",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "lv",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "et",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "eu",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ceb",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "be",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "te",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "jv",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "kk",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "mr",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sw",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "gu",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "pa",
+      "tier": "T4",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "pt",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "tr",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "uk",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "cs",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ro",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "el",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sv",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "da",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "nb",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "fi",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "is",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ga",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "cy",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ab",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "av",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sq",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "mk",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "mt",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "gl",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "oc",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "fy",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "se",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ku",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ps",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "tg",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "tk",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ky",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "tt",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ba",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "cv",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "os",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "as",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "or",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sd",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sa",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "bo",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "dz",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "mai",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "bho",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "gom",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sat",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "dv",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "mn",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ug",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "yue",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "nan",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "wuu",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "su",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "min",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ace",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ban",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ilo",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "war",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "bcl",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "pam",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "lo",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "am",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ti",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "om",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "so",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ha",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "yo",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ig",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "zu",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "xh",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "af",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "st",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "atj",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "rw",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "guc",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "lg",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "wo",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ff",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "bm",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sn",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "mg",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ny",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "kab",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "zgh",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "mi",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "sm",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "to",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "fj",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ty",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "bi",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "tpi",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "haw",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "qu",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ay",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "gn",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "iu",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "chr",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "ht",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "pap",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "la",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    },
+    {
+      "language": "eo",
+      "tier": "T5",
+      "output_kind": "excerpt",
+      "saved_documents": 50,
+      "target_documents": 50,
+      "status": "target_met"
+    }
+  ],
+  "file_text_metrics": {
+    "dataset/academic/en.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 44097,
+      "min_document_utf8_bytes": 765,
+      "max_document_utf8_bytes": 987
+    },
+    "dataset/academic/ja.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 44233,
+      "min_document_utf8_bytes": 781,
+      "max_document_utf8_bytes": 946
+    },
+    "dataset/characters/common_kanji.jsonl": {
+      "documents": 2136,
+      "text_utf8_bytes": 6409,
+      "min_document_utf8_bytes": 3,
+      "max_document_utf8_bytes": 4
+    },
+    "dataset/characters/educational_kanji.jsonl": {
+      "documents": 1026,
+      "text_utf8_bytes": 3078,
+      "min_document_utf8_bytes": 3,
+      "max_document_utf8_bytes": 3
+    },
+    "dataset/characters/jis_l1.jsonl": {
+      "documents": 2965,
+      "text_utf8_bytes": 8895,
+      "min_document_utf8_bytes": 3,
+      "max_document_utf8_bytes": 3
+    },
+    "dataset/characters/jis_l2.jsonl": {
+      "documents": 3618,
+      "text_utf8_bytes": 10854,
+      "min_document_utf8_bytes": 3,
+      "max_document_utf8_bytes": 3
+    },
+    "dataset/code/en.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 53814,
+      "min_document_utf8_bytes": 943,
+      "max_document_utf8_bytes": 1424
+    },
+    "dataset/code/ja.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 54090,
+      "min_document_utf8_bytes": 904,
+      "max_document_utf8_bytes": 1457
+    },
+    "dataset/fineweb/ab.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48293,
+      "min_document_utf8_bytes": 615,
+      "max_document_utf8_bytes": 1371
+    },
+    "dataset/fineweb/ace.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47662,
+      "min_document_utf8_bytes": 618,
+      "max_document_utf8_bytes": 1079
+    },
+    "dataset/fineweb/af.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47261,
+      "min_document_utf8_bytes": 642,
+      "max_document_utf8_bytes": 1145
+    },
+    "dataset/fineweb/am.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45238,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1162
+    },
+    "dataset/fineweb/ar.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 56794,
+      "min_document_utf8_bytes": 1025,
+      "max_document_utf8_bytes": 1268
+    },
+    "dataset/fineweb/as.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 55102,
+      "min_document_utf8_bytes": 623,
+      "max_document_utf8_bytes": 1469
+    },
+    "dataset/fineweb/atj.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47837,
+      "min_document_utf8_bytes": 641,
+      "max_document_utf8_bytes": 1122
+    },
+    "dataset/fineweb/av.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47454,
+      "min_document_utf8_bytes": 619,
+      "max_document_utf8_bytes": 1362
+    },
+    "dataset/fineweb/ay.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46869,
+      "min_document_utf8_bytes": 603,
+      "max_document_utf8_bytes": 1149
+    },
+    "dataset/fineweb/az.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 51413,
+      "min_document_utf8_bytes": 621,
+      "max_document_utf8_bytes": 1383
+    },
+    "dataset/fineweb/ba.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48101,
+      "min_document_utf8_bytes": 616,
+      "max_document_utf8_bytes": 1166
+    },
+    "dataset/fineweb/ban.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45716,
+      "min_document_utf8_bytes": 603,
+      "max_document_utf8_bytes": 1186
+    },
+    "dataset/fineweb/bcl.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48025,
+      "min_document_utf8_bytes": 633,
+      "max_document_utf8_bytes": 1086
+    },
+    "dataset/fineweb/be.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 51148,
+      "min_document_utf8_bytes": 611,
+      "max_document_utf8_bytes": 1399
+    },
+    "dataset/fineweb/bg.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49577,
+      "min_document_utf8_bytes": 662,
+      "max_document_utf8_bytes": 1427
+    },
+    "dataset/fineweb/bho.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50131,
+      "min_document_utf8_bytes": 709,
+      "max_document_utf8_bytes": 1284
+    },
+    "dataset/fineweb/bi.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48020,
+      "min_document_utf8_bytes": 615,
+      "max_document_utf8_bytes": 1217
+    },
+    "dataset/fineweb/bm.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48130,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1079
+    },
+    "dataset/fineweb/bn.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 53308,
+      "min_document_utf8_bytes": 656,
+      "max_document_utf8_bytes": 1390
+    },
+    "dataset/fineweb/bo.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49503,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1441
+    },
+    "dataset/fineweb/ca.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48487,
+      "min_document_utf8_bytes": 637,
+      "max_document_utf8_bytes": 1349
+    },
+    "dataset/fineweb/ceb.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 39708,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1267
+    },
+    "dataset/fineweb/chr.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45567,
+      "min_document_utf8_bytes": 624,
+      "max_document_utf8_bytes": 1276
+    },
+    "dataset/fineweb/cs.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 44513,
+      "min_document_utf8_bytes": 613,
+      "max_document_utf8_bytes": 1321
+    },
+    "dataset/fineweb/cv.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47605,
+      "min_document_utf8_bytes": 634,
+      "max_document_utf8_bytes": 1119
+    },
+    "dataset/fineweb/cy.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 40110,
+      "min_document_utf8_bytes": 606,
+      "max_document_utf8_bytes": 1098
+    },
+    "dataset/fineweb/da.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 42748,
+      "min_document_utf8_bytes": 614,
+      "max_document_utf8_bytes": 1170
+    },
+    "dataset/fineweb/de.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47271,
+      "min_document_utf8_bytes": 859,
+      "max_document_utf8_bytes": 1037
+    },
+    "dataset/fineweb/dv.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48310,
+      "min_document_utf8_bytes": 633,
+      "max_document_utf8_bytes": 1224
+    },
+    "dataset/fineweb/dz.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48900,
+      "min_document_utf8_bytes": 676,
+      "max_document_utf8_bytes": 1351
+    },
+    "dataset/fineweb/el.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 53406,
+      "min_document_utf8_bytes": 656,
+      "max_document_utf8_bytes": 1363
+    },
+    "dataset/fineweb/en.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48565,
+      "min_document_utf8_bytes": 877,
+      "max_document_utf8_bytes": 1079
+    },
+    "dataset/fineweb/eo.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46804,
+      "min_document_utf8_bytes": 644,
+      "max_document_utf8_bytes": 1108
+    },
+    "dataset/fineweb/es.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45680,
+      "min_document_utf8_bytes": 823,
+      "max_document_utf8_bytes": 994
+    },
+    "dataset/fineweb/et.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 42392,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1142
+    },
+    "dataset/fineweb/eu.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 42777,
+      "min_document_utf8_bytes": 601,
+      "max_document_utf8_bytes": 1216
+    },
+    "dataset/fineweb/fa.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46015,
+      "min_document_utf8_bytes": 610,
+      "max_document_utf8_bytes": 1274
+    },
+    "dataset/fineweb/ff.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48322,
+      "min_document_utf8_bytes": 704,
+      "max_document_utf8_bytes": 1097
+    },
+    "dataset/fineweb/fi.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 51209,
+      "min_document_utf8_bytes": 622,
+      "max_document_utf8_bytes": 1430
+    },
+    "dataset/fineweb/fj.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46881,
+      "min_document_utf8_bytes": 624,
+      "max_document_utf8_bytes": 1124
+    },
+    "dataset/fineweb/fr.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48349,
+      "min_document_utf8_bytes": 857,
+      "max_document_utf8_bytes": 1070
+    },
+    "dataset/fineweb/fy.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48243,
+      "min_document_utf8_bytes": 611,
+      "max_document_utf8_bytes": 1271
+    },
+    "dataset/fineweb/ga.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 37857,
+      "min_document_utf8_bytes": 626,
+      "max_document_utf8_bytes": 933
+    },
+    "dataset/fineweb/gl.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48376,
+      "min_document_utf8_bytes": 709,
+      "max_document_utf8_bytes": 1130
+    },
+    "dataset/fineweb/gn.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45667,
+      "min_document_utf8_bytes": 643,
+      "max_document_utf8_bytes": 1092
+    },
+    "dataset/fineweb/gom.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 54797,
+      "min_document_utf8_bytes": 700,
+      "max_document_utf8_bytes": 1427
+    },
+    "dataset/fineweb/gu.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50447,
+      "min_document_utf8_bytes": 657,
+      "max_document_utf8_bytes": 1364
+    },
+    "dataset/fineweb/guc.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46791,
+      "min_document_utf8_bytes": 680,
+      "max_document_utf8_bytes": 1086
+    },
+    "dataset/fineweb/ha.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45268,
+      "min_document_utf8_bytes": 602,
+      "max_document_utf8_bytes": 1174
+    },
+    "dataset/fineweb/haw.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45914,
+      "min_document_utf8_bytes": 631,
+      "max_document_utf8_bytes": 1117
+    },
+    "dataset/fineweb/he.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48716,
+      "min_document_utf8_bytes": 616,
+      "max_document_utf8_bytes": 1426
+    },
+    "dataset/fineweb/hi.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48703,
+      "min_document_utf8_bytes": 604,
+      "max_document_utf8_bytes": 1333
+    },
+    "dataset/fineweb/hr.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45616,
+      "min_document_utf8_bytes": 612,
+      "max_document_utf8_bytes": 1420
+    },
+    "dataset/fineweb/ht.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46909,
+      "min_document_utf8_bytes": 668,
+      "max_document_utf8_bytes": 1234
+    },
+    "dataset/fineweb/hu.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45502,
+      "min_document_utf8_bytes": 809,
+      "max_document_utf8_bytes": 1032
+    },
+    "dataset/fineweb/hy.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 53480,
+      "min_document_utf8_bytes": 625,
+      "max_document_utf8_bytes": 1415
+    },
+    "dataset/fineweb/id.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47273,
+      "min_document_utf8_bytes": 885,
+      "max_document_utf8_bytes": 993
+    },
+    "dataset/fineweb/ig.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48590,
+      "min_document_utf8_bytes": 734,
+      "max_document_utf8_bytes": 1274
+    },
+    "dataset/fineweb/ilo.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48814,
+      "min_document_utf8_bytes": 606,
+      "max_document_utf8_bytes": 1112
+    },
+    "dataset/fineweb/is.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 39209,
+      "min_document_utf8_bytes": 607,
+      "max_document_utf8_bytes": 1223
+    },
+    "dataset/fineweb/it.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47587,
+      "min_document_utf8_bytes": 889,
+      "max_document_utf8_bytes": 1013
+    },
+    "dataset/fineweb/iu.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46717,
+      "min_document_utf8_bytes": 604,
+      "max_document_utf8_bytes": 1233
+    },
+    "dataset/fineweb/ja.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48699,
+      "min_document_utf8_bytes": 884,
+      "max_document_utf8_bytes": 1044
+    },
+    "dataset/fineweb/jv.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 38428,
+      "min_document_utf8_bytes": 601,
+      "max_document_utf8_bytes": 1117
+    },
+    "dataset/fineweb/ka.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 52369,
+      "min_document_utf8_bytes": 621,
+      "max_document_utf8_bytes": 1480
+    },
+    "dataset/fineweb/kab.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48339,
+      "min_document_utf8_bytes": 716,
+      "max_document_utf8_bytes": 1222
+    },
+    "dataset/fineweb/kk.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49229,
+      "min_document_utf8_bytes": 604,
+      "max_document_utf8_bytes": 1301
+    },
+    "dataset/fineweb/km.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48804,
+      "min_document_utf8_bytes": 602,
+      "max_document_utf8_bytes": 1389
+    },
+    "dataset/fineweb/ko.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50311,
+      "min_document_utf8_bytes": 846,
+      "max_document_utf8_bytes": 1144
+    },
+    "dataset/fineweb/ku.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49037,
+      "min_document_utf8_bytes": 734,
+      "max_document_utf8_bytes": 1173
+    },
+    "dataset/fineweb/ky.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48095,
+      "min_document_utf8_bytes": 657,
+      "max_document_utf8_bytes": 1177
+    },
+    "dataset/fineweb/la.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46021,
+      "min_document_utf8_bytes": 654,
+      "max_document_utf8_bytes": 1427
+    },
+    "dataset/fineweb/lg.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47684,
+      "min_document_utf8_bytes": 613,
+      "max_document_utf8_bytes": 1093
+    },
+    "dataset/fineweb/lo.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45400,
+      "min_document_utf8_bytes": 639,
+      "max_document_utf8_bytes": 1357
+    },
+    "dataset/fineweb/lt.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45235,
+      "min_document_utf8_bytes": 600,
+      "max_document_utf8_bytes": 1400
+    },
+    "dataset/fineweb/lv.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 41999,
+      "min_document_utf8_bytes": 621,
+      "max_document_utf8_bytes": 1259
+    },
+    "dataset/fineweb/mai.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49563,
+      "min_document_utf8_bytes": 687,
+      "max_document_utf8_bytes": 1330
+    },
+    "dataset/fineweb/mg.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48791,
+      "min_document_utf8_bytes": 693,
+      "max_document_utf8_bytes": 1127
+    },
+    "dataset/fineweb/mi.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45788,
+      "min_document_utf8_bytes": 608,
+      "max_document_utf8_bytes": 1090
+    },
+    "dataset/fineweb/min.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46164,
+      "min_document_utf8_bytes": 648,
+      "max_document_utf8_bytes": 1200
+    },
+    "dataset/fineweb/mk.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48251,
+      "min_document_utf8_bytes": 618,
+      "max_document_utf8_bytes": 1308
+    },
+    "dataset/fineweb/ml.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 52917,
+      "min_document_utf8_bytes": 643,
+      "max_document_utf8_bytes": 1487
+    },
+    "dataset/fineweb/mn.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47761,
+      "min_document_utf8_bytes": 673,
+      "max_document_utf8_bytes": 1302
+    },
+    "dataset/fineweb/mr.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50815,
+      "min_document_utf8_bytes": 668,
+      "max_document_utf8_bytes": 1361
+    },
+    "dataset/fineweb/ms.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47524,
+      "min_document_utf8_bytes": 601,
+      "max_document_utf8_bytes": 1431
+    },
+    "dataset/fineweb/mt.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45664,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1097
+    },
+    "dataset/fineweb/my.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 52837,
+      "min_document_utf8_bytes": 637,
+      "max_document_utf8_bytes": 1440
+    },
+    "dataset/fineweb/nan.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50285,
+      "min_document_utf8_bytes": 743,
+      "max_document_utf8_bytes": 1355
+    },
+    "dataset/fineweb/nb.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 42722,
+      "min_document_utf8_bytes": 626,
+      "max_document_utf8_bytes": 1213
+    },
+    "dataset/fineweb/ne.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 53012,
+      "min_document_utf8_bytes": 633,
+      "max_document_utf8_bytes": 1492
+    },
+    "dataset/fineweb/nl.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47327,
+      "min_document_utf8_bytes": 857,
+      "max_document_utf8_bytes": 1074
+    },
+    "dataset/fineweb/ny.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47093,
+      "min_document_utf8_bytes": 672,
+      "max_document_utf8_bytes": 1083
+    },
+    "dataset/fineweb/oc.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47332,
+      "min_document_utf8_bytes": 639,
+      "max_document_utf8_bytes": 1139
+    },
+    "dataset/fineweb/om.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47151,
+      "min_document_utf8_bytes": 620,
+      "max_document_utf8_bytes": 1082
+    },
+    "dataset/fineweb/or.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 55892,
+      "min_document_utf8_bytes": 732,
+      "max_document_utf8_bytes": 1302
+    },
+    "dataset/fineweb/os.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49521,
+      "min_document_utf8_bytes": 722,
+      "max_document_utf8_bytes": 1149
+    },
+    "dataset/fineweb/pa.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50833,
+      "min_document_utf8_bytes": 604,
+      "max_document_utf8_bytes": 1426
+    },
+    "dataset/fineweb/pam.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47402,
+      "min_document_utf8_bytes": 619,
+      "max_document_utf8_bytes": 1072
+    },
+    "dataset/fineweb/pap.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46147,
+      "min_document_utf8_bytes": 607,
+      "max_document_utf8_bytes": 1092
+    },
+    "dataset/fineweb/pl.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47440,
+      "min_document_utf8_bytes": 869,
+      "max_document_utf8_bytes": 1036
+    },
+    "dataset/fineweb/ps.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48671,
+      "min_document_utf8_bytes": 682,
+      "max_document_utf8_bytes": 1224
+    },
+    "dataset/fineweb/pt.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 44535,
+      "min_document_utf8_bytes": 653,
+      "max_document_utf8_bytes": 1220
+    },
+    "dataset/fineweb/qu.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46786,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1100
+    },
+    "dataset/fineweb/ro.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45970,
+      "min_document_utf8_bytes": 617,
+      "max_document_utf8_bytes": 1421
+    },
+    "dataset/fineweb/ru.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 58078,
+      "min_document_utf8_bytes": 897,
+      "max_document_utf8_bytes": 1449
+    },
+    "dataset/fineweb/rw.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49870,
+      "min_document_utf8_bytes": 689,
+      "max_document_utf8_bytes": 1183
+    },
+    "dataset/fineweb/sa.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 55442,
+      "min_document_utf8_bytes": 663,
+      "max_document_utf8_bytes": 1337
+    },
+    "dataset/fineweb/sat.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50126,
+      "min_document_utf8_bytes": 609,
+      "max_document_utf8_bytes": 1250
+    },
+    "dataset/fineweb/sd.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 52110,
+      "min_document_utf8_bytes": 600,
+      "max_document_utf8_bytes": 1445
+    },
+    "dataset/fineweb/se.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48090,
+      "min_document_utf8_bytes": 626,
+      "max_document_utf8_bytes": 1199
+    },
+    "dataset/fineweb/si.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50937,
+      "min_document_utf8_bytes": 613,
+      "max_document_utf8_bytes": 1390
+    },
+    "dataset/fineweb/sk.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48211,
+      "min_document_utf8_bytes": 621,
+      "max_document_utf8_bytes": 1456
+    },
+    "dataset/fineweb/sl.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49594,
+      "min_document_utf8_bytes": 604,
+      "max_document_utf8_bytes": 1391
+    },
+    "dataset/fineweb/sm.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46562,
+      "min_document_utf8_bytes": 613,
+      "max_document_utf8_bytes": 1191
+    },
+    "dataset/fineweb/sn.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47704,
+      "min_document_utf8_bytes": 646,
+      "max_document_utf8_bytes": 1139
+    },
+    "dataset/fineweb/so.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45366,
+      "min_document_utf8_bytes": 612,
+      "max_document_utf8_bytes": 1243
+    },
+    "dataset/fineweb/sq.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 42508,
+      "min_document_utf8_bytes": 606,
+      "max_document_utf8_bytes": 1159
+    },
+    "dataset/fineweb/sr.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46683,
+      "min_document_utf8_bytes": 603,
+      "max_document_utf8_bytes": 1428
+    },
+    "dataset/fineweb/st.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45548,
+      "min_document_utf8_bytes": 604,
+      "max_document_utf8_bytes": 1181
+    },
+    "dataset/fineweb/su.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49079,
+      "min_document_utf8_bytes": 641,
+      "max_document_utf8_bytes": 1163
+    },
+    "dataset/fineweb/sv.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45918,
+      "min_document_utf8_bytes": 605,
+      "max_document_utf8_bytes": 1361
+    },
+    "dataset/fineweb/sw.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 38249,
+      "min_document_utf8_bytes": 600,
+      "max_document_utf8_bytes": 1101
+    },
+    "dataset/fineweb/ta.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 55396,
+      "min_document_utf8_bytes": 702,
+      "max_document_utf8_bytes": 1489
+    },
+    "dataset/fineweb/te.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 50556,
+      "min_document_utf8_bytes": 644,
+      "max_document_utf8_bytes": 1467
+    },
+    "dataset/fineweb/tg.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48875,
+      "min_document_utf8_bytes": 695,
+      "max_document_utf8_bytes": 1360
+    },
+    "dataset/fineweb/th.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 57436,
+      "min_document_utf8_bytes": 920,
+      "max_document_utf8_bytes": 1287
+    },
+    "dataset/fineweb/ti.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 44625,
+      "min_document_utf8_bytes": 617,
+      "max_document_utf8_bytes": 1280
+    },
+    "dataset/fineweb/tk.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48356,
+      "min_document_utf8_bytes": 659,
+      "max_document_utf8_bytes": 1101
+    },
+    "dataset/fineweb/tl.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 41407,
+      "min_document_utf8_bytes": 607,
+      "max_document_utf8_bytes": 1288
+    },
+    "dataset/fineweb/to.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47007,
+      "min_document_utf8_bytes": 617,
+      "max_document_utf8_bytes": 1146
+    },
+    "dataset/fineweb/tpi.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46803,
+      "min_document_utf8_bytes": 611,
+      "max_document_utf8_bytes": 1128
+    },
+    "dataset/fineweb/tr.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45779,
+      "min_document_utf8_bytes": 601,
+      "max_document_utf8_bytes": 1354
+    },
+    "dataset/fineweb/tt.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47767,
+      "min_document_utf8_bytes": 604,
+      "max_document_utf8_bytes": 1146
+    },
+    "dataset/fineweb/ty.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47547,
+      "min_document_utf8_bytes": 649,
+      "max_document_utf8_bytes": 1109
+    },
+    "dataset/fineweb/ug.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46304,
+      "min_document_utf8_bytes": 625,
+      "max_document_utf8_bytes": 1185
+    },
+    "dataset/fineweb/uk.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 53073,
+      "min_document_utf8_bytes": 603,
+      "max_document_utf8_bytes": 1421
+    },
+    "dataset/fineweb/ur.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 52670,
+      "min_document_utf8_bytes": 630,
+      "max_document_utf8_bytes": 1425
+    },
+    "dataset/fineweb/uz.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 52714,
+      "min_document_utf8_bytes": 646,
+      "max_document_utf8_bytes": 1460
+    },
+    "dataset/fineweb/vi.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48502,
+      "min_document_utf8_bytes": 883,
+      "max_document_utf8_bytes": 1069
+    },
+    "dataset/fineweb/war.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47707,
+      "min_document_utf8_bytes": 637,
+      "max_document_utf8_bytes": 1187
+    },
+    "dataset/fineweb/wo.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48000,
+      "min_document_utf8_bytes": 631,
+      "max_document_utf8_bytes": 1120
+    },
+    "dataset/fineweb/wuu.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46884,
+      "min_document_utf8_bytes": 621,
+      "max_document_utf8_bytes": 1135
+    },
+    "dataset/fineweb/xh.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46201,
+      "min_document_utf8_bytes": 645,
+      "max_document_utf8_bytes": 1085
+    },
+    "dataset/fineweb/yo.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47928,
+      "min_document_utf8_bytes": 713,
+      "max_document_utf8_bytes": 1136
+    },
+    "dataset/fineweb/yue.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 46975,
+      "min_document_utf8_bytes": 638,
+      "max_document_utf8_bytes": 1215
+    },
+    "dataset/fineweb/zgh.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47333,
+      "min_document_utf8_bytes": 622,
+      "max_document_utf8_bytes": 1269
+    },
+    "dataset/fineweb/zh-hans.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45592,
+      "min_document_utf8_bytes": 752,
+      "max_document_utf8_bytes": 979
+    },
+    "dataset/fineweb/zh-hant.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 45192,
+      "min_document_utf8_bytes": 829,
+      "max_document_utf8_bytes": 1012
+    },
+    "dataset/fineweb/zu.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48280,
+      "min_document_utf8_bytes": 696,
+      "max_document_utf8_bytes": 1222
+    },
+    "dataset/news/en.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 51991,
+      "min_document_utf8_bytes": 957,
+      "max_document_utf8_bytes": 1107
+    },
+    "dataset/news/ja.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 49644,
+      "min_document_utf8_bytes": 935,
+      "max_document_utf8_bytes": 1105
+    },
+    "dataset/sns/en.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 48001,
+      "min_document_utf8_bytes": 827,
+      "max_document_utf8_bytes": 1040
+    },
+    "dataset/sns/ja.jsonl": {
+      "documents": 50,
+      "text_utf8_bytes": 47792,
+      "min_document_utf8_bytes": 866,
+      "max_document_utf8_bytes": 1057
+    }
+  },
+  "limits": [
+    "A successful row-validation CI run does not mean all requested frames are complete.",
+    "Limited-data counts describe reviewed excerpts from the pinned sources and documented bounded acquisition, not proof that no other text exists anywhere.",
+    "Older Cherokee and other supplements keep their actual source revision. Re-window retries never count the same original document twice."
+  ],
+  "excluded_language_frames": [
+    "bug",
+    "nv",
+    "ik",
+    "mni"
+  ]
+}

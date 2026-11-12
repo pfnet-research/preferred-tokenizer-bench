@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-06T16:54:08.543852+00:00",
+  "installed_tiktoken": "0.14.0",
+  "source_hashes": {
+    "openai_public.py": "954392738e60d0fb6dca1dad80872efc47c8e2733babecbbf0a23970ed66c2cb",
+    "grok_sglang.py": "b2ee70a118d434910e1a68b8d4b894c3ffcb9b3c8d202f948818a493e07c5bdd"
+  },
+  "encodings": {
+    "cl100k_base": {
+      "pat_str_exact_equal": true,
+      "special_registry_exact_equal": true,
+      "special_count": 5,
+      "pat_str_sha256": "f021c3d976978e62ee64cdad150cc3405c2e3d6e3b40407850bb9e8d9eb65899",
+      "special_registry_sha256": "101ba6dd962adfc30eb868a17871bae30239dc2f73a6a851bdd7aced60ed7160"
+    },
+    "o200k_base": {
+      "pat_str_exact_equal": true,
+      "special_registry_exact_equal": true,
+      "special_count": 2,
+      "pat_str_sha256": "2d1b8dc11e89af71459b36004f698ab3693f59fd84f63e8ec2b49564ab857420",
+      "special_registry_sha256": "dea77ce604db86d3dbf8a95c76fc6cbe1583b22e46b587854e5a8e83d11af14c"
+    },
+    "o200k_harmony": {
+      "pat_str_exact_equal": true,
+      "special_registry_exact_equal": true,
+      "special_count": 1091,
+      "pat_str_sha256": "2d1b8dc11e89af71459b36004f698ab3693f59fd84f63e8ec2b49564ab857420",
+      "special_registry_sha256": "8ed65db0d94eea1602f9af91e02ac0df5c7a437489ecbcb2f518dafccc40d9bc"
+    }
+  },
+  "grok2": {
+    "word_split": "V1",
+    "artifact_pat_str_override_present": false,
+    "runner_pattern_exact_equals_pinned_SGLang": true,
+    "special_registry_exact_equal": true,
+    "special_count": 128,
+    "mergeable_ranks_exact_equal": true,
+    "pat_str_sha256": "1ff7f41064896984db5d1bb6ff64fa4bc29007d08c1b439e505b7392777a319e"
+  },
+  "probes_per_encoding": 5,
+  "grok_policy_note": "Regex/rank/special definitions match official pinned SGLang. Runner intentionally uses encode_ordinary; official SGLang patched encode permits default control/reserved literals as special tokens. Raw text policy is disclosed, not full encode-wrapper equivalence.",
+  "reviewer": "undisclosed",
+  "source_urls": {
+    "openai_public.py": "https://github.com/openai/tiktoken/blob/4e71bbe0c078468e00fefbf94b39849389f346e5/tiktoken_ext/openai_public.py",
+    "grok_sglang.py": "https://github.com/sgl-project/sglang/blob/97a38ee85ba62e268bde6388f1bf8edfe2ca9d76/python/sglang/srt/tokenizer/tiktoken_tokenizer.py"
+  }
+}

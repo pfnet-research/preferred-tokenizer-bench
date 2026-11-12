@@ -1,0 +1,566 @@
+{
+  "created_at": "2026-11-06",
+  "original_row_metadata": {
+    "source": "original"
+  },
+  "authorship": "Original benchmark text authored with Codex assistance. News and academic samples are fictional or synthetic, not factual reporting or empirical research findings. Social samples do not reproduce identifiable real users. Code is independently written example code with Japanese or English explanatory comments.",
+  "references": "Five reference classifications per corpus and language; extracted UTF-8 article, public post, documentation, or paper text was collected for style and format inspection. Reference source bodies are not distributed.",
+  "code_pairing": "The 50 code implementations are shared between the Japanese and English corpora, with independently authored language-specific explanations. This intentionally controls programming-language content while varying natural-language comments; these two code corpora are not independent algorithm samples.",
+  "reference_counts": [
+    {
+      "corpus": "news",
+      "language": "ja",
+      "classification": "bbc",
+      "document_id_range": [
+        "news-ja-0001",
+        "news-ja-0010"
+      ],
+      "collected_reference_utf8_bytes": 28848,
+      "reference_records": 5
+    },
+    {
+      "corpus": "news",
+      "language": "ja",
+      "classification": "afp",
+      "document_id_range": [
+        "news-ja-0011",
+        "news-ja-0020"
+      ],
+      "collected_reference_utf8_bytes": 23307,
+      "reference_records": 9
+    },
+    {
+      "corpus": "news",
+      "language": "ja",
+      "classification": "jiji",
+      "document_id_range": [
+        "news-ja-0021",
+        "news-ja-0030"
+      ],
+      "collected_reference_utf8_bytes": 26198,
+      "reference_records": 13
+    },
+    {
+      "corpus": "news",
+      "language": "ja",
+      "classification": "tokyo-shimbun",
+      "document_id_range": [
+        "news-ja-0031",
+        "news-ja-0040"
+      ],
+      "collected_reference_utf8_bytes": 28485,
+      "reference_records": 15
+    },
+    {
+      "corpus": "news",
+      "language": "ja",
+      "classification": "scienceportal",
+      "document_id_range": [
+        "news-ja-0041",
+        "news-ja-0050"
+      ],
+      "collected_reference_utf8_bytes": 27875,
+      "reference_records": 9
+    },
+    {
+      "corpus": "news",
+      "language": "en",
+      "classification": "bbc",
+      "document_id_range": [
+        "news-en-0001",
+        "news-en-0010"
+      ],
+      "collected_reference_utf8_bytes": 28668,
+      "reference_records": 8
+    },
+    {
+      "corpus": "news",
+      "language": "en",
+      "classification": "guardian",
+      "document_id_range": [
+        "news-en-0011",
+        "news-en-0020"
+      ],
+      "collected_reference_utf8_bytes": 26336,
+      "reference_records": 5
+    },
+    {
+      "corpus": "news",
+      "language": "en",
+      "classification": "npr",
+      "document_id_range": [
+        "news-en-0021",
+        "news-en-0030"
+      ],
+      "collected_reference_utf8_bytes": 27059,
+      "reference_records": 6
+    },
+    {
+      "corpus": "news",
+      "language": "en",
+      "classification": "cnn",
+      "document_id_range": [
+        "news-en-0031",
+        "news-en-0040"
+      ],
+      "collected_reference_utf8_bytes": 30869,
+      "reference_records": 4
+    },
+    {
+      "corpus": "news",
+      "language": "en",
+      "classification": "sciencedaily",
+      "document_id_range": [
+        "news-en-0041",
+        "news-en-0050"
+      ],
+      "collected_reference_utf8_bytes": 26562,
+      "reference_records": 4
+    },
+    {
+      "corpus": "sns",
+      "language": "ja",
+      "classification": "mstdn.jp",
+      "document_id_range": [
+        "sns-ja-0001",
+        "sns-ja-0010"
+      ],
+      "collected_reference_utf8_bytes": 44182,
+      "reference_records": 7
+    },
+    {
+      "corpus": "sns",
+      "language": "ja",
+      "classification": "pawoo.net",
+      "document_id_range": [
+        "sns-ja-0011",
+        "sns-ja-0020"
+      ],
+      "collected_reference_utf8_bytes": 44816,
+      "reference_records": 10
+    },
+    {
+      "corpus": "sns",
+      "language": "ja",
+      "classification": "misskey.io",
+      "document_id_range": [
+        "sns-ja-0021",
+        "sns-ja-0030"
+      ],
+      "collected_reference_utf8_bytes": 42266,
+      "reference_records": 11
+    },
+    {
+      "corpus": "sns",
+      "language": "ja",
+      "classification": "misskey.art",
+      "document_id_range": [
+        "sns-ja-0031",
+        "sns-ja-0040"
+      ],
+      "collected_reference_utf8_bytes": 47460,
+      "reference_records": 7
+    },
+    {
+      "corpus": "sns",
+      "language": "ja",
+      "classification": "misskey.design",
+      "document_id_range": [
+        "sns-ja-0041",
+        "sns-ja-0050"
+      ],
+      "collected_reference_utf8_bytes": 45625,
+      "reference_records": 7
+    },
+    {
+      "corpus": "sns",
+      "language": "en",
+      "classification": "fosstodon.org",
+      "document_id_range": [
+        "sns-en-0001",
+        "sns-en-0010"
+      ],
+      "collected_reference_utf8_bytes": 48986,
+      "reference_records": 5
+    },
+    {
+      "corpus": "sns",
+      "language": "en",
+      "classification": "infosec.exchange",
+      "document_id_range": [
+        "sns-en-0011",
+        "sns-en-0020"
+      ],
+      "collected_reference_utf8_bytes": 42720,
+      "reference_records": 3
+    },
+    {
+      "corpus": "sns",
+      "language": "en",
+      "classification": "hackernews",
+      "document_id_range": [
+        "sns-en-0021",
+        "sns-en-0030"
+      ],
+      "collected_reference_utf8_bytes": 49085,
+      "reference_records": 2
+    },
+    {
+      "corpus": "sns",
+      "language": "en",
+      "classification": "lemmy.world",
+      "document_id_range": [
+        "sns-en-0031",
+        "sns-en-0040"
+      ],
+      "collected_reference_utf8_bytes": 46038,
+      "reference_records": 4
+    },
+    {
+      "corpus": "sns",
+      "language": "en",
+      "classification": "hachyderm.io",
+      "document_id_range": [
+        "sns-en-0041",
+        "sns-en-0050"
+      ],
+      "collected_reference_utf8_bytes": 49179,
+      "reference_records": 6
+    },
+    {
+      "corpus": "code",
+      "language": "ja",
+      "classification": "python",
+      "document_id_range": [
+        "code-ja-0001",
+        "code-ja-0010"
+      ],
+      "collected_reference_utf8_bytes": 30745,
+      "reference_records": 1
+    },
+    {
+      "corpus": "code",
+      "language": "ja",
+      "classification": "javascript",
+      "document_id_range": [
+        "code-ja-0011",
+        "code-ja-0020"
+      ],
+      "collected_reference_utf8_bytes": 27904,
+      "reference_records": 1
+    },
+    {
+      "corpus": "code",
+      "language": "ja",
+      "classification": "go",
+      "document_id_range": [
+        "code-ja-0021",
+        "code-ja-0030"
+      ],
+      "collected_reference_utf8_bytes": 126697,
+      "reference_records": 1
+    },
+    {
+      "corpus": "code",
+      "language": "ja",
+      "classification": "rust",
+      "document_id_range": [
+        "code-ja-0031",
+        "code-ja-0040"
+      ],
+      "collected_reference_utf8_bytes": 32093,
+      "reference_records": 1
+    },
+    {
+      "corpus": "code",
+      "language": "ja",
+      "classification": "sql",
+      "document_id_range": [
+        "code-ja-0041",
+        "code-ja-0050"
+      ],
+      "collected_reference_utf8_bytes": 75591,
+      "reference_records": 1
+    },
+    {
+      "corpus": "code",
+      "language": "en",
+      "classification": "python",
+      "document_id_range": [
+        "code-en-0001",
+        "code-en-0010"
+      ],
+      "collected_reference_utf8_bytes": 34734,
+      "reference_records": 2
+    },
+    {
+      "corpus": "code",
+      "language": "en",
+      "classification": "javascript",
+      "document_id_range": [
+        "code-en-0011",
+        "code-en-0020"
+      ],
+      "collected_reference_utf8_bytes": 50461,
+      "reference_records": 3
+    },
+    {
+      "corpus": "code",
+      "language": "en",
+      "classification": "go",
+      "document_id_range": [
+        "code-en-0021",
+        "code-en-0030"
+      ],
+      "collected_reference_utf8_bytes": 230193,
+      "reference_records": 1
+    },
+    {
+      "corpus": "code",
+      "language": "en",
+      "classification": "rust",
+      "document_id_range": [
+        "code-en-0031",
+        "code-en-0040"
+      ],
+      "collected_reference_utf8_bytes": 30650,
+      "reference_records": 2
+    },
+    {
+      "corpus": "code",
+      "language": "en",
+      "classification": "sql",
+      "document_id_range": [
+        "code-en-0041",
+        "code-en-0050"
+      ],
+      "collected_reference_utf8_bytes": 61092,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "ja",
+      "classification": "mathematics",
+      "document_id_range": [
+        "academic-ja-0001",
+        "academic-ja-0010"
+      ],
+      "collected_reference_utf8_bytes": 95526,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "ja",
+      "classification": "physics",
+      "document_id_range": [
+        "academic-ja-0011",
+        "academic-ja-0020"
+      ],
+      "collected_reference_utf8_bytes": 39478,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "ja",
+      "classification": "biology",
+      "document_id_range": [
+        "academic-ja-0021",
+        "academic-ja-0030"
+      ],
+      "collected_reference_utf8_bytes": 36960,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "ja",
+      "classification": "computer-science",
+      "document_id_range": [
+        "academic-ja-0031",
+        "academic-ja-0040"
+      ],
+      "collected_reference_utf8_bytes": 70044,
+      "reference_records": 2
+    },
+    {
+      "corpus": "academic",
+      "language": "ja",
+      "classification": "social-science",
+      "document_id_range": [
+        "academic-ja-0041",
+        "academic-ja-0050"
+      ],
+      "collected_reference_utf8_bytes": 236313,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "en",
+      "classification": "mathematics",
+      "document_id_range": [
+        "academic-en-0001",
+        "academic-en-0010"
+      ],
+      "collected_reference_utf8_bytes": 98360,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "en",
+      "classification": "physics",
+      "document_id_range": [
+        "academic-en-0011",
+        "academic-en-0020"
+      ],
+      "collected_reference_utf8_bytes": 39181,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "en",
+      "classification": "biology",
+      "document_id_range": [
+        "academic-en-0021",
+        "academic-en-0030"
+      ],
+      "collected_reference_utf8_bytes": 36529,
+      "reference_records": 2
+    },
+    {
+      "corpus": "academic",
+      "language": "en",
+      "classification": "computer-science",
+      "document_id_range": [
+        "academic-en-0031",
+        "academic-en-0040"
+      ],
+      "collected_reference_utf8_bytes": 271218,
+      "reference_records": 1
+    },
+    {
+      "corpus": "academic",
+      "language": "en",
+      "classification": "social-science",
+      "document_id_range": [
+        "academic-en-0041",
+        "academic-en-0050"
+      ],
+      "collected_reference_utf8_bytes": 40779,
+      "reference_records": 1
+    }
+  ],
+  "original_audit": {
+    "academic/ja": {
+      "documents": 50,
+      "text_utf8_bytes": 44233,
+      "minimum_document_bytes": 781,
+      "maximum_document_bytes": 946,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "long_overlap_pairs": [],
+      "sha256_jsonl": "3162dc75171c00448839d1bca9c41ea59584803a6ba5520b885369f9429468c7"
+    },
+    "academic/en": {
+      "documents": 50,
+      "text_utf8_bytes": 44097,
+      "minimum_document_bytes": 765,
+      "maximum_document_bytes": 987,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "long_overlap_pairs": [],
+      "sha256_jsonl": "65e0e867f213b22d8e4c5eb7e23ea61f078ef87a5dae684d22931efcdc2fea7f"
+    },
+    "code/ja": {
+      "documents": 50,
+      "text_utf8_bytes": 54090,
+      "minimum_document_bytes": 904,
+      "maximum_document_bytes": 1457,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "long_overlap_pairs": [],
+      "sha256_jsonl": "74ce8a2a4df3258307b6a17b33f94a5747b8a2191a4e763a81f033332b974288"
+    },
+    "code/en": {
+      "documents": 50,
+      "text_utf8_bytes": 53814,
+      "minimum_document_bytes": 943,
+      "maximum_document_bytes": 1424,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "long_overlap_pairs": [],
+      "sha256_jsonl": "fb16bd3df31b9ce31536178d5f1095cfab8fbcc4306baaee98bbe2b531191663"
+    },
+    "news/ja": {
+      "documents": 50,
+      "text_utf8_bytes": 49644,
+      "minimum_document_bytes": 935,
+      "maximum_document_bytes": 1105,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "sha256_jsonl": "8d40256377f4b9aedc037eaf224ad48bda574d9d930bd01d33d886007ab2efa9",
+      "long_overlap_pairs": []
+    },
+    "news/en": {
+      "documents": 50,
+      "text_utf8_bytes": 51991,
+      "minimum_document_bytes": 957,
+      "maximum_document_bytes": 1107,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "sha256_jsonl": "3f39b23d527514061801ce1d368db95627a03f8eaac49b3f505ef0b6dfb974d6",
+      "long_overlap_pairs": []
+    },
+    "sns/ja": {
+      "documents": 50,
+      "text_utf8_bytes": 47792,
+      "minimum_document_bytes": 866,
+      "maximum_document_bytes": 1057,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "sha256_jsonl": "8da9ca0eeec26ef1b0aaf8e71172489705df0121c2ee5ac79229afeb8169c476",
+      "long_overlap_pairs": []
+    },
+    "sns/en": {
+      "documents": 50,
+      "text_utf8_bytes": 48001,
+      "minimum_document_bytes": 827,
+      "maximum_document_bytes": 1040,
+      "duplicate_full_text": 0,
+      "shared_100_character_shingles": 0,
+      "sha256_jsonl": "e506a102f1b4cb78fae9e8022cc5d86cccc562c946b3466cb7af825817f651c6",
+      "long_overlap_pairs": []
+    }
+  },
+  "syntax_checks": {
+    "checked_documents": 100,
+    "passed_documents": 100,
+    "methods": {
+      "python": "ast.parse",
+      "javascript": "node --check",
+      "go": "gofmt parser",
+      "rust": "rustc --edition=2021 --emit=metadata",
+      "sql": "SQLite EXPLAIN with isolated in-memory schema and fixtures"
+    },
+    "programs_executed": false,
+    "reviewed_at": "2026-11-07"
+  },
+  "reference_overlap_check": {
+    "original_documents_checked": 400,
+    "reference_classifications_checked": 40,
+    "reference_utf8_bytes": 2399112,
+    "comparison": "exact 100-character shingles after whitespace collapse",
+    "matches": [],
+    "limitations": "An exact-overlap check is not a legal conclusion, a semantic-similarity audit, or proof of permission. Code bodies intentionally have paired Japanese and English comments across code corpora.",
+    "reviewed_at": "2026-11-07"
+  },
+  "limits": "Collected byte counts and absence of long exact matches do not establish redistribution permission or semantic independence. Reference counts include source syntax and natural-language text, not only letters in the named language.",
+  "news_sns_reference_overlap_check": {
+    "original_documents_checked": 200,
+    "reference_classifications_checked": 40,
+    "reference_utf8_bytes": 2399112,
+    "comparison": "exact 100-character shingles after whitespace collapse",
+    "matches": [],
+    "limitations": "An exact-overlap check is not a legal conclusion, a semantic-similarity audit, or proof of permission. Independent news and social prose is checked against all collected reference classifications.",
+    "reviewed_at": "2026-11-07",
+    "scope": "Subset of the refreshed combined 400-document comparison against all 40 reference classifications."
+  }
+}

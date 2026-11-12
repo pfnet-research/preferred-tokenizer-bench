@@ -1,0 +1,7 @@
+# Tokenizer execution only; model weights and torch are not required.
+transformers==4.57.6
+tokenizers==0.22.2
+numba==0.68.1
+sentencepiece==0.2.2
+tiktoken==0.14.0
+protobuf==7.36.2

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "document_schema": {
+    "required_keys": [
+      "id",
+      "text",
+      "metadata"
+    ],
+    "text_unit": "One Unicode codepoint per document; no normalization, reordering or deduplication.",
+    "collection_offset": "Zero-based row position within the collection."
+  },
+  "collections": {
+    "educational-kanji": {
+      "file": "educational_kanji.jsonl",
+      "id_prefix": "characters-educational-kanji-",
+      "documents": 1026,
+      "unique_codepoints": 1026,
+      "concatenated_text_sha256": "4c430a309cb4a4ad8060f7647ec3b4ed0714f60e53e1e6ee3ce3ac3bc9308e42",
+      "jsonl_sha256": "7c6715670b15904a57a1220b77c13405c14f1fa686fcae8274ce2a1c36368f56",
+      "jsonl_bytes": 177414,
+      "ordering": "Fixed row order; educational kanji are ordered by grade.",
+      "grade_counts": [
+        {
+          "grade": 1,
+          "count": 80
+        },
+        {
+          "grade": 2,
+          "count": 160
+        },
+        {
+          "grade": 3,
+          "count": 200
+        },
+        {
+          "grade": 4,
+          "count": 202
+        },
+        {
+          "grade": 5,
+          "count": 193
+        },
+        {
+          "grade": 6,
+          "count": 191
+        }
+      ]
+    },
+    "common-kanji": {
+      "file": "common_kanji.jsonl",
+      "id_prefix": "characters-common-kanji-",
+      "documents": 2136,
+      "unique_codepoints": 2136,
+      "concatenated_text_sha256": "3fa93c1d4f65fd4dc43b8b608110743bb29eb6759cc513a7ad24bb684b2bc2ea",
+      "jsonl_sha256": "87d5367922b54bb68fd55d71917e3f09743154177f142d94a680c6862fe52553",
+      "jsonl_bytes": 327836,
+      "ordering": "Fixed row order; educational kanji are ordered by grade."
+    },
+    "jis-l1": {
+      "file": "jis_l1.jsonl",
+      "id_prefix": "characters-jis-l1-",
+      "documents": 2965,
+      "unique_codepoints": 2965,
+      "concatenated_text_sha256": "3836bcb83ff01d5495170c65e5cd5865cf8321aa135485de43a368f44da2a223",
+      "jsonl_sha256": "bb3b9140e3e8b9f5c0241d46ede7512c5da69fe4f8b69fc4fd6f862af94bf819",
+      "jsonl_bytes": 419920,
+      "ordering": "Fixed row order; educational kanji are ordered by grade."
+    },
+    "jis-l2": {
+      "file": "jis_l2.jsonl",
+      "id_prefix": "characters-jis-l2-",
+      "documents": 3618,
+      "unique_codepoints": 3618,
+      "concatenated_text_sha256": "2c949bec247bb37d8d6eb577707e5787ffde240f83fab46007bd556e3b1893b8",
+      "jsonl_sha256": "ab525ebf58bef8005771f14726b3ac3f41265c0e38a23e41aabcc8d8ec4fd172",
+      "jsonl_bytes": 512646,
+      "ordering": "Fixed row order; educational kanji are ordered by grade.",
+      "warning": "The collection contains all 3,390 standard JIS X 0208 level-2 characters plus 228 level-1 characters; it is not the standard level-2 set."
+    }
+  },
+  "validation": {
+    "jis_check": {
+      "codec": "euc_jp",
+      "python_version": "3.14.2",
+      "standard": "JIS X 0208 kanji rows (ku/ten)",
+      "level_1_ku_inclusive": [
+        16,
+        47
+      ],
+      "level_2_ku_inclusive": [
+        48,
+        84
+      ],
+      "ten_inclusive": [
+        1,
+        94
+      ],
+      "invalid_byte_pairs": "Skipped when decoding raises UnicodeDecodeError.",
+      "standard_l1_count": 2965,
+      "standard_l2_count": 3390,
+      "collection_l1_equals_standard_l1_set": true,
+      "collection_l2_missing_standard_l2": 0,
+      "collection_l2_extra_count": 228,
+      "collection_l2_extra_equals_level1_intersection": true,
+      "collection_l2_minus_level1_equals_standard_l2_set": true,
+      "scope": "Independent set comparison against JIS X 0208."
+    }
+  }
+}

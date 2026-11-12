@@ -1,0 +1,1728 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-06T16:56:52.316512+00:00",
+  "scope": "Saved approved source excerpts only. Reading-decision counts are recorded decisions, not every displayed window or quality-reject counts; quota decisions may occur. No native/expert or factual certification is implied. Full source text, rejected/pending candidates and decision records are not included in the dataset.",
+  "collections": [
+    {
+      "tag": "hi",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 57,
+      "recorded_approvals": 50,
+      "recorded_rejections": 7,
+      "decision_file_sha256": "de3d4042ec89b47ff71e808fd99292392729b49039e267e496c6779dfa1d136b",
+      "approved_ids_sha256": "ac1214888b799d4997aedf05d51ee5ce66dae6db93142af5507c5b8a43b22268",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "fa",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 53,
+      "recorded_approvals": 50,
+      "recorded_rejections": 3,
+      "decision_file_sha256": "b04a44f483b3b746846318054aa6926693614fefc849334f13c3f1bd97565611",
+      "approved_ids_sha256": "84f21f27fe8a4a6e307d3f1a8cae1ff02686f4f7ce185e747f56942b39fd3179",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "bn",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 52,
+      "recorded_approvals": 50,
+      "recorded_rejections": 2,
+      "decision_file_sha256": "59c8bac310689791fcf87a04b89b3c6fe0851c058a677560fcf67c14085e2802",
+      "approved_ids_sha256": "595e7d260e3e24244cec5f618a88acf0674fe019479ca896b8815f5b7b62a245",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "tl",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 74,
+      "recorded_approvals": 50,
+      "recorded_rejections": 24,
+      "decision_file_sha256": "bb932f6eb35acee78e032e0a6d445026eae6b76c732f2fd278174470d86adefe",
+      "approved_ids_sha256": "7d166f4d7d324fe252c3d1eca5a8e1d71c8cbc015144da9128cc71dbe857aff7",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "he",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 58,
+      "recorded_approvals": 50,
+      "recorded_rejections": 8,
+      "decision_file_sha256": "388e569b10248a82ddbcdbd20bf199d65e0eefbb05f8034d813f1813fe6e06c0",
+      "approved_ids_sha256": "4a7b6f1c83d57e7ac9eba68d6b7224ff94e1b263a3f0c84f018267bd75ca8631",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ta",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 57,
+      "recorded_approvals": 50,
+      "recorded_rejections": 7,
+      "decision_file_sha256": "895edf4b5820236217a3135452168da9cac6343ef357616a48cf9f253eca5427",
+      "approved_ids_sha256": "750ffb8e13abbf4f027073e8c8b33b7d8bb7eb8f09d2531c3749b26e1e505714",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "my",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 78,
+      "recorded_approvals": 50,
+      "recorded_rejections": 28,
+      "decision_file_sha256": "1ceb992ad1de366f122bde2097fe0aa15aa9d99c122a3baa1f4e07cbcc493360",
+      "approved_ids_sha256": "51c066c741549b933691521a6f66aea020cffa75e597ff8b63144d99b8207fd9",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ur",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 53,
+      "recorded_approvals": 50,
+      "recorded_rejections": 3,
+      "decision_file_sha256": "14849128aa33a9e608f69b9b45dd0d2b4dc83981c8feec7143b72288812a22f8",
+      "approved_ids_sha256": "533fe43412fd94cafaf0bd87cbaae1ef89bd2157a104dab44947af0b563461c0",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ms",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 51,
+      "recorded_approvals": 50,
+      "recorded_rejections": 1,
+      "decision_file_sha256": "8fdf5c96fdbd4d76da21ce6f60127fe8ee10abbd48a3d92bcb52359faaad3fe6",
+      "approved_ids_sha256": "4f37b7a4ef57f395256fd87942fedfb25c726e02ab0e669306a3f1d527ed0560",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ne",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 50,
+      "recorded_approvals": 50,
+      "recorded_rejections": 0,
+      "decision_file_sha256": "4ea79578e7b4e085f0a903abf5ae5a3d078c3436acb8397691578f32ff887691",
+      "approved_ids_sha256": "367774de6a148048daae36ef2474ead952bb4db0fa16833d910ff66aa81e3249",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ca",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 54,
+      "recorded_approvals": 50,
+      "recorded_rejections": 4,
+      "decision_file_sha256": "1a5792f4a06f389100b5f16c83825042b4c83abc8a99d9957c32701a46d1f5fd",
+      "approved_ids_sha256": "a2cf6afb864cce323a4eacb68cb6af837a7d6586db33cf6e61eb4fecf4f67fcb",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ml",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 53,
+      "recorded_approvals": 50,
+      "recorded_rejections": 3,
+      "decision_file_sha256": "2c657a012d1fb1939fe3e91ccffb562585d794470eee008ec3900f4f4b41d125",
+      "approved_ids_sha256": "661152ef0bc85671776fe4d1ecd9a0910b3a55078d2d1561c7fd28eabc56399f",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "bg",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 63,
+      "recorded_approvals": 50,
+      "recorded_rejections": 13,
+      "decision_file_sha256": "1f51392f5c974453777f47af3ae9e59fa08693129f5bafb90e8dcd2051c5e305",
+      "approved_ids_sha256": "6bb65311e8c06bdfd4047ae96d396739cb240a9290826215d92d16007f01ee6a",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sr",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "b156f11cdf4a6e6667873cc9722e16dd1185470238efcf18050a0a3709c6f425",
+      "approved_ids_sha256": "6b66352817c637168fbcfc406abf086a6ba8c28ea12c2c1a3da3b50d0826e107",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "hr",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 65,
+      "recorded_approvals": 50,
+      "recorded_rejections": 15,
+      "decision_file_sha256": "fed9ffd36d7d0064566579823ee910c8b61862ca3f69a430cd6247cf1d89fe57",
+      "approved_ids_sha256": "8cdfde9d1483a0eb4a8f50e1db815545731920ab6a3934d813ea423be6d5da61",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sk",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 73,
+      "recorded_approvals": 50,
+      "recorded_rejections": 23,
+      "decision_file_sha256": "97a2c9e30dd04fbe219b1a67e3677eda1bba6b5f472659d038f4e0b15770b898",
+      "approved_ids_sha256": "622c0ba5acb57bb8e4b86894187eaac5084d2f7d61d0a9563db5b894746a4c84",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sl",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 63,
+      "recorded_approvals": 50,
+      "recorded_rejections": 13,
+      "decision_file_sha256": "e6701ecedb332f2d7bf3f6bd1540cfbb64c350809ae838159121dcbce63c0dc9",
+      "approved_ids_sha256": "47b13b7a7f058744d400984e9fc535bf3f731bf3db2c37d5e66da237083f4dd8",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "si",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 66,
+      "recorded_approvals": 50,
+      "recorded_rejections": 16,
+      "decision_file_sha256": "bed76592957b51037a876d17a7146328da5670ee2993ad05b9498d23bf651909",
+      "approved_ids_sha256": "a8a7698fade36b0aa45d4f2a4969d2a9c317f703f2c668c568f0d0fff2b5aec9",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "az",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 62,
+      "recorded_approvals": 50,
+      "recorded_rejections": 12,
+      "decision_file_sha256": "ef26859bf020a969bc0a23fbe6188a0608fccbdd9b612d6add41c00b769aae63",
+      "approved_ids_sha256": "3ae71fcfde98e29f8677106b34af49abe1db8585d3ead2ef846d4b84d294b7f0",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ka",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 62,
+      "recorded_approvals": 50,
+      "recorded_rejections": 12,
+      "decision_file_sha256": "422f77c77747d8f7335dca601013ceda42ad5368ce802a47d567e621b6b41cc6",
+      "approved_ids_sha256": "1b5fdd7b006c5c421703294b1144918e0ff331e1c48bb7766118afa6d444640c",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "hy",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 60,
+      "recorded_approvals": 50,
+      "recorded_rejections": 10,
+      "decision_file_sha256": "1d6999f6541b7b8cd570f0be81a6469314c94727753d194e5b941b63228e8560",
+      "approved_ids_sha256": "f8de9a2a85c3b96a1eded0b70152d6925f2acc756310258c6affa44d3f0bbcfc",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "uz",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 71,
+      "recorded_approvals": 50,
+      "recorded_rejections": 21,
+      "decision_file_sha256": "dff2e200fca126b6b33a7b410a3e3c287a71cd05467e1ba0861ea38ae4b21366",
+      "approved_ids_sha256": "fac20596eed967b301597412291f1fe04599ddec7c2eb21c55486814dc36e649",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "lt",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 75,
+      "recorded_approvals": 50,
+      "recorded_rejections": 25,
+      "decision_file_sha256": "b8aa9af8d325cd9e69be01028c8a2b31ec8ee0e9d04013c440eb5e6e143cf7f6",
+      "approved_ids_sha256": "cf54a90735bf48368a2c1f1f478b43798fe28a7f9df8695e9f11550051878f61",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "km",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 73,
+      "recorded_approvals": 50,
+      "recorded_rejections": 23,
+      "decision_file_sha256": "1e2065f66b3a14b15da799b8a054ae352755412047ce266a0c39806204b424ac",
+      "approved_ids_sha256": "8e3ca192e37c75bbc0e3ed6b8ea62ca0b0eac19b751f37ca16229ef7a4fc01ec",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "lv",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 57,
+      "recorded_approvals": 50,
+      "recorded_rejections": 7,
+      "decision_file_sha256": "4989f1fe636752af42a7fe0bb48b190d925d1ff4c49ec735a4ece48e751dc439",
+      "approved_ids_sha256": "cd7d84397665d783d12b53d3489a90b51bb9cb234f8d5f7d4a0b4dc7c7bac192",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "et",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 57,
+      "recorded_approvals": 50,
+      "recorded_rejections": 7,
+      "decision_file_sha256": "3a60062f07afc1a19286f3c72c67a392b36e858b9cafd845dd10db9972da1a77",
+      "approved_ids_sha256": "075bb6a255527f45d024848fb91dd4273c56f4bd5079d09f5a136bb1ca45b5cb",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "eu",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 77,
+      "recorded_approvals": 50,
+      "recorded_rejections": 27,
+      "decision_file_sha256": "87ff92941170a4dd01fd821d2f69e724b15d709804d400b9fa7238b5398ef2ed",
+      "approved_ids_sha256": "6f69bac1f7d51b3e1f37e0145b33fc1f4a1a10e3b677ac0c21e97fb6df0e6060",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ceb",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 113,
+      "recorded_approvals": 50,
+      "recorded_rejections": 63,
+      "decision_file_sha256": "1b7d8e8dae21dfead0c5e3915544ea2aa28d031eb8980e9957da54ef0a8c3bfc",
+      "approved_ids_sha256": "5372dd6a6fe52df1b3a0790eb2c30b10ca6f07ae009e87f45dcadfbe6f8d20f3",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "be",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 60,
+      "recorded_approvals": 50,
+      "recorded_rejections": 10,
+      "decision_file_sha256": "6d71028ed4ba45e6601349dfec994827961fd4e3699cd3df02a49ef890e3ca19",
+      "approved_ids_sha256": "6915db1d2a910232bd2083b5a9da444be2f5bdaff0068dc3a80b5f113000c3e6",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "te",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 61,
+      "recorded_approvals": 50,
+      "recorded_rejections": 11,
+      "decision_file_sha256": "23451519c159eb6418b0006677a0e1e938ff9847068d2170d9b5be98b000bfa3",
+      "approved_ids_sha256": "992498862d3ab9dbbebc395a52f7cd9b44fe912a18566394e09fa4503322eead",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "jv",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 203,
+      "recorded_approvals": 50,
+      "recorded_rejections": 153,
+      "decision_file_sha256": "322e71c6de6dd182c3e709939c833e5a91fe20d53f1d63027dc73b60a2103afb",
+      "approved_ids_sha256": "a71d856b5a49d8d78ca4004aa4b4a210c28ecbe83ddb8d54c4fa659198161425",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "kk",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 65,
+      "recorded_approvals": 50,
+      "recorded_rejections": 15,
+      "decision_file_sha256": "0b054c9d6abf60442c7f6cf53fb058c12468cd612f3141ef0f30d2d19b5442a5",
+      "approved_ids_sha256": "18a84528eae0b5f95450947a268b352d1a3273ef049cbbeb03a1e858642ea9b3",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "mr",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 53,
+      "recorded_approvals": 50,
+      "recorded_rejections": 3,
+      "decision_file_sha256": "9d7994b2db3636ea3540774dc48ac684a20310a79f9879ebdfbf25bc4a1f2464",
+      "approved_ids_sha256": "dc69d6db3fe73e1ffd650d3ca74f2958a7a9f87ea966a8d7cc22edce439bc79a",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sw",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 62,
+      "recorded_approvals": 50,
+      "recorded_rejections": 12,
+      "decision_file_sha256": "3284f852fee184403ab451ef3e0e818a029cf9c2f6cdea68cf21dabfb0311719",
+      "approved_ids_sha256": "30ed4baf6a990726d8ac780e269c70346230ff55ec6ccc6f57d1b8ad1d2c74f7",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "gu",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 64,
+      "recorded_approvals": 50,
+      "recorded_rejections": 14,
+      "decision_file_sha256": "bbeef342fa99ab9bc3fde01333db045da8457ed6fd2acec8e0695a966dfa9f4e",
+      "approved_ids_sha256": "d02b05206b14099eaa8ad62b3209b7eeb980ccfafdf42480821622002220b16b",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "pa",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 61,
+      "recorded_approvals": 50,
+      "recorded_rejections": 11,
+      "decision_file_sha256": "467c217cfdddd680efa2a42b4f4b745337049c7ac27df73af356a10948a27585",
+      "approved_ids_sha256": "d896570177baafc2e5568ce1bb0fff4e28bd7006685a4b96601f45c6687db696",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "pt",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 77,
+      "recorded_approvals": 50,
+      "recorded_rejections": 27,
+      "decision_file_sha256": "32bdcbe55a797f98901a6670a145adc311e1aa50cdce3922f8beb03edabce298",
+      "approved_ids_sha256": "c0021ec5ee119f61927122d1aba3ae1b5b6274ac2fd8337e8d198a95e1e11e8e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "tr",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 89,
+      "recorded_approvals": 50,
+      "recorded_rejections": 39,
+      "decision_file_sha256": "41da2144e2ba170e3ed9814d0381098f1f28aaaa38678838788bceb1f766e7a1",
+      "approved_ids_sha256": "03c5ab7053ce8c88bdf9e657e8f2da9662861e38901585bd331a920c17ffe942",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "uk",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 61,
+      "recorded_approvals": 50,
+      "recorded_rejections": 11,
+      "decision_file_sha256": "c83393c7f0f9ebb1c992b089e25b0a1c8540dd4311cf01f3efff2f8443aee966",
+      "approved_ids_sha256": "e9427b874999dcd270553d7044270a0e6e01e68b6f4e9732e751e9c346685df4",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "cs",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 72,
+      "recorded_approvals": 50,
+      "recorded_rejections": 22,
+      "decision_file_sha256": "3d572d0ff1000f5f98a2260751524eeebed2f5e70e5167319e800602269079a3",
+      "approved_ids_sha256": "a64ff3c709fb5de8c7912c3f00e6e013bdfae661ddf70b2a4bcc4daa89bf343b",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ro",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 70,
+      "recorded_approvals": 50,
+      "recorded_rejections": 20,
+      "decision_file_sha256": "db26537c66784d91a74c85a4ff7098832ff3176556601967ea88912d343878b6",
+      "approved_ids_sha256": "ea91baaa6ee6da2d5a65b691aaf37b3954a484a6fb6d974cac633271a9cc60cc",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "el",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 64,
+      "recorded_approvals": 50,
+      "recorded_rejections": 14,
+      "decision_file_sha256": "e670ad4f304a3ed06b9933b4ee42bdacba085258d38d754f9290e0f189628f22",
+      "approved_ids_sha256": "14ce538c0610443c5404ad66dfd1a431b69cda9536036d2de5014a556ae4be5e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sv",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "7a94a3234ad8ee444294902bf9bb31ac5975fc133c3594bb38be9a6f05e5505d",
+      "approved_ids_sha256": "0bece9ef9512ffb67ce41d60961931805790b90ad19cba543c2ea83b4807d6ff",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "da",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 108,
+      "recorded_approvals": 50,
+      "recorded_rejections": 58,
+      "decision_file_sha256": "c5d6bbf079439d135f990d4e70c1cb2e54e6df27836736abc8e4b1af5474a64d",
+      "approved_ids_sha256": "d9694cf510b37f49070772eb6364dc0ea959738892838eba9871f2049e8e907c",
+      "reviewed_by": [
+        "undisclosed",
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "nb",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 84,
+      "recorded_approvals": 50,
+      "recorded_rejections": 34,
+      "decision_file_sha256": "f842ceb9d8635e0435da5617ba47e59dc298831136c7999ef0c940097caaf67e",
+      "approved_ids_sha256": "fc1b6e8f65074dc5a4db3d21ffbf03c8f5e361614e5606736ed6db759a8178ea",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "fi",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 56,
+      "recorded_approvals": 50,
+      "recorded_rejections": 6,
+      "decision_file_sha256": "e3c58a5ee5a096f92090a65c126ca668baa8f139c4b65d2c5c730673c80e592b",
+      "approved_ids_sha256": "4fce5f2d6b7993bbbbb5c30dbf26ab916572a1624c351aaac65fd5dc5816dbff",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "is",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 124,
+      "recorded_approvals": 50,
+      "recorded_rejections": 74,
+      "decision_file_sha256": "8289d09e9e5828e974d8d3c6e83bb71ce3f7ffd12b23dbff700a91344194d98f",
+      "approved_ids_sha256": "dd9881753aca392b876492891e219128ffe513e911c82c63380b0ad5887d6039",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ga",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 113,
+      "recorded_approvals": 50,
+      "recorded_rejections": 63,
+      "decision_file_sha256": "20ddf02820e2060ccd908fbe31292beec1228146023fb7f5e593f94e1181c576",
+      "approved_ids_sha256": "ebc139c1de3c0a15205af303f1efc8f4bad6025520294718dfec1bb2f96fa2fb",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "cy",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 76,
+      "recorded_approvals": 50,
+      "recorded_rejections": 26,
+      "decision_file_sha256": "456532a91f3c339149361c8f7921f918d4bf21387ea240a4fa91a46015702284",
+      "approved_ids_sha256": "dd30a4595bee170260a4f5ad550c4d5d24e4e5f8061e7948c3431133b0a19bd1",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ab",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 70,
+      "recorded_approvals": 50,
+      "recorded_rejections": 20,
+      "decision_file_sha256": "3bd37b109f0e77d94a30582ec64c0982059d9c899cce198fd960e789f6852f6b",
+      "approved_ids_sha256": "36a7411ad3a770d5cfd158b6f8c1783a9492682e0e8b6855f600dd7299f2a559",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "av",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 60,
+      "recorded_approvals": 50,
+      "recorded_rejections": 10,
+      "decision_file_sha256": "6d6a9e504145a8b67fce10e0ba1fa0f6d82c782d53260847f2e12495739740c8",
+      "approved_ids_sha256": "de7ce1edd53fd5d4ed9ad54ba9de7647a80f33a5ba66725880ef51ea3de81c3f",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sq",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 71,
+      "recorded_approvals": 50,
+      "recorded_rejections": 21,
+      "decision_file_sha256": "86f6a989b7a8f1ad9cb74c37b4366727fb8d9b830ce63147d4f79bfdb32325e4",
+      "approved_ids_sha256": "aa2ff3d02f519e0c3497c078573664a6f14d0a52fe6f78bfb94ab53c5190829b",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "mk",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 60,
+      "recorded_approvals": 50,
+      "recorded_rejections": 10,
+      "decision_file_sha256": "b9db5990a2d612272c2e6cc4b72f2dd530935795b759ae45b2bc361803132abc",
+      "approved_ids_sha256": "285a676790b00b5bb3fbd049c7552e2cb5f9ddd304804c0dd1a72e663d00e8c3",
+      "reviewed_by": [
+        "undisclosed",
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "mt",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 160,
+      "recorded_approvals": 50,
+      "recorded_rejections": 110,
+      "decision_file_sha256": "9385b5a40be71d45f5064cfe98b8aa12334660730ce656fe0ae76b673de19b2a",
+      "approved_ids_sha256": "4b3ac62de37535510667a0aa5a3dfa273b0cd2b4c118e4596fa221e9dd56ef59",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "gl",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "087948bcdd3530f36659e8e0dfc34a48ebbf10678a3f229aa3f01ffe5286e816",
+      "approved_ids_sha256": "2319f9a2837c59b220bab7bc536c968a49eb051ce0ed5e69041c8c0056d09c71",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "oc",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "d78d11725f2d9ce578872e96069fdb6c50d93b2e509610f0d101eae02860ef02",
+      "approved_ids_sha256": "af5662e26a38269cd52c96619c4d62b79549d06f8b1ae5e31dffa22439ff9f48",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "fy",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 100,
+      "recorded_approvals": 50,
+      "recorded_rejections": 50,
+      "decision_file_sha256": "ed281932f9ee6f6ccf4b64107dc15c79e702c4081b2cca7c363e440daf752b43",
+      "approved_ids_sha256": "7724aa2b62a33af771ae81fadac431a5f84860cc10989aa8502ca1b13876062d",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "se",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 100,
+      "recorded_approvals": 50,
+      "recorded_rejections": 50,
+      "decision_file_sha256": "e7b98a5f10ef6a22b564be8c02e2661c7ac18704a8f8b766f3a6605b69589c3d",
+      "approved_ids_sha256": "bb0ea9110b27227222b484e3f12559fcb9bbd00adfc3d0e08dca8e1cc229957e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ku",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "020c777db0b5bf09d0b8805e2c7fd6cb7c9dd2cc973ca99b3b4b5aebbf16278c",
+      "approved_ids_sha256": "22ede234bb2df8b912deb2e86bbed2419a2a84fb009e8e6777c2ded512d54449",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ps",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 60,
+      "recorded_approvals": 50,
+      "recorded_rejections": 10,
+      "decision_file_sha256": "b208b52f0ce9870261f1fcca7c42256f6aec53243d36c0fa089171cedcb569a2",
+      "approved_ids_sha256": "d597fe83f8399ef309c3de7ed8b6dac6562c9e9ea718c16f091bbcac6d7002fb",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "tg",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 140,
+      "recorded_approvals": 50,
+      "recorded_rejections": 90,
+      "decision_file_sha256": "b88d9db21abbdd2eb680e543c81207f6d8c624d6c2b0548a0d3ab0b7757e4ef5",
+      "approved_ids_sha256": "28060c2795cc658b70d2d7e4a54bcf260d38c6f4adfab53cd227c035adb6808a",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "tk",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 120,
+      "recorded_approvals": 50,
+      "recorded_rejections": 70,
+      "decision_file_sha256": "3899a4fb0d55482a0a27bfac8494b2769ee0acb1f9a056cea99cffcdcfa1b07d",
+      "approved_ids_sha256": "c2548b010ba4f60ec6427c1652f0b3f66d6030e270a7804b60b60fcf54f9380c",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ky",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "f781898d57eccc43e6afdc2ec91f3e1a240547227a37ed682aa8d5af9995f150",
+      "approved_ids_sha256": "61fcdd3dab98bae1a6ef8026f006b47206bc62fa1409f9b8ae4336d4f6e71ea8",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "tt",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "b31931e4eee8db2d35e72740dbdeca48be7e4bd03291a56c4c41d83e2cb6a583",
+      "approved_ids_sha256": "20114dca8db707e134d681e2a941908cc36e40f2c5067bd3658e4eba41c6256e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ba",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 60,
+      "recorded_approvals": 50,
+      "recorded_rejections": 10,
+      "decision_file_sha256": "42163733a3b401a6a0fd1a52412f091363de5109264cf22b5768f259903bdd74",
+      "approved_ids_sha256": "114fa402d7f10ec292ddd92f927d025bee2f9fdd5055bcfa106648e8986d5793",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "cv",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "120f61f0ec5de7dfdfee5dc72eeb4a88aead3c108d107d6a29bf1b1c9a34cb12",
+      "approved_ids_sha256": "b4e373206ccb483b3c89ebb7c0db155cc92ecb0e0bea42e19abc9f59fe8fe503",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "os",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 120,
+      "recorded_approvals": 50,
+      "recorded_rejections": 70,
+      "decision_file_sha256": "e07dde163d1b73f313f74b71b51c179b76b76f91ff050106ca8a499db994e462",
+      "approved_ids_sha256": "de6ea87d9076632be9e413263a6db2662d1e2f2be8caf41236a6ad710451fbc4",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "as",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "6ab325a65dd45414695996f7af31ffa46edb8639bff56f2dc4d3dcc26814f8a4",
+      "approved_ids_sha256": "2629d04d63ac3bbc08baec90d3cc2b3d2f8fb0bf6126283b5fc6555b9121beb2",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "or",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "73a916dbaf2c21c92fb8287ba956e26e5d0637d7c1d9db1d897a914285c94326",
+      "approved_ids_sha256": "77ce4a72668e4449a1b275bcbc40da1ba0a301cd8b8e30366319f665ca363ba8",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sd",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 160,
+      "recorded_approvals": 50,
+      "recorded_rejections": 110,
+      "decision_file_sha256": "ecdf440afdd2aed6540e2ebc6fc3d5255b3bc9eb994b7788c9c9d2379ec9b0ad",
+      "approved_ids_sha256": "3bbb953e70556073e37916b25fe32dad3f2bf8a0a4921d91774f91528ac1f8d0",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sa",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "724859392e97390a2fa248fd08abf1cc337e238f15df055255e6d9b75c19201d",
+      "approved_ids_sha256": "3ee98f17edb9b347f3abf3d79003096d360b4a0b1ba56c7a3caa79af93b9df8e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "bo",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "3d001df2f7266b0d523064e9efd1f532b1e8e7b47c02fdbab2b7e771be9f9d0e",
+      "approved_ids_sha256": "3fcfd07cdc6fd37d722617132633139a05973975f79d129a6f7bfde3ade4e588",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "dz",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 120,
+      "recorded_approvals": 50,
+      "recorded_rejections": 70,
+      "decision_file_sha256": "20ceb9c27ca68bb97e3a3c8ea835bd495d74635114b4a931f3e1d404cfb1a234",
+      "approved_ids_sha256": "cd20e255bdd317c5d9e0b2c64c6ce8aa0e56b1e5999abf03e80da74466986e3e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "mai",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "72294e2f69c858e63c5023888ccb0c56f0e7f6d5f2e76749a7bc0f6d71c48109",
+      "approved_ids_sha256": "6c69b7fbff3a7c3853ee5f6069802bafb3477f3b88c38cdc32b33d067bb6cbec",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "bho",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "3c5e0a18d7788667991d331a0667ef95cbb914278c77d8713112752dc127335f",
+      "approved_ids_sha256": "e3663245fc869591050f29e51d42de4d372de8e6020a0ef5408c7c928f8187ea",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "gom",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "61c7b76a1883add6412f30a9859e503ab8b4d0a235382d1d1a4403b0291ac7f3",
+      "approved_ids_sha256": "e1d1ded6d2e976a9e7dbabe186ed2fd73c0fb8ae6b0405735128c6982d4085a9",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sat",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "ab49b237ad6a1b022270256197e6cf3e37eb9234020b3d768d4474937b397841",
+      "approved_ids_sha256": "03d30a0483c2785900a5c576a1ac4036013c28b572ef1798c9835be0269e7907",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "dv",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "2e5f3df9797a0d8cf5fce1c6046a0e4936c74e2487d363e1b53d34aa6e17939a",
+      "approved_ids_sha256": "a387e802b55951ab2f4e7cf51c8c5c123fc99920ec017e83dfd214e3422b2c0c",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "mn",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "e9dbb775472094a8560c3df6a10bb51ca2d98853ae730ccc3f0df4402fa5f9d3",
+      "approved_ids_sha256": "5035255812ac67f5706aae61da15ca01bd86ddea93b0e2aca59b90ba86b09762",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ug",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 120,
+      "recorded_approvals": 50,
+      "recorded_rejections": 70,
+      "decision_file_sha256": "c9395a124dcc615a2ec2c36ba93f86764c210df68e10cb6660f33bb161f2d127",
+      "approved_ids_sha256": "c800991566543dfb90b6a38b00a366db013f7bccbb34379064dc00b6a569ae90",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "yue",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "f0d96e134f5cdd5780ec4a4562046c673b55b70e2d012f5bf32bf43d7ce5934a",
+      "approved_ids_sha256": "b96bd616e2804705c3f6c789e8764776b64510af26e8cc70d5ae43bac5fef0a7",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "nan",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "2542c628acd4b64de3709d56d956d638238d6e3352e43f0c2a0be0315f39d952",
+      "approved_ids_sha256": "0e2e86cb6d520802b4b8863c0a028f630b0e659384e5a3518655cc3959ff18c2",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "wuu",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 110,
+      "recorded_approvals": 50,
+      "recorded_rejections": 60,
+      "decision_file_sha256": "af7b11b76b4eda4515b3dfafbcfaefb58cd4a53504166151609adac7944cbfc8",
+      "approved_ids_sha256": "fd8f3f97e107fe571f4ffe72361f56c4d689fc63480d995aeffefc6a8c8b0b8a",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "su",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 130,
+      "recorded_approvals": 50,
+      "recorded_rejections": 80,
+      "decision_file_sha256": "625afe84612d88a035b67ff79e242316b6848f3d755e8bf008320866377ed852",
+      "approved_ids_sha256": "64af1bd702a6e5ee0437979357570df3c8e5e79e05a7bb23ba82cad7c144067c",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "min",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 120,
+      "recorded_approvals": 50,
+      "recorded_rejections": 70,
+      "decision_file_sha256": "8db345e2506b2dbd500352e8c7cb935d2a49b292012aa1f093d681d5e96d3b63",
+      "approved_ids_sha256": "dd901670b8a213abcac4384dda757e6b796f53e6e088b6c8d8d818dafb18478a",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ace",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 64,
+      "recorded_approvals": 50,
+      "recorded_rejections": 14,
+      "decision_file_sha256": "7c85b2233ffbc5bbce7fd0a0d0f1326ef6ca09b8c77105dd9c72a8b0306dcb71",
+      "approved_ids_sha256": "d27602c0f5bbd1f3855b78c5e0bd47b057c37c82f10f5e51a833a8e59ec43605",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ban",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 187,
+      "recorded_approvals": 50,
+      "recorded_rejections": 137,
+      "decision_file_sha256": "c2e7def7c170b00e81350b3c6ca061964d44f02d2c52d5ce3922371c745287fa",
+      "approved_ids_sha256": "01de097bcb0c31f11236450b52368d8f2f2cbf3ccfa0c7a4c16084031fda3859",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ilo",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 52,
+      "recorded_approvals": 50,
+      "recorded_rejections": 2,
+      "decision_file_sha256": "5543f83a87c176ccc1de173a6f37f68bd4286ef422fdf695dec242a87a5ff52d",
+      "approved_ids_sha256": "1527f700c03f64a0c09c1ec9cbfd2d21e3d8f6fa41ce9db927f43e20392a3660",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "war",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 51,
+      "recorded_approvals": 50,
+      "recorded_rejections": 1,
+      "decision_file_sha256": "de4f1a8b608b49a0d0f0f2c50817cd81250c28449b16211fcc0afd7da5271830",
+      "approved_ids_sha256": "92d9ccba22f5455c0411afb0a66808e473db1c554ca08fcee228304ffa7a7a0e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "bcl",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 53,
+      "recorded_approvals": 50,
+      "recorded_rejections": 3,
+      "decision_file_sha256": "50178f36e2d7aefcb68af89763b79bd9c71f290937ded0c56768cc474d1206b0",
+      "approved_ids_sha256": "e630c649269f6e0875e2f3fff1381c18b1f1c64e7df37a29aaea14eaf201707d",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "pam",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 68,
+      "recorded_approvals": 50,
+      "recorded_rejections": 18,
+      "decision_file_sha256": "55890b79f20faf3b75126e1fd59111474b1e54a83935787de9896f28b5ab8b3e",
+      "approved_ids_sha256": "3cde16d7d0db3956e9dbbac2b8332a0d970cf3581f80bb988093f177cecd0afb",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "lo",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 87,
+      "recorded_approvals": 50,
+      "recorded_rejections": 37,
+      "decision_file_sha256": "f26fd71b9143b58dc7ed8759bd8f0ba7aa20e5d77a0385bd39aaf3ec070035a0",
+      "approved_ids_sha256": "0b418f84644e733bc3c307c7c482af56b0b759e859472de393c2323400fc270d",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "am",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 72,
+      "recorded_approvals": 50,
+      "recorded_rejections": 22,
+      "decision_file_sha256": "4bb6dd3c531db14047003db53e8d40c917836eebb0025e6751b3ab2fd6d8f2f6",
+      "approved_ids_sha256": "b2d32f56da61913c19a63e85acf28818e97f456eb83ec84cc6af65a8bf42da07",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ti",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "de36c42e3996c8efab904181f224385ede12682d05f4f34149ae1fd937f6fd5d",
+      "approved_ids_sha256": "6b323d8a45b81c7bd3d8eaf9a857fc8401e432ccafe8da9c2e1d2f9a8f4a6e3b",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "om",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 57,
+      "recorded_approvals": 50,
+      "recorded_rejections": 7,
+      "decision_file_sha256": "e4d0f6b28054448c59438ae032ca58fc70b8a599f464d60b4158baa0c0bccd26",
+      "approved_ids_sha256": "0093ebdead2582e2da93455e097c7529f719e27d70f2d52425bf7f5bb372dd46",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "so",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 68,
+      "recorded_approvals": 50,
+      "recorded_rejections": 18,
+      "decision_file_sha256": "162b07c16f097a21556257e7817fb4c149484ee1775bc004c3708a591b14a117",
+      "approved_ids_sha256": "6ecd637b3f50fabb832815a2e5972d84f361aa4100ea845d3a3b0026a2d33796",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ha",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 63,
+      "recorded_approvals": 50,
+      "recorded_rejections": 13,
+      "decision_file_sha256": "23a5140038df9c63dc3d6ed67bba44f21d5c64d24e62d7f0f28651fe88cd3c47",
+      "approved_ids_sha256": "98f7bbde25d2615ffd289d9fdc75778692bd7fe9d4ecab42170dfc4ccf7abc33",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "yo",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 91,
+      "recorded_approvals": 50,
+      "recorded_rejections": 41,
+      "decision_file_sha256": "af96fedca3dd721308c9bb9efeaa8cf0032655593c081053db7f7dc455052e3b",
+      "approved_ids_sha256": "d678e1feb380b12f56b75397b5fd6f8183a662e97c3b7d5992912434d91a984e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ig",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "87202308ab4455b363fc631c95a5e9085c2ca0afed9cbcedb157bd509b29ac50",
+      "approved_ids_sha256": "1dac1863983d2dcb3bf63a57187df8297e843e158ddb5c5aaa07b47a70933ef2",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "zu",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 73,
+      "recorded_approvals": 50,
+      "recorded_rejections": 23,
+      "decision_file_sha256": "46b52d19ab4623d1d5eb17df69018be82667f492cba2edd16d10c8b0ff97dee9",
+      "approved_ids_sha256": "1cc94d4763a99860219fbe546c9a6edde0322700eb0a44b13cb52beb7c9e4ff5",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "xh",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 188,
+      "recorded_approvals": 50,
+      "recorded_rejections": 138,
+      "decision_file_sha256": "c7f3e224cfb25b094d9b0d955faaa8388b5288b36598283ad235298cf6a460e2",
+      "approved_ids_sha256": "c166d3257778585800651b8fdd6f0f7291c2e92af75c3c69bc10917f1d1ab831",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "af",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 120,
+      "recorded_approvals": 50,
+      "recorded_rejections": 70,
+      "decision_file_sha256": "73fe09bd7e0a317e33da4fa36e9fe08e841fc9fcc0b1878d66090f01aa3bae1e",
+      "approved_ids_sha256": "1965653218ece4c94e88b729ba138d28425f266eff88834bff1f3c196be634db",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "st",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 72,
+      "recorded_approvals": 50,
+      "recorded_rejections": 22,
+      "decision_file_sha256": "3a9751ed84d4938c00d17424a86e645f8e0b25d69288ef55afb5633433039fb2",
+      "approved_ids_sha256": "3cf5b011c53bce839bba6ac5c5bcbf2fbadb0c592a99c9b9669f7ebb5098f7cd",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "atj",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 97,
+      "recorded_approvals": 50,
+      "recorded_rejections": 47,
+      "decision_file_sha256": "295fdf169cda1eba8d7ede0fdcd3dd8706b35093d2e1f5e939d04ad75b24494b",
+      "approved_ids_sha256": "20638cb39d7268b713155d07203767c1426aca6c3c916fb67d91ccd297ce2745",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "rw",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 55,
+      "recorded_approvals": 50,
+      "recorded_rejections": 5,
+      "decision_file_sha256": "81a731a51882a19a097a44bc0d5a0f2a5a1fa3cd6948032f3ea18d0256c9d47a",
+      "approved_ids_sha256": "2296fadc83ccbb4860c0fd9065d335834f3d1b36b469ebb2dcb4cfdcd6487b0e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "guc",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "62dc13be80192f91edf5123513a1e083c4764beda089a5d376a0274b868a234c",
+      "approved_ids_sha256": "859947f11353eda51ecab6d43550b0e2f172c7d41c776cb3c8416261edbb844c",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "lg",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 55,
+      "recorded_approvals": 50,
+      "recorded_rejections": 5,
+      "decision_file_sha256": "a456d48dc17fa692294f20f2361a825da3d7ae4d87f0bdf6c31e72dd0a6f4f88",
+      "approved_ids_sha256": "5833a20752cfe85bd9bf37c5c040c4274b2070b4e7c9530d102c3d5183f33fc0",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "wo",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 117,
+      "recorded_approvals": 50,
+      "recorded_rejections": 67,
+      "decision_file_sha256": "a3d747fb4e5baaaf28e495d40cbaaa3e55ae3944f30fcc8e6ddc0ea29bf2b964",
+      "approved_ids_sha256": "a4b671a2d9d81eb676616f5c94c9df24e374a714acfeab5a5f4eabb552054b2e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ff",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "c752aba3c563f8fc4d48c9519921ecc1921c901c2b9d89da82eadcc173db0aa2",
+      "approved_ids_sha256": "890762b0b2e4b0302fa71ee2ac574a342504cb4fff598177e1f9179655423130",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "bm",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 96,
+      "recorded_approvals": 50,
+      "recorded_rejections": 46,
+      "decision_file_sha256": "c92d415e1b5a69218991c8b25e4a79bef577aca1d694773fabd7b5fff5c98da6",
+      "approved_ids_sha256": "cc62889a2e42abdff2ab12757787c9d0b6cea93f56c5471b8da91ff0b60d370e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sn",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "abdaba9c80522db45b88057c0f744820fe52a5be0a3bea915360419c348bac2b",
+      "approved_ids_sha256": "eb0991cccb2bbcaab138d6ffa20158f156a57e53918613c3e025e6858e0d4ed6",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "mg",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 84,
+      "recorded_approvals": 50,
+      "recorded_rejections": 34,
+      "decision_file_sha256": "5d05874b1111b671ffe041351ee39613540a3b55c1c4e85c46e761952c8d3899",
+      "approved_ids_sha256": "fee9cc9499c36ea7492c399da84c0d3504e4756d0facf5f703a6e99c49a1bbbb",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ny",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 85,
+      "recorded_approvals": 50,
+      "recorded_rejections": 35,
+      "decision_file_sha256": "70837e807131670e2340593c62543197dfc285379ae152aaf74b45001c3cdbb2",
+      "approved_ids_sha256": "4ca8812a9756f96c72485b859f1ac49ac8de6a3fcbe8749b1dd797de5391d834",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "kab",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "426ae1eabde8f3902f03634030e9be7fc7a2a1276d7d2654368f5877666d76fc",
+      "approved_ids_sha256": "721873d7eecc581d18f748ee3dad49d84a35fe1bd2ab51152eb170663d760f2e",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "zgh",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 100,
+      "recorded_approvals": 50,
+      "recorded_rejections": 50,
+      "decision_file_sha256": "35164b292a4b3876a362103bf82b18fd2bbf1b8dcd8a86cd842b36f05f765411",
+      "approved_ids_sha256": "8d4ab6c79fc8a37f873fbd3f73b757fcad926e24843be540a3930846d275196f",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "mi",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 86,
+      "recorded_approvals": 50,
+      "recorded_rejections": 36,
+      "decision_file_sha256": "998413c8484c1b9e1efc649c441a4d5dc9bc65fe640576d7431a0eb1567f1f20",
+      "approved_ids_sha256": "5d707cff7fdeede8556d29118cd486718f3a3d383b21e7ee4d5eb7b2deb7f31b",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "sm",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 83,
+      "recorded_approvals": 50,
+      "recorded_rejections": 33,
+      "decision_file_sha256": "a10274fdd9b874783c3dd44fcddcaf24e22dd70f4ecf121c18eea38e7a7f05f2",
+      "approved_ids_sha256": "e319044e553050d619e21b93d1cb5ba34728686184f29b59553e5e598bf7ea52",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "to",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 73,
+      "recorded_approvals": 50,
+      "recorded_rejections": 23,
+      "decision_file_sha256": "d5f4328a78f6a2b1de8e70172ba4fabaf682839b8e0bef05c1c24b7f66d61881",
+      "approved_ids_sha256": "64a5e3d6e3ab4dc98a42faca0aa17bc0108df487d9408c7616b2d145ddc7bb9f",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "fj",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 64,
+      "recorded_approvals": 50,
+      "recorded_rejections": 14,
+      "decision_file_sha256": "17963ab60612361f2e78b9e5718df2240564fedd73d475713559d2fc4409f72e",
+      "approved_ids_sha256": "116309dbc98f4c76afc6b747f7ed2509fe2e245b662fee5c39c7a7035899a227",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ty",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 50,
+      "recorded_approvals": 50,
+      "recorded_rejections": 0,
+      "decision_file_sha256": "2eeca62bc104d6695c95fa39f1047fb6559263d1f95036de13d34d928ca63602",
+      "approved_ids_sha256": "81646b291edf47d2469968dc8ce416832523e4193e43756804309869aabc0886",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "bi",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 54,
+      "recorded_approvals": 50,
+      "recorded_rejections": 4,
+      "decision_file_sha256": "e9b6ae3d91e86bc30c67e7bfb5ae4e113f6e6e0d45d369c332f15340d4f4c9ab",
+      "approved_ids_sha256": "c18fa4bb4feb20ecf8aecee6199511f6774b3a328ec492c55ef1332985b492c3",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "tpi",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 54,
+      "recorded_approvals": 50,
+      "recorded_rejections": 4,
+      "decision_file_sha256": "dca367c61e72314d49627957a8cdf1a59deb7673d537e1d068f2b4dc303a6be8",
+      "approved_ids_sha256": "6c2cdcb239e21f0a87a0a2a4817532adfc3301a183031490228d395728fd245b",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "haw",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 92,
+      "recorded_approvals": 50,
+      "recorded_rejections": 42,
+      "decision_file_sha256": "0a287db3c786e9bf8932a7e7db025d61df926841f530ef22dfa9b8a24893300d",
+      "approved_ids_sha256": "eb13e3c61178c819164ecb318217f5b27b92b02ec92db816f845844aadf5bc30",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "qu",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "690f0e6f69e67f0f165014586e7a8bac50452b007d5efee823bb4380e5808b61",
+      "approved_ids_sha256": "d6218d7090e703e78df7278b3f592876db0ad7f33e5f6b92973d48161633f4ff",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ay",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 172,
+      "recorded_approvals": 50,
+      "recorded_rejections": 122,
+      "decision_file_sha256": "368040e649bdaab8c1d716838379bca8a15697d269891a97fb3d315640b61fe9",
+      "approved_ids_sha256": "9ddf66abee157defe6d33464fb4957d5105546e23443b51b65e1762836fa973c",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "gn",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "fb86486dc13d1017eaf13b55f908dd6829f3d95e0f18630755ba5f60cac22ecc",
+      "approved_ids_sha256": "53a79032c7594f40fdeacbdefbc8c26cfe22c27a5755a72d0f64858d3ba79f78",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "iu",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 80,
+      "recorded_approvals": 50,
+      "recorded_rejections": 30,
+      "decision_file_sha256": "de24ccfd3f0df648baac1cadcce05ee7d36ef1c514425843b2028527df5a1d99",
+      "approved_ids_sha256": "cdd5e9a0d495df183b4b03a9167baa2b4cd10ccc491a5465f72a382e2e8dee89",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "chr",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 75,
+      "recorded_approvals": 50,
+      "recorded_rejections": 25,
+      "decision_file_sha256": "04c1f2abfd59919aba08293e866360d258df67f4001ffef0ed5990ec0807fda6",
+      "approved_ids_sha256": "0df4bf5fda759ff6330755abcc9a0d09251387782c7eb91a8717e3adce18f0c9",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "ht",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 68,
+      "recorded_approvals": 50,
+      "recorded_rejections": 18,
+      "decision_file_sha256": "d22b8f1b89c31c5da1d9012376012fa6be813c89bf6359b92e0af933ff505174",
+      "approved_ids_sha256": "6cc1518c6ec79d09fb1e1646454de7cbcbe52923b20d83bce1697fcc202ca92d",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "pap",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 59,
+      "recorded_approvals": 50,
+      "recorded_rejections": 9,
+      "decision_file_sha256": "9f9ed567458277b332269ed39d6d17d7f5e064ca02065a498bc3ae3fdb5cf069",
+      "approved_ids_sha256": "0cc2093eecf86ef2cd32e67d464d23cd31316a3ebd51210b454329ec20814325",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "la",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 414,
+      "recorded_approvals": 50,
+      "recorded_rejections": 364,
+      "decision_file_sha256": "3f26ae79ebb5a9f9e2add6df6246ea0c21c99e53f00880b567d5dd9aa5f80b53",
+      "approved_ids_sha256": "fce07ed0e30c96b52c7d6287b6ba1c1b3fb55ddc17244e7b04fd2bf54a362586",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    },
+    {
+      "tag": "eo",
+      "saved_documents": 50,
+      "recorded_reading_decisions": 72,
+      "recorded_approvals": 50,
+      "recorded_rejections": 22,
+      "decision_file_sha256": "373115036a1bc9ce1e088014e45cd048e0a9eb547f638138a0f39de405cc8caa",
+      "approved_ids_sha256": "4f51cf7a80f55c9d54c02b67d2eda57d52317d782d6f934959a7d93ac058a242",
+      "reviewed_by": [
+        "undisclosed"
+      ],
+      "source_proof_hashes_windows_spans_and_provenance_match": true
+    }
+  ],
+  "saved_excerpt_documents": 6600,
+  "recorded_decisions": 11022,
+  "cross_language_source_id_reuse": []
+}

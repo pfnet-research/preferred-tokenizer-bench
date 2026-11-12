@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "previous_frames": 153,
+  "active_frames": 149,
+  "previous_t5_frames": 100,
+  "active_t5_frames": 96,
+  "excluded": [
+    {
+      "tag": "mni",
+      "approved_documents_before_exclusion": 48,
+      "target_documents": 50,
+      "former_language_entry": {
+        "tag": "mni",
+        "tier": "T5",
+        "iso639_3": "mni",
+        "script": "Mtei",
+        "selected_name": "Manipuri",
+        "source_iso639_3": "mni",
+        "coverage_note": "",
+        "dataset": "HuggingFaceFW/fineweb-2",
+        "config": "mni_Mtei",
+        "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+        "output_kind": "excerpt",
+        "target_documents": 50,
+        "availability": "available",
+        "partition_documents": 171,
+        "train_documents": 169,
+        "partition_compressed_bytes": 253963,
+        "supplemental_source_revisions": [
+          "4c6643774aad7f5970955b43fa357008a92471d8"
+        ]
+      },
+      "reason": "Excluded after bounded review yielded fewer than 50 approved documents."
+    },
+    {
+      "tag": "bug",
+      "approved_documents_before_exclusion": 18,
+      "target_documents": 50,
+      "former_language_entry": {
+        "tag": "bug",
+        "tier": "T5",
+        "iso639_3": "bug",
+        "script": "Latn",
+        "selected_name": "Buginese",
+        "source_iso639_3": "bug",
+        "coverage_note": "",
+        "dataset": "HuggingFaceFW/fineweb-2",
+        "config": "bug_Latn",
+        "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+        "output_kind": "excerpt",
+        "target_documents": 50,
+        "availability": "available_api_error",
+        "available_same_language_partitions": [
+          "bug_Latn"
+        ],
+        "supplemental_source_revisions": [
+          "4c6643774aad7f5970955b43fa357008a92471d8"
+        ]
+      },
+      "reason": "Excluded after bounded review yielded fewer than 50 approved documents."
+    },
+    {
+      "tag": "nv",
+      "approved_documents_before_exclusion": 10,
+      "target_documents": 50,
+      "former_language_entry": {
+        "tag": "nv",
+        "tier": "T5",
+        "iso639_3": "nav",
+        "script": "Latn",
+        "selected_name": "Navajo",
+        "source_iso639_3": "nav",
+        "coverage_note": "",
+        "dataset": "HuggingFaceFW/fineweb-2",
+        "config": "nav_Latn",
+        "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+        "output_kind": "excerpt",
+        "target_documents": 50,
+        "availability": "available_api_error",
+        "available_same_language_partitions": [
+          "nav_Latn"
+        ]
+      },
+      "reason": "Excluded after bounded review yielded fewer than 50 approved documents."
+    },
+    {
+      "tag": "ik",
+      "approved_documents_before_exclusion": 9,
+      "target_documents": 50,
+      "former_language_entry": {
+        "tag": "ik",
+        "tier": "T5",
+        "iso639_3": "ipk",
+        "script": "Latn",
+        "selected_name": "Inupiaq",
+        "source_iso639_3": "esi",
+        "coverage_note": "Macro selection evaluated through this identified sublanguage only.",
+        "dataset": "HuggingFaceFW/fineweb-2",
+        "config": "esi_Latn",
+        "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+        "output_kind": "excerpt",
+        "target_documents": 50,
+        "availability": "available_api_error",
+        "available_same_language_partitions": [
+          "esi_Latn"
+        ],
+        "supplemental_source_revisions": [
+          "4c6643774aad7f5970955b43fa357008a92471d8"
+        ]
+      },
+      "reason": "Excluded after bounded review yielded fewer than 50 approved documents."
+    }
+  ]
+}
